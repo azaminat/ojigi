@@ -1,0 +1,57 @@
+{
+  "_note": "伝言ゲームのサバイバル率判定用グラウンドトゥルース。各ファクトは keywords のいずれか（NFKC正規化後の部分一致）が世代テキストに存在すれば『生存』と判定する。日英の表記ゆれを網羅し翻訳往復後も追跡可能にする。seed=telephone_seed.md",
+  "decisions": [
+    {
+      "id": "D1",
+      "label": "新機能リリース日は7月13日で確定",
+      "keywords": ["7月13日", "7/13", "July 13", "13 July", "July 13th"]
+    },
+    {
+      "id": "D2",
+      "label": "追加サーバー費用 月額3万円まで承認",
+      "keywords": ["3万円", "30,000", "30000", "月額", "monthly", "JPY 30", "30k"]
+    },
+    {
+      "id": "D3",
+      "label": "プレスリリース配信はリリース当日 午前10時",
+      "keywords": ["午前10時", "10時", "10:00", "10 a.m.", "10 AM", "10am", "ten a.m."]
+    }
+  ],
+  "action_items": [
+    {
+      "id": "A1",
+      "label": "山田: リリースノートのドラフトを7月5日までに作成",
+      "assignee_keywords": ["山田", "Yamada"],
+      "keywords": ["7月5日", "7/5", "July 5", "release note", "リリースノート"]
+    },
+    {
+      "id": "A2",
+      "label": "田中: 負荷テストを7月8日までに完了（同時接続1,200ユーザー/応答1.5秒以内）",
+      "assignee_keywords": ["田中", "Tanaka"],
+      "keywords": ["7月8日", "7/8", "July 8", "負荷テスト", "load test", "1,200", "1200", "1.5秒", "1.5 sec"]
+    },
+    {
+      "id": "A3",
+      "label": "ジョン・キム: プレスリリース原稿を7月10日までに作成",
+      "assignee_keywords": ["ジョン", "キム", "John", "Kim"],
+      "keywords": ["7月10日", "7/10", "July 10", "プレスリリース", "press release"]
+    },
+    {
+      "id": "A4",
+      "label": "佐藤: 次回顧客デモを担当・資料準備",
+      "assignee_keywords": ["佐藤", "Sato", "Satou"],
+      "keywords": ["顧客デモ", "customer demo", "デモ資料", "demo material"]
+    }
+  ],
+  "proper_nouns": [
+    { "id": "P1", "label": "プロジェクト大福", "keywords": ["大福", "ダイフク", "Daifuku"] },
+    { "id": "P2", "label": "恵比寿オフィス", "keywords": ["恵比寿", "エビス", "Ebisu"] },
+    { "id": "P3", "label": "ステージング環境", "keywords": ["ステージング", "staging"] }
+  ],
+  "numbers": [
+    { "id": "N1", "label": "第3四半期", "keywords": ["第3四半期", "3四半期", "Q3", "third quarter"] },
+    { "id": "N2", "label": "同時接続1,200ユーザー", "keywords": ["1,200", "1200"] },
+    { "id": "N3", "label": "応答時間1.5秒以内", "keywords": ["1.5秒", "1.5 sec", "1.5 second"] },
+    { "id": "N4", "label": "月額3万円", "keywords": ["3万円", "30,000", "30000"] }
+  ]
+}

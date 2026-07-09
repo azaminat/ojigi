@@ -1,0 +1,3145 @@
+{
+  "mode": "roundtrip",
+  "generations": 12,
+  "trials": [
+    {
+      "trial": 1,
+      "generations": [
+        {
+          "generation": 0,
+          "chars": 597,
+          "cer_vs_seed": 0.0,
+          "semantic_vs_seed": 1.0,
+          "cer_vs_prev": null,
+          "semantic_vs_prev": null,
+          "survival_rate": 1.0,
+          "survival_alive": 14,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 3,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [],
+          "text": "speaker_1: それでは第3四半期のプロジェクト「大福」定例会議を始めます。今日は恵比寿オフィスとリモートの合同開催です。まず新機能のリリース日ですが、7月13日で正式に確定とします。\nspeaker_2: 承知しました。リリースに向けて、私、山田が7月5日までにリリースノートのドラフトを作成します。\nspeaker_1: お願いします。次に、田中さんは負荷テストを7月8日までに完了してください。目標は同時接続1,200ユーザーで応答時間を1.5秒以内に収めることです。\nspeaker_2: 負荷テストの環境はステージングを使う認識で合っていますか。\nspeaker_1: はい、ステージング環境を使ってください。それから予算の件ですが、追加のサーバー費用として月額3万円までを正式に承認します。\nspeaker_3: ありがとうございます。マーケティングのジョン・キムです。プレスリリースの配信は、リリース当日の午前10時に設定でよろしいでしょうか。\nspeaker_1: はい、それで決定とします。ジョンさんはプレスリリース原稿を7月10日までに仕上げてください。\nspeaker_3: 承知しました。あわせて、次回の顧客デモは佐藤さんが担当することでお願いします。\nspeaker_1: では佐藤さん、デモ資料の準備をお願いします。本日の決定事項は以上です。会議を終了します。"
+        },
+        {
+          "generation": 1,
+          "chars": 602,
+          "cer_vs_seed": 0.6360294117647058,
+          "semantic_vs_seed": 0.9163135290145874,
+          "cer_vs_prev": 0.6360294117647058,
+          "semantic_vs_prev": 0.9163135290145874,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1：では、『O Fuku』の第3四半期プロジェクトミーティングを始めましょう。本日は恵比寿オフィスで対面およびリモートでの共同セッションを開催します。まず最初に、新機能の公開日が正式に7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田は7月5日までにリリースノートを執筆する予定です。\nスピーカー1：田中さん、7月8日までに負荷テストを完了してください。目標は、1,200人の同時接続ユーザーに対して応答時間を1.5秒未満に抑えることです。\nスピーカー2：貴社の負荷テスト環境は、ステージングの利用に関する理解と一致していますか？\nスピーカー1：はい、ステージング環境をご利用ください。予算については、追加のサーバー費用として月額最大3万円まで正式に承認いたします。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。プレスリリースを発売日の午前10時に公開することにしてもよろしいでしょうか？\nスピーカー1：はい、確定しました。ジョン、7月10日までにプレスリリースの草案を完成させてください。\nスピーカー3：わかりました。また、次の顧客向けデモンストレーションは佐藤氏にお任せください。\nスピーカー1：佐藤さん、デモンストレーション資料をご用意ください。本日の議論はこれで終了します。会議を休会いたします。"
+        },
+        {
+          "generation": 2,
+          "chars": 607,
+          "cer_vs_seed": 0.6470588235294118,
+          "semantic_vs_seed": 0.9261273145675659,
+          "cer_vs_prev": 0.21903052064631956,
+          "semantic_vs_prev": 0.9316240549087524,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: では、O Fukuの第3四半期プロジェクト会議から始めましょう。本日は、恵比寿オフィスで対面とリモートを組み合わせたハイブリッド形式でのセッションを開催しています。まず最初に、新機能の正式なリリース日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを作成する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：御社の負荷テスト環境は、ステージング手法に関するご理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：では、次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\nスピーカー1：佐藤氏、デモンストレーション資料をご提供ください。本日の議論はこれで終了しました。会議を一旦休止いたします。"
+        },
+        {
+          "generation": 3,
+          "chars": 607,
+          "cer_vs_seed": 0.6507352941176471,
+          "semantic_vs_seed": 0.9219415783882141,
+          "cer_vs_prev": 0.044563279857397504,
+          "semantic_vs_prev": 0.9812841415405273,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: では、O Fukuの第3四半期プロジェクト会議から始めましょう。本日は、当社恵比寿オフィスで対面とリモート参加を組み合わせたハイブリッドセッションを開催しています。まず最初に、新機能の正式なリリース日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを執筆する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング手法に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\nスピーカー1：佐藤氏、デモンストレーション資料を提供していただけますか。本日の議論はこれで終了しました。会議を一旦中断いたします。"
+        },
+        {
+          "generation": 4,
+          "chars": 610,
+          "cer_vs_seed": 0.6452205882352942,
+          "semantic_vs_seed": 0.9275757670402527,
+          "cer_vs_prev": 0.023131672597864767,
+          "semantic_vs_prev": 0.9702129364013672,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: それでは、O Fukuの第3四半期プロジェクトミーティングから始めましょう。本日は恵比寿オフィスで対面とリモート参加を組み合わせたハイブリッドセッションを開催しています。まず最初に、新機能の正式なリリース日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを作成する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング手法に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\nスピーカー1：佐藤氏、デモンストレーション資料を提供していただけますか？本日の議論はこれで終了しました。会議を一時中断いたします。"
+        },
+        {
+          "generation": 5,
+          "chars": 613,
+          "cer_vs_seed": 0.6525735294117647,
+          "semantic_vs_seed": 0.9102749824523926,
+          "cer_vs_prev": 0.0176678445229682,
+          "semantic_vs_prev": 0.9683219194412231,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: それでは、O Fukuの第3四半期プロジェクトミーティングから始めましょう。本日は、当社恵比寿オフィスで対面とリモート参加を組み合わせたハイブリッドセッションを開催しています。まず最初に、新機能の正式なリリース日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング手法に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\nスピーカー1：佐藤氏、デモンストレーション資料を提供していただけますか？本日の議論は終了しました。これで会議を一時中断いたします。"
+        },
+        {
+          "generation": 6,
+          "chars": 608,
+          "cer_vs_seed": 0.6452205882352942,
+          "semantic_vs_seed": 0.9275757670402527,
+          "cer_vs_prev": 0.01584507042253521,
+          "semantic_vs_prev": 0.9683219194412231,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: それでは、O Fukuの第3四半期プロジェクトミーティングから始めましょう。本日は恵比寿オフィスで対面とリモート参加を組み合わせたハイブリッドセッションを開催しています。まず最初に、新機能の正式なリリース日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを作成する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング手法に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\n発言者1：佐藤氏、デモンストレーション資料を提供していただけますか？本日の議論は終了しました。これで会議を一時中断いたします。"
+        },
+        {
+          "generation": 7,
+          "chars": 608,
+          "cer_vs_seed": 0.6488970588235294,
+          "semantic_vs_seed": 0.9269076585769653,
+          "cer_vs_prev": 0.0035460992907801418,
+          "semantic_vs_prev": 0.9867310523986816,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: それでは、O Fukuの第3四半期プロジェクトミーティングから始めましょう。本日は恵比寿オフィスで対面とリモート参加を組み合わせたハイブリッドセッションを開催しています。まず最初に、新機能の正式なリリース日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング手法に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\n発言者1：佐藤氏、デモンストレーション資料を提供していただけますか？本日の議論は終了しました。これで会議を一時中断いたします。"
+        },
+        {
+          "generation": 8,
+          "chars": 611,
+          "cer_vs_seed": 0.6525735294117647,
+          "semantic_vs_seed": 0.9102749824523926,
+          "cer_vs_prev": 0.0070921985815602835,
+          "semantic_vs_prev": 0.9806313514709473,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: それでは、O Fukuの第3四半期プロジェクトミーティングから始めましょう。本日は、当社恵比寿オフィスで対面とリモート参加を組み合わせたハイブリッドセッションを開催しています。まず最初に、新機能の正式なリリース日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\n発言者1：佐藤氏、デモンストレーション資料を提供していただけますか？本日の議論は終了しました。これで会議を一時中断いたします。"
+        },
+        {
+          "generation": 9,
+          "chars": 602,
+          "cer_vs_seed": 0.6470588235294118,
+          "semantic_vs_seed": 0.9220848083496094,
+          "cer_vs_prev": 0.0176678445229682,
+          "semantic_vs_prev": 0.9688373804092407,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: では、O Fukuの第3四半期プロジェクト会議から始めましょう。本日は恵比寿オフィスで対面とリモート参加を組み合わせたハイブリッドセッションを開催しています。まず最初に、新機能の正式なリリース日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\n発言者1：佐藤氏、デモンストレーション資料を提供していただけますか？本日の議論は終了しました。これで会議を一時中断いたします。"
+        },
+        {
+          "generation": 10,
+          "chars": 606,
+          "cer_vs_seed": 0.6507352941176471,
+          "semantic_vs_seed": 0.9258841276168823,
+          "cer_vs_prev": 0.010752688172043012,
+          "semantic_vs_prev": 0.9834388494491577,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: では、O Fukuの第3四半期プロジェクトミーティングから始めましょう。本日は恵比寿オフィスで対面とリモート参加を組み合わせたハイブリッドセッションを開催しています。まず最初に、新機能の正式なリリース日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\n発言者1：佐藤氏、デモンストレーション資料を提供していただけますか？本日の議論は終了しました。これで会議を一時中断いたします。"
+        },
+        {
+          "generation": 11,
+          "chars": 608,
+          "cer_vs_seed": 0.6488970588235294,
+          "semantic_vs_seed": 0.9269076585769653,
+          "cer_vs_prev": 0.0035587188612099642,
+          "semantic_vs_prev": 0.9997944831848145,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: それでは、O Fukuの第3四半期プロジェクトミーティングから始めましょう。本日は恵比寿オフィスで対面とリモート参加を組み合わせたハイブリッドセッションを開催しています。まず最初に、新機能の正式なリリース日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\n発言者1：佐藤氏、デモンストレーション資料を提供していただけますか？本日の議論は終了しました。これで会議を一時中断いたします。"
+        },
+        {
+          "generation": 12,
+          "chars": 608,
+          "cer_vs_seed": 0.6452205882352942,
+          "semantic_vs_seed": 0.9275757670402527,
+          "cer_vs_prev": 0.0035460992907801418,
+          "semantic_vs_prev": 0.9867310523986816,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: それでは、O Fukuの第3四半期プロジェクトミーティングから始めましょう。本日は恵比寿オフィスで対面とリモート参加を組み合わせたハイブリッドセッションを開催しています。まず最初に、新機能の正式なリリース日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを作成する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\n発言者1：佐藤氏、デモンストレーション資料を提供していただけますか？本日の議論は終了しました。これで会議を一時中断いたします。"
+        }
+      ],
+      "intermediates": [
+        {},
+        {
+          "en": "Speaker_1: Let’s begin our regular third-quarter project meeting for “O Fuku.” Today, we’re holding a joint in-person and remote session at the Ebisu office. First of all, the release date for the new features has been officially set to July 13th.\nSpeaker 2: I understand. In preparation for the release, I, Yamada, will draft the release notes by July 5th.\nSpeaker_1: Please, Mr. Tanaka, complete your load test by July 8th. The goal is to achieve a response time of less than 1.5 seconds with 1,200 concurrent users connected.\nSpeaker_2: Does your load testing environment align with your understanding of using staging?\nSpeaker_1: Yes, please use the staging environment. Regarding the budget, we will officially approve up to ¥30,000 per month for additional server costs.\nSpeaker_3: Thank you. My name is John Kim from Marketing. Would it be okay if we schedule the press release to go out at 10 a.m. on the day of the launch?\nSpeaker_1: Yes, that's settled. John, please complete the draft of the press release by July 10th.\nspeaker_3: I understand. Also, please have Mr. Sato handle the next customer demonstration.\nSpeaker_1: Mr. Sato, please prepare the demonstration materials. That concludes our discussion for today. I will now adjourn the meeting."
+        },
+        {
+          "en": "Speaker 1: Let’s start with the third quarter project meeting for O Fuku. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, the official release date for new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Yamada plans to write the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your company’s load testing environment align with your understanding of staging practices?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. Would it be okay if we publish the press release at 10 a.m. on the launch date?\nSpeaker 1: Yes, that's confirmed. John, please finalize the draft of the press release by July 10th.\nSpeaker 3: All right. Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, please provide the demonstration materials. Our discussion for today is concluded. We will now adjourn the meeting."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid session at our Ebisu office that combines in-person and remote participation. First of all, the official release date for the new feature has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your company’s load testing environment align with your understanding of staging methodologies?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please finalize the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, please provide us with your demonstration materials. Our discussion for today has concluded. We will now suspend the meeting."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid session at our Ebisu office that combines in-person and remote participation. First of all, the official release date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to write the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging methodologies?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please finalize the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with the demonstration materials? Our discussion for today has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid session at our Ebisu office that combines in-person and remote participation. First of all, the official release date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging methodologies?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please finalize the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with the demonstration materials? Our discussion for today has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid session at our Ebisu office that combines in-person and remote participation. First of all, the official release date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging methodologies?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on launch day?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please complete the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with the demonstration materials? Today's discussion has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid session at our Ebisu office that combines in-person and remote participation. First of all, the official release date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging methodologies?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please finalize the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with the demonstration materials? Today's discussion has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid session at our Ebisu office that combines in-person and remote participation. First of all, the official release date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging techniques?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please complete the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with the demonstration materials? Today's discussion has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid session at our Ebisu office that combines in-person and remote participation. First of all, the official release date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please finalize the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with the demonstration materials? Today's discussion has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid session at our Ebisu office that combines in-person and remote participation. First of all, the official release date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please complete the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with the demonstration materials? Today's discussion has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid session at our Ebisu office that combines in-person and remote participation. First of all, the official release date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on launch day?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please complete the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with the demonstration materials? Today's discussion has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid session at our Ebisu office that combines in-person and remote participation. First of all, the official release date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please finalize the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with the demonstration materials? Today's discussion has concluded. We will now suspend the meeting temporarily."
+        }
+      ],
+      "usage": [
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:12:54.223128",
+          "duration_sec": 1.103,
+          "input_chars": 597,
+          "output_chars": 1260,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 597,
+            "output_units": 1260,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:12:55.157047",
+          "duration_sec": 0.915,
+          "input_chars": 1260,
+          "output_chars": 602,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1260,
+            "output_units": 602,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:12:55.983522",
+          "duration_sec": 0.811,
+          "input_chars": 602,
+          "output_chars": 1244,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 602,
+            "output_units": 1244,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:12:57.084840",
+          "duration_sec": 1.085,
+          "input_chars": 1244,
+          "output_chars": 607,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1244,
+            "output_units": 607,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:12:58.052643",
+          "duration_sec": 0.943,
+          "input_chars": 607,
+          "output_chars": 1258,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 607,
+            "output_units": 1258,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:12:59.042429",
+          "duration_sec": 0.974,
+          "input_chars": 1258,
+          "output_chars": 607,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1258,
+            "output_units": 607,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:12:59.922097",
+          "duration_sec": 0.868,
+          "input_chars": 607,
+          "output_chars": 1270,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 607,
+            "output_units": 1270,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:01.326087",
+          "duration_sec": 1.393,
+          "input_chars": 1270,
+          "output_chars": 610,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1270,
+            "output_units": 610,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:02.242585",
+          "duration_sec": 0.905,
+          "input_chars": 610,
+          "output_chars": 1270,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 610,
+            "output_units": 1270,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:03.361980",
+          "duration_sec": 1.111,
+          "input_chars": 1270,
+          "output_chars": 613,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1270,
+            "output_units": 613,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:04.355932",
+          "duration_sec": 0.982,
+          "input_chars": 613,
+          "output_chars": 1259,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 613,
+            "output_units": 1259,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:05.771184",
+          "duration_sec": 1.403,
+          "input_chars": 1259,
+          "output_chars": 608,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1259,
+            "output_units": 608,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:06.746150",
+          "duration_sec": 0.974,
+          "input_chars": 608,
+          "output_chars": 1264,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 608,
+            "output_units": 1264,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:07.889548",
+          "duration_sec": 1.143,
+          "input_chars": 1264,
+          "output_chars": 608,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1264,
+            "output_units": 608,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:08.764177",
+          "duration_sec": 0.875,
+          "input_chars": 608,
+          "output_chars": 1261,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 608,
+            "output_units": 1261,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:09.800505",
+          "duration_sec": 1.036,
+          "input_chars": 1261,
+          "output_chars": 611,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1261,
+            "output_units": 611,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:10.657761",
+          "duration_sec": 0.855,
+          "input_chars": 611,
+          "output_chars": 1261,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 611,
+            "output_units": 1261,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:11.724327",
+          "duration_sec": 1.066,
+          "input_chars": 1261,
+          "output_chars": 602,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1261,
+            "output_units": 602,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:12.665513",
+          "duration_sec": 0.941,
+          "input_chars": 602,
+          "output_chars": 1261,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 602,
+            "output_units": 1261,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:13.627206",
+          "duration_sec": 0.96,
+          "input_chars": 1261,
+          "output_chars": 606,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1261,
+            "output_units": 606,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:15.230917",
+          "duration_sec": 1.602,
+          "input_chars": 606,
+          "output_chars": 1256,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 606,
+            "output_units": 1256,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:16.336808",
+          "duration_sec": 1.106,
+          "input_chars": 1256,
+          "output_chars": 608,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1256,
+            "output_units": 608,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:17.259001",
+          "duration_sec": 0.922,
+          "input_chars": 608,
+          "output_chars": 1261,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 608,
+            "output_units": 1261,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:18.219319",
+          "duration_sec": 0.96,
+          "input_chars": 1261,
+          "output_chars": 608,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1261,
+            "output_units": 608,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trial": 2,
+      "generations": [
+        {
+          "generation": 0,
+          "chars": 597,
+          "cer_vs_seed": 0.0,
+          "semantic_vs_seed": 1.0,
+          "cer_vs_prev": null,
+          "semantic_vs_prev": null,
+          "survival_rate": 1.0,
+          "survival_alive": 14,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 3,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [],
+          "text": "speaker_1: それでは第3四半期のプロジェクト「大福」定例会議を始めます。今日は恵比寿オフィスとリモートの合同開催です。まず新機能のリリース日ですが、7月13日で正式に確定とします。\nspeaker_2: 承知しました。リリースに向けて、私、山田が7月5日までにリリースノートのドラフトを作成します。\nspeaker_1: お願いします。次に、田中さんは負荷テストを7月8日までに完了してください。目標は同時接続1,200ユーザーで応答時間を1.5秒以内に収めることです。\nspeaker_2: 負荷テストの環境はステージングを使う認識で合っていますか。\nspeaker_1: はい、ステージング環境を使ってください。それから予算の件ですが、追加のサーバー費用として月額3万円までを正式に承認します。\nspeaker_3: ありがとうございます。マーケティングのジョン・キムです。プレスリリースの配信は、リリース当日の午前10時に設定でよろしいでしょうか。\nspeaker_1: はい、それで決定とします。ジョンさんはプレスリリース原稿を7月10日までに仕上げてください。\nspeaker_3: 承知しました。あわせて、次回の顧客デモは佐藤さんが担当することでお願いします。\nspeaker_1: では佐藤さん、デモ資料の準備をお願いします。本日の決定事項は以上です。会議を終了します。"
+        },
+        {
+          "generation": 1,
+          "chars": 613,
+          "cer_vs_seed": 0.6305147058823529,
+          "semantic_vs_seed": 0.9202004671096802,
+          "cer_vs_prev": 0.6305147058823529,
+          "semantic_vs_prev": 0.9202004671096802,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1：では、第3四半期の「O Fuku」プロジェクトミーティングを始めましょう。今日は恵比寿オフィスで対面およびリモートでの共同セッションを開催します。まず最初に、新機能の公開日が正式に7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、私、山田は7月5日までにリリースノートを執筆する予定です。\nスピーカー1：田中さん、7月8日までに負荷テストを完了してください。目標は、同時に接続された1,200人のユーザーに対して応答時間を1.5秒未満に抑えることです。\nスピーカー2：貴社の負荷テスト環境は、ステージングの利用に関する理解と一致していますか？\nスピーカー1：はい、ステージング環境をご利用ください。予算については、追加のサーバー費用として月額最大3万円まで正式に承認いたします。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。プレスリリースを発売日の午前10時に公開することにしてもよろしいでしょうか？\nスピーカー1：はい、決まりました。ジョン、7月10日までにプレスリリースの草案を完成させてください。\nスピーカー3：了解しました。また、次の顧客向けデモンストレーションは佐藤氏にお任せください。\nスピーカー1：佐藤さん、デモンストレーション資料をご用意ください。本日の議論はこれで終了します。会議を休会とさせていただきます。"
+        },
+        {
+          "generation": 2,
+          "chars": 606,
+          "cer_vs_seed": 0.6213235294117647,
+          "semantic_vs_seed": 0.9066705703735352,
+          "cer_vs_prev": 0.18053097345132743,
+          "semantic_vs_prev": 0.972667932510376,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1：では、第3四半期の「O Fuku」プロジェクト会議を始めましょう。本日は、恵比寿オフィスで対面とリモートによるハイブリッド形式でのセッションを開催します。まず最初に、新機能の正式な提供開始日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田は7月5日までにリリースノートを作成する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、同時に接続された1,200人のユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング手法に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、決まりました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：了解しました。次の顧客向けデモンストレーションは佐藤氏にお任せください。\nスピーカー1：佐藤氏、デモンストレーション資料をご提供ください。本日の議論はこれで終了しました。会議を休止いたします。"
+        },
+        {
+          "generation": 3,
+          "chars": 604,
+          "cer_vs_seed": 0.6415441176470589,
+          "semantic_vs_seed": 0.9111678600311279,
+          "cer_vs_prev": 0.0626118067978533,
+          "semantic_vs_prev": 0.9707733392715454,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1：第3四半期「O Fuku」プロジェクト会議を始めましょう。本日は、恵比寿オフィスで対面とリモートによるハイブリッド形式のセッションを開催します。まず最初に、新機能の正式な提供開始日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時接続ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、了解しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：了解しました。次の顧客向けデモンストレーションは佐藤氏にお任せください。\nスピーカー1：佐藤氏、デモンストレーション資料を提供していただけますか。本日の議論はこれで終了しました。会議を一旦休止いたします。"
+        },
+        {
+          "generation": 4,
+          "chars": 597,
+          "cer_vs_seed": 0.6360294117647058,
+          "semantic_vs_seed": 0.9272384643554688,
+          "cer_vs_prev": 0.026881720430107527,
+          "semantic_vs_prev": 0.9724694490432739,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：Q3「O Fuku」プロジェクト会議を始めましょう。本日は、恵比寿オフィスで対面とリモートによるハイブリッド形式のセッションを開催します。まず最初に、新機能の正式な提供開始日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを執筆する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、わかりました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：了解しました。次の顧客デモンストレーションは佐藤氏にお任せください。\nスピーカー1：佐藤氏、デモンストレーション資料を提供していただけますか？本日の議論はこれで終了しました。会議を一旦中断いたします。"
+        },
+        {
+          "generation": 5,
+          "chars": 599,
+          "cer_vs_seed": 0.6360294117647058,
+          "semantic_vs_seed": 0.9145843982696533,
+          "cer_vs_prev": 0.019963702359346643,
+          "semantic_vs_prev": 0.9781926870346069,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1：Q3「O Fuku」プロジェクト会議を始めましょう。本日は、恵比寿オフィスで対面とリモートによるハイブリッド形式のセッションを開催します。まず最初に、新機能の正式な提供開始日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを作成する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、もちろんです。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：了解しました。次の顧客向けデモンストレーションは佐藤氏にお任せください。\nスピーカー1：佐藤氏、デモンストレーション資料を提供していただけますか？本日の議論はこれで終了しました。会議を一時中断いたします。"
+        },
+        {
+          "generation": 6,
+          "chars": 597,
+          "cer_vs_seed": 0.6360294117647058,
+          "semantic_vs_seed": 0.9163132309913635,
+          "cer_vs_prev": 0.007233273056057866,
+          "semantic_vs_prev": 0.9900158047676086,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：Q3「O Fuku」プロジェクト会議を始めましょう。本日は、恵比寿オフィスで対面とリモートによるハイブリッド形式のセッションを開催します。まず最初に、新機能の正式な提供開始日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、もちろんです。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：了解しました。次の顧客デモンストレーションは佐藤氏にお任せください。\nスピーカー1：佐藤氏、デモンストレーション資料を提供していただけますか？本日の議論はこれで終了しました。会議を一時中断いたします。"
+        },
+        {
+          "generation": 7,
+          "chars": 601,
+          "cer_vs_seed": 0.6415441176470589,
+          "semantic_vs_seed": 0.911467432975769,
+          "cer_vs_prev": 0.009074410163339383,
+          "semantic_vs_prev": 0.9882467985153198,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1：Q3「O Fuku」プロジェクト会議を始めましょう。今日は、恵比寿オフィスで対面とリモートによるハイブリッド形式のセッションを開催しています。まず最初に、新機能の正式な提供開始日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、もちろんです。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：了解しました。次の顧客向けデモンストレーションは佐藤氏にお任せください。\nスピーカー1：佐藤氏、デモンストレーション資料を提供していただけますか？本日の議論はこれで終了しました。会議を一時中断いたします。"
+        },
+        {
+          "generation": 8,
+          "chars": 599,
+          "cer_vs_seed": 0.6378676470588235,
+          "semantic_vs_seed": 0.912448525428772,
+          "cer_vs_prev": 0.014414414414414415,
+          "semantic_vs_prev": 0.9990832209587097,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1：Q3「O Fuku」プロジェクト会議を始めましょう。今日は、恵比寿オフィスで対面とリモートによるハイブリッド形式のセッションを開催します。まず最初に、新機能の正式な提供開始日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、もちろんです。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：了解しました。次の顧客向けデモンストレーションは佐藤氏にお任せください。\nスピーカー1：佐藤氏、デモンストレーション資料を提供していただけますか？本日の議論は終了しました。これで会議を一時中断いたします。"
+        },
+        {
+          "generation": 9,
+          "chars": 600,
+          "cer_vs_seed": 0.6397058823529411,
+          "semantic_vs_seed": 0.9163132309913635,
+          "cer_vs_prev": 0.028933092224231464,
+          "semantic_vs_prev": 0.9899128079414368,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：Q3「O Fuku」プロジェクト会議を始めましょう。本日は、恵比寿オフィスで対面とリモートによるハイブリッド形式のセッションを開催します。まず最初に、新機能の正式な提供開始日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、もちろんです。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：了解しました。次の顧客デモンストレーションは佐藤氏にお任せください。\nスピーカー1：佐藤氏、デモンストレーション資料をいくつかご提供いただけますか？本日の議論はこれで終了しました。会議を一時中断いたします。"
+        },
+        {
+          "generation": 10,
+          "chars": 602,
+          "cer_vs_seed": 0.6397058823529411,
+          "semantic_vs_seed": 0.9145843982696533,
+          "cer_vs_prev": 0.007220216606498195,
+          "semantic_vs_prev": 0.9900158047676086,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1：Q3「O Fuku」プロジェクト会議を始めましょう。本日は、恵比寿オフィスで対面とリモートによるハイブリッド形式のセッションを開催します。まず最初に、新機能の正式な提供開始日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを作成する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、もちろんです。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：了解しました。次の顧客向けデモンストレーションは佐藤氏にお任せください。\nスピーカー1：佐藤氏、デモンストレーション資料をいくつかご提供いただけますか？本日の議論はこれで終了しました。会議を一時中断いたします。"
+        },
+        {
+          "generation": 11,
+          "chars": 600,
+          "cer_vs_seed": 0.6397058823529411,
+          "semantic_vs_seed": 0.9163132309913635,
+          "cer_vs_prev": 0.007194244604316547,
+          "semantic_vs_prev": 0.9900158047676086,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：Q3「O Fuku」プロジェクト会議を始めましょう。本日は、恵比寿オフィスで対面とリモートによるハイブリッド形式のセッションを開催します。まず最初に、新機能の正式な提供開始日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、もちろんです。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：了解しました。次の顧客デモンストレーションは佐藤氏にお任せください。\nスピーカー1：佐藤氏、デモンストレーション資料をいくつかご提供いただけますか？本日の議論はこれで終了しました。会議を一時中断いたします。"
+        },
+        {
+          "generation": 12,
+          "chars": 600,
+          "cer_vs_seed": 0.6360294117647058,
+          "semantic_vs_seed": 0.9145843982696533,
+          "cer_vs_prev": 0.0036101083032490976,
+          "semantic_vs_prev": 0.9900158047676086,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：Q3「O Fuku」プロジェクト会議を始めましょう。本日は、恵比寿オフィスで対面とリモートによるハイブリッド形式のセッションを開催します。まず最初に、新機能の正式な提供開始日が7月13日に決定しました。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを作成する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、もちろんです。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：了解しました。次の顧客デモンストレーションは佐藤氏にお任せください。\nスピーカー1：佐藤氏、デモンストレーション資料をいくつかご提供いただけますか？本日の議論はこれで終了しました。会議を一時中断いたします。"
+        }
+      ],
+      "intermediates": [
+        {},
+        {
+          "en": "Speaker_1: Let’s begin our regular third-quarter “O Fuku” project meeting. Today, we’re holding a joint in-person and remote session at the Ebisu office. First of all, the release date for the new features has been officially set to July 13th.\nSpeaker 2: Understood. In preparation for the release, I, Yamada, will draft the release notes by July 5th.\nSpeaker_1: Please, Mr. Tanaka, complete your load test by July 8th. The goal is to achieve a response time of less than 1.5 seconds with 1,200 concurrent users connected at once.\nSpeaker_2: Does your load testing environment align with your understanding of using staging?\nSpeaker_1: Yes, please use the staging environment. Regarding the budget, we will officially approve up to ¥30,000 per month for additional server costs.\nSpeaker_3: Thank you. My name is John Kim from Marketing. Would it be okay if we schedule the press release to go out at 10 a.m. on the day of the launch?\nSpeaker_1: Yes, that's settled. John, please complete the draft of the press release by July 10th.\nspeaker_3: Understood. Also, please have Mr. Sato handle our next customer demonstration.\nSpeaker_1: Mr. Sato, please prepare the demonstration materials. That concludes our discussion for today. I will now adjourn the meeting."
+        },
+        {
+          "en": "Speaker 1: Let’s start with our third quarter “O Fuku” project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, the official launch date for new features has been set for July 13th.\nSpeaker 2: Understood. As part of our release preparation, I, Yamada, will be writing the release notes by July 5th.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 users connected simultaneously.\nSpeaker 2: Does your load testing environment align with your understanding of staging practices?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. Would it be okay if we publish the press release at 10 a.m. on the launch date?\nSpeaker 1: Yes, that's settled. John, please finalize the draft of the press release by July 10th.\nSpeaker 3: I understand. Please let Mr. Sato handle the next customer demonstration.\nSpeaker 1: Mr. Sato, please provide the demonstration materials. Our discussion for today is now concluded. I will adjourn the meeting."
+        },
+        {
+          "en": "Speaker 1: Let’s begin our third quarter “O Fuku” project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, the official launch date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 simultaneously connected users.\nSpeaker 2: Does your load testing environment align with your understanding of staging techniques?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, that's settled. Mr. John, please complete the draft of the press release by July 10th.\nSpeaker 3: Understood. Please let Mr. Sato handle the next customer demonstration.\nSpeaker 1: Mr. Sato, please provide us with the demonstration materials. Our discussion for today has concluded. We will now adjourn the meeting."
+        },
+        {
+          "en": "Speaker 1: Let’s start our Q3 “O Fuku” project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, the official launch date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your company’s load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, I understand. Mr. John, please complete the draft of the press release by July 10th.\nSpeaker 3: Understood. Please let Mr. Sato handle the next customer demonstration.\nSpeaker 1: Mr. Sato, could you please provide us with the demonstration materials? Our discussion for today has concluded. We will now suspend the meeting."
+        },
+        {
+          "en": "Speaker 1: Let’s start our Q3 “O Fuku” project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, the official launch date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to write the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, sure. Mr. John, please complete the draft of the press release by July 10th.\nSpeaker 3: Understood. Please let Mr. Sato handle the next customer demonstration.\nSpeaker 1: Mr. Sato, could you please provide us with the demonstration materials? Our discussion for today has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start our Q3 “O Fuku” project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, the official launch date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, of course. John, please complete the draft press release by July 10th.\nSpeaker 3: Understood. Please let Mr. Sato handle the next customer demonstration.\nSpeaker 1: Mr. Sato, could you please provide us with the demonstration materials? Our discussion for today has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start our Q3 “O Fuku” project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, the official launch date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, of course. John, please complete the draft press release by July 10th.\nSpeaker 3: Understood. Please let Mr. Sato handle the next customer demonstration.\nSpeaker 1: Mr. Sato, could you please provide us with the demonstration materials? Our discussion for today has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start the Q3 “O Fuku” project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, the official launch date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, of course. John, please complete the draft press release by July 10th.\nSpeaker 3: Understood. Please let Mr. Sato handle the next customer demonstration.\nSpeaker 1: Mr. Sato, could you please provide us with the demonstration materials? Our discussion for today has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start the Q3 “O Fuku” project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, the official launch date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your company’s load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, of course. John, please complete the draft press release by July 10th.\nSpeaker 3: Understood. Please let Mr. Sato handle the next customer demonstration.\nSpeaker 1: Mr. Sato, could you please provide us with some demonstration materials? Today's discussion has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start our Q3 “O Fuku” project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, the official launch date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, of course. Mr. John, please complete the draft press release by July 10th.\nSpeaker 3: Understood. Please let Mr. Sato handle the next customer demonstration.\nSpeaker 1: Mr. Sato, could you please provide us with some demonstration materials? Our discussion for today has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start our Q3 “O Fuku” project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, the official launch date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your company’s load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, of course. John, please complete the draft press release by July 10th.\nSpeaker 3: Understood. Please let Mr. Sato handle the next customer demonstration.\nSpeaker 1: Mr. Sato, could you please provide us with some demonstration materials? Our discussion for today has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start our Q3 “O Fuku” project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, the official launch date for the new features has been set for July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, of course. Mr. John, please complete the draft press release by July 10th.\nSpeaker 3: Understood. Please let Mr. Sato handle the next customer demonstration.\nSpeaker 1: Mr. Sato, could you please provide us with some demonstration materials? Our discussion for today has concluded. We will now suspend the meeting temporarily."
+        }
+      ],
+      "usage": [
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:36.449119",
+          "duration_sec": 0.901,
+          "input_chars": 597,
+          "output_chars": 1260,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 597,
+            "output_units": 1260,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:37.308304",
+          "duration_sec": 0.859,
+          "input_chars": 1260,
+          "output_chars": 613,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1260,
+            "output_units": 613,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:38.127786",
+          "duration_sec": 0.819,
+          "input_chars": 613,
+          "output_chars": 1259,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 613,
+            "output_units": 1259,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:39.050970",
+          "duration_sec": 0.922,
+          "input_chars": 1259,
+          "output_chars": 606,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1259,
+            "output_units": 606,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:39.828172",
+          "duration_sec": 0.772,
+          "input_chars": 606,
+          "output_chars": 1240,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 606,
+            "output_units": 1240,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:40.813464",
+          "duration_sec": 0.985,
+          "input_chars": 1240,
+          "output_chars": 604,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1240,
+            "output_units": 604,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:41.728163",
+          "duration_sec": 0.914,
+          "input_chars": 604,
+          "output_chars": 1237,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 604,
+            "output_units": 1237,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:42.714338",
+          "duration_sec": 0.984,
+          "input_chars": 1237,
+          "output_chars": 597,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1237,
+            "output_units": 597,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:43.644293",
+          "duration_sec": 0.93,
+          "input_chars": 597,
+          "output_chars": 1231,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 597,
+            "output_units": 1231,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:44.695813",
+          "duration_sec": 1.052,
+          "input_chars": 1231,
+          "output_chars": 599,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1231,
+            "output_units": 599,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:45.598966",
+          "duration_sec": 0.901,
+          "input_chars": 599,
+          "output_chars": 1225,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 599,
+            "output_units": 1225,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:46.564054",
+          "duration_sec": 0.965,
+          "input_chars": 1225,
+          "output_chars": 597,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1225,
+            "output_units": 597,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:47.350882",
+          "duration_sec": 0.786,
+          "input_chars": 597,
+          "output_chars": 1225,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 597,
+            "output_units": 1225,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:48.944277",
+          "duration_sec": 1.593,
+          "input_chars": 1225,
+          "output_chars": 601,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1225,
+            "output_units": 601,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:49.765858",
+          "duration_sec": 0.822,
+          "input_chars": 601,
+          "output_chars": 1225,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 601,
+            "output_units": 1225,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:51.443133",
+          "duration_sec": 1.677,
+          "input_chars": 1225,
+          "output_chars": 599,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1225,
+            "output_units": 599,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:52.435119",
+          "duration_sec": 0.992,
+          "input_chars": 599,
+          "output_chars": 1230,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 599,
+            "output_units": 1230,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:53.384426",
+          "duration_sec": 0.948,
+          "input_chars": 1230,
+          "output_chars": 600,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1230,
+            "output_units": 600,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:54.436517",
+          "duration_sec": 1.051,
+          "input_chars": 600,
+          "output_chars": 1230,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 600,
+            "output_units": 1230,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:55.532876",
+          "duration_sec": 1.096,
+          "input_chars": 1230,
+          "output_chars": 602,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1230,
+            "output_units": 602,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:56.666791",
+          "duration_sec": 1.132,
+          "input_chars": 602,
+          "output_chars": 1236,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 602,
+            "output_units": 1236,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:57.659945",
+          "duration_sec": 0.992,
+          "input_chars": 1236,
+          "output_chars": 600,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1236,
+            "output_units": 600,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:58.822715",
+          "duration_sec": 1.163,
+          "input_chars": 600,
+          "output_chars": 1230,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 600,
+            "output_units": 1230,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:13:59.798896",
+          "duration_sec": 0.976,
+          "input_chars": 1230,
+          "output_chars": 600,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1230,
+            "output_units": 600,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trial": 3,
+      "generations": [
+        {
+          "generation": 0,
+          "chars": 597,
+          "cer_vs_seed": 0.0,
+          "semantic_vs_seed": 1.0,
+          "cer_vs_prev": null,
+          "semantic_vs_prev": null,
+          "survival_rate": 1.0,
+          "survival_alive": 14,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 3,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [],
+          "text": "speaker_1: それでは第3四半期のプロジェクト「大福」定例会議を始めます。今日は恵比寿オフィスとリモートの合同開催です。まず新機能のリリース日ですが、7月13日で正式に確定とします。\nspeaker_2: 承知しました。リリースに向けて、私、山田が7月5日までにリリースノートのドラフトを作成します。\nspeaker_1: お願いします。次に、田中さんは負荷テストを7月8日までに完了してください。目標は同時接続1,200ユーザーで応答時間を1.5秒以内に収めることです。\nspeaker_2: 負荷テストの環境はステージングを使う認識で合っていますか。\nspeaker_1: はい、ステージング環境を使ってください。それから予算の件ですが、追加のサーバー費用として月額3万円までを正式に承認します。\nspeaker_3: ありがとうございます。マーケティングのジョン・キムです。プレスリリースの配信は、リリース当日の午前10時に設定でよろしいでしょうか。\nspeaker_1: はい、それで決定とします。ジョンさんはプレスリリース原稿を7月10日までに仕上げてください。\nspeaker_3: 承知しました。あわせて、次回の顧客デモは佐藤さんが担当することでお願いします。\nspeaker_1: では佐藤さん、デモ資料の準備をお願いします。本日の決定事項は以上です。会議を終了します。"
+        },
+        {
+          "generation": 1,
+          "chars": 609,
+          "cer_vs_seed": 0.6433823529411765,
+          "semantic_vs_seed": 0.9254636764526367,
+          "cer_vs_prev": 0.6433823529411765,
+          "semantic_vs_prev": 0.9254636764526367,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1：では、『O Fuku』の第3四半期プロジェクトミーティングを始めましょう。本日は恵比寿オフィスで対面およびリモートでの合同セッションを開催します。まず確認させていただきますが、新機能の公開予定日は7月13日です。\nスピーカー2：了解しました。リリース準備の一環として、山田は7月5日までにリリースノートを執筆する予定です。\nスピーカー1：田中さん、7月8日までに負荷テストを完了してください。目標は、同時に接続された1,200人のユーザーに対して応答時間を1.5秒未満に抑えることです。\nスピーカー2：貴社の負荷テスト環境は、ステージングの利用に関する理解と一致していますか？\nスピーカー1：はい、ステージング環境をご利用ください。予算については、追加のサーバー費用として月額最大3万円まで正式に承認いたします。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。プレスリリースを発売日の午前10時に公開することにしてもよろしいでしょうか？\nスピーカー1：はい、決まりました。ジョン、7月10日までにプレスリリースの草案を完成させてください。\nスピーカー3：わかりました。また、次の顧客向けデモンストレーションは佐藤氏にお任せください。\nスピーカー1：佐藤さん、デモンストレーション資料をご用意ください。本日の議論はこれで終了します。会議を休止いたします。"
+        },
+        {
+          "generation": 2,
+          "chars": 598,
+          "cer_vs_seed": 0.6525735294117647,
+          "semantic_vs_seed": 0.9391357898712158,
+          "cer_vs_prev": 0.22340425531914893,
+          "semantic_vs_prev": 0.977672815322876,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1：では、O Fukuの第3四半期プロジェクト会議から始めましょう。本日は、恵比寿オフィスで対面およびリモートでの同時開催を行います。まず最初に、新機能の予定リリース日が7月13日であることを確認させていただきます。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを作成する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング手法に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、決まりました。ジョンさん、7月10日までにプレスリリースの草案を完成させてください。\nスピーカー3：では、次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\nスピーカー1：佐藤氏、デモンストレーション資料を提供してください。本日の議論はこれで終了しました。会議を一旦休止いたします。"
+        },
+        {
+          "generation": 3,
+          "chars": 607,
+          "cer_vs_seed": 0.6617647058823529,
+          "semantic_vs_seed": 0.9343280792236328,
+          "cer_vs_prev": 0.06690777576853527,
+          "semantic_vs_prev": 0.9785007238388062,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: それでは、O Fukuの第3四半期プロジェクト会議から始めましょう。本日は恵比寿オフィスで対面とリモートを組み合わせたセッションを開催しています。まず最初に、新機能の予定リリース日が7月13日であることを確認させていただきます。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確定しました。ジョンさん、7月10日までにプレスリリースの草案を完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\nスピーカー1：佐藤氏、デモンストレーション資料を提供していただけますか。本日の議論はこれで終了しました。会議を一旦中断いたします。"
+        },
+        {
+          "generation": 4,
+          "chars": 610,
+          "cer_vs_seed": 0.6691176470588235,
+          "semantic_vs_seed": 0.9365333318710327,
+          "cer_vs_prev": 0.035523978685612786,
+          "semantic_vs_prev": 0.9876731634140015,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: それでは、O Fukuの第3四半期プロジェクトミーティングから始めましょう。本日は、恵比寿オフィスで対面とリモートを組み合わせたセッションを開催しています。まず最初に、新機能の予定リリース日が7月13日であることを確認させていただきます。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認済みです。ジョン、7月10日までにプレスリリースの草案を完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\nスピーカー1：佐藤氏、デモンストレーション資料を提供していただけますか？本日の議論は終了しました。これで会議を一時中断いたします。"
+        },
+        {
+          "generation": 5,
+          "chars": 608,
+          "cer_vs_seed": 0.6452205882352942,
+          "semantic_vs_seed": 0.9327231645584106,
+          "cer_vs_prev": 0.061946902654867256,
+          "semantic_vs_prev": 0.9877462387084961,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: では、O Fukuの第3四半期プロジェクト会議から始めましょう。本日は恵比寿オフィスで対面とリモートを組み合わせたセッションを開催しています。まず最初に、新機能の予定リリース日が7月13日であることを確認させていただきます。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\nスピーカー1：佐藤氏、デモンストレーション資料をいくつかご提供いただけますか？本日の議論は終了しました。これで会議を一時中断いたします。"
+        },
+        {
+          "generation": 6,
+          "chars": 608,
+          "cer_vs_seed": 0.6452205882352942,
+          "semantic_vs_seed": 0.9327231645584106,
+          "cer_vs_prev": 0.010638297872340425,
+          "semantic_vs_prev": 0.9999998807907104,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: では、O Fukuの第3四半期プロジェクト会議から始めましょう。本日は恵比寿オフィスで対面とリモートを組み合わせたセッションを開催しています。まず最初に、新機能の予定リリース日が7月13日であることを確認させていただきます。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\nスピーカー1：佐藤氏、デモンストレーション資料をいくつかご提供いただけますか？本日の議論はこれで終了しました。会議を一時中断いたします。"
+        },
+        {
+          "generation": 7,
+          "chars": 608,
+          "cer_vs_seed": 0.6452205882352942,
+          "semantic_vs_seed": 0.9327231645584106,
+          "cer_vs_prev": 0.0,
+          "semantic_vs_prev": 0.9999998807907104,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: では、O Fukuの第3四半期プロジェクト会議から始めましょう。本日は恵比寿オフィスで対面とリモートを組み合わせたセッションを開催しています。まず最初に、新機能の予定リリース日が7月13日であることを確認させていただきます。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\nスピーカー1：佐藤氏、デモンストレーション資料をいくつかご提供いただけますか？本日の議論はこれで終了しました。会議を一時中断いたします。"
+        },
+        {
+          "generation": 8,
+          "chars": 608,
+          "cer_vs_seed": 0.6452205882352942,
+          "semantic_vs_seed": 0.9327231645584106,
+          "cer_vs_prev": 0.0,
+          "semantic_vs_prev": 0.9999998807907104,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: では、O Fukuの第3四半期プロジェクト会議から始めましょう。本日は恵比寿オフィスで対面とリモートを組み合わせたセッションを開催しています。まず最初に、新機能の予定リリース日が7月13日であることを確認させていただきます。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\nスピーカー1：佐藤氏、デモンストレーション資料をいくつかご提供いただけますか？本日の議論はこれで終了しました。会議を一時中断いたします。"
+        },
+        {
+          "generation": 9,
+          "chars": 613,
+          "cer_vs_seed": 0.6507352941176471,
+          "semantic_vs_seed": 0.9341340065002441,
+          "cer_vs_prev": 0.02304964539007092,
+          "semantic_vs_prev": 0.9885022640228271,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: それでは、O Fukuの第3四半期プロジェクト会議から始めましょう。本日は恵比寿オフィスで対面およびリモートでのハイブリッドセッションを開催しています。まず最初に、新機能の予定リリース日が7月13日であることを確認させていただきます。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\nスピーカー1：佐藤氏、デモンストレーション資料をいくつかご提供いただけますか？本日の議論はこれで終了しました。会議を一時中断いたします。"
+        },
+        {
+          "generation": 10,
+          "chars": 615,
+          "cer_vs_seed": 0.6507352941176471,
+          "semantic_vs_seed": 0.939522385597229,
+          "cer_vs_prev": 0.015817223198594025,
+          "semantic_vs_prev": 0.9918983578681946,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: では、O Fukuの第3四半期プロジェクト会議から始めましょう。本日は恵比寿オフィスで対面およびリモートでのハイブリッドセッションを開催しています。まず最初に、新機能の予定リリース日が7月13日であることを確認させていただきます。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを作成する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\nスピーカー1：佐藤さん、デモンストレーション資料をいくつかご提供いただけますか？本日の議論はこれで終了しました。今から会議を一時中断いたします。"
+        },
+        {
+          "generation": 11,
+          "chars": 608,
+          "cer_vs_seed": 0.6415441176470589,
+          "semantic_vs_seed": 0.9174258708953857,
+          "cer_vs_prev": 0.028021015761821366,
+          "semantic_vs_prev": 0.9796082973480225,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: では、O Fukuの第3四半期プロジェクト会議から始めましょう。本日は恵比寿オフィスで対面とリモートを組み合わせたセッションを開催しています。まず最初に、新機能の予定リリース日が7月13日であることを確認させていただきます。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを作成する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\nスピーカー1：佐藤氏、デモンストレーション資料をいくつかご提供いただけますか？本日の議論はこれで終了しました。会議を一時中断いたします。"
+        },
+        {
+          "generation": 12,
+          "chars": 613,
+          "cer_vs_seed": 0.6507352941176471,
+          "semantic_vs_seed": 0.9341340065002441,
+          "cer_vs_prev": 0.026595744680851064,
+          "semantic_vs_prev": 0.9745063781738281,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1: それでは、O Fukuの第3四半期プロジェクト会議から始めましょう。本日は恵比寿オフィスで対面およびリモートでのハイブリッドセッションを開催しています。まず最初に、新機能の予定リリース日が7月13日であることを確認させていただきます。\nスピーカー2：了解しました。リリース準備の一環として、山田氏は7月5日までにリリースノートを草案する予定です。\nスピーカー1：田中氏、7月8日までに負荷テストを完了してください。目標は、1,200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。\nスピーカー2：貴社の負荷テスト環境は、ステージング技術に関する理解と一致していますか？\nスピーカー1：はい、当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。\nスピーカー3：ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを公開してもよろしいでしょうか？\nスピーカー1：はい、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。\nスピーカー3：次の顧客向けデモンストレーションは佐藤氏にお任せしましょう。\nスピーカー1：佐藤氏、デモンストレーション資料をいくつかご提供いただけますか？本日の議論はこれで終了しました。会議を一時中断いたします。"
+        }
+      ],
+      "intermediates": [
+        {},
+        {
+          "en": "Speaker_1: Let’s begin our regular third-quarter project meeting for “O Fuku.” Today, we’re holding a joint in-office and remote session at the Ebisu office. First, let me confirm that the release date for the new features is July 13th.\nSpeaker 2: I understand. In preparation for the release, I, Yamada, will draft the release notes by July 5th.\nSpeaker_1: Please, Mr. Tanaka, complete your load test by July 8th. The goal is to achieve a response time of less than 1.5 seconds with 1,200 concurrent users connected at once.\nSpeaker_2: Does your load testing environment align with your understanding of using staging?\nSpeaker_1: Yes, please use the staging environment. Regarding the budget, we will officially approve up to ¥30,000 per month for additional server costs.\nSpeaker_3: Thank you. My name is John Kim from Marketing. Would it be okay if we schedule the press release to go out at 10 a.m. on the day of the launch?\nSpeaker_1: Yes, that's settled. John, please complete the draft of the press release by July 10th.\nspeaker_3: I understand. Also, please have Mr. Sato handle the next customer demonstration.\nSpeaker_1: Mr. Sato, please prepare the demonstration materials. That concludes our discussion for today. I will now adjourn the meeting."
+        },
+        {
+          "en": "Speaker 1: Let’s start with the third quarter project meeting for O Fuku. Today, we’re holding a combined in-person and remote session at our Ebisu office. First of all, let me confirm that the planned release date for the new feature is July 13th.\nSpeaker 2: Understood. As part of release preparation, Yamada plans to write the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging practices?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. Would it be okay if we release the press release at 10 a.m. on the launch date?\nSpeaker 1: Yes, that's settled. John, please complete a draft of the press release by July 10th.\nSpeaker 3: All right. Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, please provide the demonstration materials. Our discussion for today is concluded. We will now adjourn the meeting."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, let me confirm that the planned release date for the new features is July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging techniques?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, that's settled. Mr. John, please complete a draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, please provide us with the demonstration materials. Our discussion for today is now concluded. We will suspend the meeting for a moment."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, let me confirm that the planned release date for the new features is July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on launch day?\nSpeaker 1: Yes, that's confirmed. John, please complete a draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with the demonstration materials? Our discussion for today has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, let me confirm that the planned release date for new features is July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, I’ve confirmed that. John, please finalize the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with some demonstration materials? Today's discussion has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, let me confirm that the planned release date for the new features is July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please complete the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with some demonstration materials? Today's discussion has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, let me confirm that the planned release date for new features is July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your company’s load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please finalize the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with some demonstration materials? Our discussion for today has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, let me confirm that the planned release date for new features is July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please complete the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with some demonstration materials? Our discussion for today has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, let me confirm that the planned release date for the new features is July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on launch day?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please complete the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with some demonstration materials? Our discussion for today has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, I’d like to confirm that the planned release date for new features is July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your company’s load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please finalize the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with some demonstration materials? Our discussion for today has come to an end. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, let me confirm that the planned release date for new features is July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your company’s load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please complete the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with some demonstration materials? Our discussion for today has concluded. We will now suspend the meeting temporarily."
+        },
+        {
+          "en": "Speaker 1: Let’s start with O Fuku’s third quarter project meeting. Today, we’re holding a hybrid in-person and remote session at our Ebisu office. First of all, let me confirm that the planned release date for the new features is July 13th.\nSpeaker 2: Understood. As part of release preparation, Mr. Yamada plans to draft the release notes by July 5.\nSpeaker 1: Mr. Tanaka, please complete your load test by July 8th. The goal is to maintain a response time of less than 1.5 seconds for 1,200 concurrent users.\nSpeaker 2: Does your company’s load testing environment align with your understanding of staging technology?\nSpeaker 1: Yes, please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs.\nSpeaker 3: Thank you. My name is John Kim, and I work in the marketing department. May we publish a press release at 10 am on the launch date?\nSpeaker 1: Yes, I’ve confirmed. Mr. John, please finalize the draft of the press release by July 10th.\nSpeaker 3: Let’s leave the next customer demonstration to Mr. Sato.\nSpeaker 1: Mr. Sato, could you please provide us with some demonstration materials? Our discussion for today has concluded. We will now suspend the meeting temporarily."
+        }
+      ],
+      "usage": [
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:02.706966",
+          "duration_sec": 0.978,
+          "input_chars": 597,
+          "output_chars": 1257,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 597,
+            "output_units": 1257,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:03.786294",
+          "duration_sec": 1.065,
+          "input_chars": 1257,
+          "output_chars": 609,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1257,
+            "output_units": 609,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:04.744502",
+          "duration_sec": 0.958,
+          "input_chars": 609,
+          "output_chars": 1240,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 609,
+            "output_units": 1240,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:05.723086",
+          "duration_sec": 0.978,
+          "input_chars": 1240,
+          "output_chars": 598,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1240,
+            "output_units": 598,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:06.626734",
+          "duration_sec": 0.904,
+          "input_chars": 598,
+          "output_chars": 1232,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 598,
+            "output_units": 1232,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:08.512034",
+          "duration_sec": 1.885,
+          "input_chars": 1232,
+          "output_chars": 607,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1232,
+            "output_units": 607,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:09.319109",
+          "duration_sec": 0.807,
+          "input_chars": 607,
+          "output_chars": 1235,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 607,
+            "output_units": 1235,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:10.452644",
+          "duration_sec": 1.134,
+          "input_chars": 1235,
+          "output_chars": 610,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1235,
+            "output_units": 610,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:11.520494",
+          "duration_sec": 1.067,
+          "input_chars": 610,
+          "output_chars": 1236,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 610,
+            "output_units": 1236,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:12.570742",
+          "duration_sec": 1.05,
+          "input_chars": 1236,
+          "output_chars": 608,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1236,
+            "output_units": 608,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:13.569788",
+          "duration_sec": 0.998,
+          "input_chars": 608,
+          "output_chars": 1239,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 608,
+            "output_units": 1239,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:14.672964",
+          "duration_sec": 1.103,
+          "input_chars": 1239,
+          "output_chars": 608,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1239,
+            "output_units": 608,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:15.537905",
+          "duration_sec": 0.865,
+          "input_chars": 608,
+          "output_chars": 1251,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 608,
+            "output_units": 1251,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:16.601596",
+          "duration_sec": 1.064,
+          "input_chars": 1251,
+          "output_chars": 608,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1251,
+            "output_units": 608,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:17.761408",
+          "duration_sec": 1.159,
+          "input_chars": 608,
+          "output_chars": 1241,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 608,
+            "output_units": 1241,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:18.857416",
+          "duration_sec": 1.095,
+          "input_chars": 1241,
+          "output_chars": 608,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1241,
+            "output_units": 608,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:19.884823",
+          "duration_sec": 1.027,
+          "input_chars": 608,
+          "output_chars": 1240,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 608,
+            "output_units": 1240,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:21.118057",
+          "duration_sec": 1.23,
+          "input_chars": 1240,
+          "output_chars": 613,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1240,
+            "output_units": 613,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:22.246599",
+          "duration_sec": 1.128,
+          "input_chars": 613,
+          "output_chars": 1261,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 613,
+            "output_units": 1261,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:23.126555",
+          "duration_sec": 0.88,
+          "input_chars": 1261,
+          "output_chars": 615,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1261,
+            "output_units": 615,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:23.942087",
+          "duration_sec": 0.816,
+          "input_chars": 615,
+          "output_chars": 1251,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 615,
+            "output_units": 1251,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:24.929173",
+          "duration_sec": 0.987,
+          "input_chars": 1251,
+          "output_chars": 608,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1251,
+            "output_units": 608,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:25.822156",
+          "duration_sec": 0.891,
+          "input_chars": 608,
+          "output_chars": 1255,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 608,
+            "output_units": 1255,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:14:26.950741",
+          "duration_sec": 1.127,
+          "input_chars": 1255,
+          "output_chars": 613,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1255,
+            "output_units": 613,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "aggregate": [
+    {
+      "generation": 0,
+      "n": 3,
+      "cer_vs_seed_mean": 0.0,
+      "cer_vs_seed_min": 0.0,
+      "cer_vs_seed_max": 0.0,
+      "semantic_vs_seed_mean": 1.0,
+      "semantic_vs_seed_min": 1.0,
+      "semantic_vs_seed_max": 1.0,
+      "cer_vs_prev_mean": null,
+      "cer_vs_prev_min": null,
+      "cer_vs_prev_max": null,
+      "survival_rate_mean": 1.0,
+      "survival_rate_min": 1.0,
+      "survival_rate_max": 1.0,
+      "chars_mean": 597,
+      "chars_min": 597,
+      "chars_max": 597
+    },
+    {
+      "generation": 1,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6366421568627451,
+      "cer_vs_seed_min": 0.6305147058823529,
+      "cer_vs_seed_max": 0.6433823529411765,
+      "semantic_vs_seed_mean": 0.9206592241923014,
+      "semantic_vs_seed_min": 0.9163135290145874,
+      "semantic_vs_seed_max": 0.9254636764526367,
+      "cer_vs_prev_mean": 0.6366421568627451,
+      "cer_vs_prev_min": 0.6305147058823529,
+      "cer_vs_prev_max": 0.6433823529411765,
+      "survival_rate_mean": 0.8571428571428571,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.8571428571428571,
+      "chars_mean": 608,
+      "chars_min": 602,
+      "chars_max": 613
+    },
+    {
+      "generation": 2,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6403186274509804,
+      "cer_vs_seed_min": 0.6213235294117647,
+      "cer_vs_seed_max": 0.6525735294117647,
+      "semantic_vs_seed_mean": 0.9239778916041056,
+      "semantic_vs_seed_min": 0.9066705703735352,
+      "semantic_vs_seed_max": 0.9391357898712158,
+      "cer_vs_prev_mean": 0.20765524980559863,
+      "cer_vs_prev_min": 0.18053097345132743,
+      "cer_vs_prev_max": 0.22340425531914893,
+      "survival_rate_mean": 0.8571428571428571,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.8571428571428571,
+      "chars_mean": 603.6666666666666,
+      "chars_min": 598,
+      "chars_max": 607
+    },
+    {
+      "generation": 3,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6513480392156863,
+      "cer_vs_seed_min": 0.6415441176470589,
+      "cer_vs_seed_max": 0.6617647058823529,
+      "semantic_vs_seed_mean": 0.9224791725476583,
+      "semantic_vs_seed_min": 0.9111678600311279,
+      "semantic_vs_seed_max": 0.9343280792236328,
+      "cer_vs_prev_mean": 0.05802762080792869,
+      "cer_vs_prev_min": 0.044563279857397504,
+      "cer_vs_prev_max": 0.06690777576853527,
+      "survival_rate_mean": 0.8571428571428571,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.8571428571428571,
+      "chars_mean": 606,
+      "chars_min": 604,
+      "chars_max": 607
+    },
+    {
+      "generation": 4,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6501225490196079,
+      "cer_vs_seed_min": 0.6360294117647058,
+      "cer_vs_seed_max": 0.6691176470588235,
+      "semantic_vs_seed_mean": 0.9304491877555847,
+      "semantic_vs_seed_min": 0.9272384643554688,
+      "semantic_vs_seed_max": 0.9365333318710327,
+      "cer_vs_prev_mean": 0.028512457237861694,
+      "cer_vs_prev_min": 0.023131672597864767,
+      "cer_vs_prev_max": 0.035523978685612786,
+      "survival_rate_mean": 0.8809523809523809,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.9285714285714286,
+      "chars_mean": 605.6666666666666,
+      "chars_min": 597,
+      "chars_max": 610
+    },
+    {
+      "generation": 5,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6446078431372549,
+      "cer_vs_seed_min": 0.6360294117647058,
+      "cer_vs_seed_max": 0.6525735294117647,
+      "semantic_vs_seed_mean": 0.9191941817601522,
+      "semantic_vs_seed_min": 0.9102749824523926,
+      "semantic_vs_seed_max": 0.9327231645584106,
+      "cer_vs_prev_mean": 0.03319281651239403,
+      "cer_vs_prev_min": 0.0176678445229682,
+      "cer_vs_prev_max": 0.061946902654867256,
+      "survival_rate_mean": 0.8571428571428571,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.8571428571428571,
+      "chars_mean": 606.6666666666666,
+      "chars_min": 599,
+      "chars_max": 613
+    },
+    {
+      "generation": 6,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6421568627450981,
+      "cer_vs_seed_min": 0.6360294117647058,
+      "cer_vs_seed_max": 0.6452205882352942,
+      "semantic_vs_seed_mean": 0.9255373875300089,
+      "semantic_vs_seed_min": 0.9163132309913635,
+      "semantic_vs_seed_max": 0.9327231645584106,
+      "cer_vs_prev_mean": 0.011238880450311167,
+      "cer_vs_prev_min": 0.007233273056057866,
+      "cer_vs_prev_max": 0.01584507042253521,
+      "survival_rate_mean": 0.8809523809523809,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.9285714285714286,
+      "chars_mean": 604.3333333333334,
+      "chars_min": 597,
+      "chars_max": 608
+    },
+    {
+      "generation": 7,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6452205882352942,
+      "cer_vs_seed_min": 0.6415441176470589,
+      "cer_vs_seed_max": 0.6488970588235294,
+      "semantic_vs_seed_mean": 0.923699418703715,
+      "semantic_vs_seed_min": 0.911467432975769,
+      "semantic_vs_seed_max": 0.9327231645584106,
+      "cer_vs_prev_mean": 0.004206836484706509,
+      "cer_vs_prev_min": 0.0,
+      "cer_vs_prev_max": 0.009074410163339383,
+      "survival_rate_mean": 0.8571428571428571,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.8571428571428571,
+      "chars_mean": 605.6666666666666,
+      "chars_min": 601,
+      "chars_max": 608
+    },
+    {
+      "generation": 8,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6452205882352942,
+      "cer_vs_seed_min": 0.6378676470588235,
+      "cer_vs_seed_max": 0.6525735294117647,
+      "semantic_vs_seed_mean": 0.918482224146525,
+      "semantic_vs_seed_min": 0.9102749824523926,
+      "semantic_vs_seed_max": 0.9327231645584106,
+      "cer_vs_prev_mean": 0.007168870998658232,
+      "cer_vs_prev_min": 0.0,
+      "cer_vs_prev_max": 0.014414414414414415,
+      "survival_rate_mean": 0.8571428571428571,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.8571428571428571,
+      "chars_mean": 606,
+      "chars_min": 599,
+      "chars_max": 611
+    },
+    {
+      "generation": 9,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6458333333333334,
+      "cer_vs_seed_min": 0.6397058823529411,
+      "cer_vs_seed_max": 0.6507352941176471,
+      "semantic_vs_seed_mean": 0.924177348613739,
+      "semantic_vs_seed_min": 0.9163132309913635,
+      "semantic_vs_seed_max": 0.9341340065002441,
+      "cer_vs_prev_mean": 0.02321686071242353,
+      "cer_vs_prev_min": 0.0176678445229682,
+      "cer_vs_prev_max": 0.028933092224231464,
+      "survival_rate_mean": 0.8809523809523809,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.9285714285714286,
+      "chars_mean": 605,
+      "chars_min": 600,
+      "chars_max": 613
+    },
+    {
+      "generation": 10,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6470588235294118,
+      "cer_vs_seed_min": 0.6397058823529411,
+      "cer_vs_seed_max": 0.6507352941176471,
+      "semantic_vs_seed_mean": 0.9266636371612549,
+      "semantic_vs_seed_min": 0.9145843982696533,
+      "semantic_vs_seed_max": 0.939522385597229,
+      "cer_vs_prev_mean": 0.011263375992378411,
+      "cer_vs_prev_min": 0.007220216606498195,
+      "cer_vs_prev_max": 0.015817223198594025,
+      "survival_rate_mean": 0.8571428571428571,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.8571428571428571,
+      "chars_mean": 607.6666666666666,
+      "chars_min": 602,
+      "chars_max": 615
+    },
+    {
+      "generation": 11,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6433823529411765,
+      "cer_vs_seed_min": 0.6397058823529411,
+      "cer_vs_seed_max": 0.6488970588235294,
+      "semantic_vs_seed_mean": 0.9202155868212382,
+      "semantic_vs_seed_min": 0.9163132309913635,
+      "semantic_vs_seed_max": 0.9269076585769653,
+      "cer_vs_prev_mean": 0.012924659742449293,
+      "cer_vs_prev_min": 0.0035587188612099642,
+      "cer_vs_prev_max": 0.028021015761821366,
+      "survival_rate_mean": 0.8809523809523809,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.9285714285714286,
+      "chars_mean": 605.3333333333334,
+      "chars_min": 600,
+      "chars_max": 608
+    },
+    {
+      "generation": 12,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6439950980392157,
+      "cer_vs_seed_min": 0.6360294117647058,
+      "cer_vs_seed_max": 0.6507352941176471,
+      "semantic_vs_seed_mean": 0.9254313906033834,
+      "semantic_vs_seed_min": 0.9145843982696533,
+      "semantic_vs_seed_max": 0.9341340065002441,
+      "cer_vs_prev_mean": 0.011250650758293434,
+      "cer_vs_prev_min": 0.0035460992907801418,
+      "cer_vs_prev_max": 0.026595744680851064,
+      "survival_rate_mean": 0.8809523809523809,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.9285714285714286,
+      "chars_mean": 607,
+      "chars_min": 600,
+      "chars_max": 613
+    }
+  ]
+}

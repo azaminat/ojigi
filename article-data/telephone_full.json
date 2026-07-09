@@ -1,0 +1,2619 @@
+{
+  "mode": "full",
+  "generations": 8,
+  "trials": [
+    {
+      "trial": 1,
+      "generations": [
+        {
+          "generation": 0,
+          "chars": 597,
+          "cer_vs_seed": 0.0,
+          "semantic_vs_seed": 1.0,
+          "cer_vs_prev": null,
+          "semantic_vs_prev": null,
+          "survival_rate": 1.0,
+          "survival_alive": 14,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 3,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [],
+          "text": "speaker_1: それでは第3四半期のプロジェクト「大福」定例会議を始めます。今日は恵比寿オフィスとリモートの合同開催です。まず新機能のリリース日ですが、7月13日で正式に確定とします。\nspeaker_2: 承知しました。リリースに向けて、私、山田が7月5日までにリリースノートのドラフトを作成します。\nspeaker_1: お願いします。次に、田中さんは負荷テストを7月8日までに完了してください。目標は同時接続1,200ユーザーで応答時間を1.5秒以内に収めることです。\nspeaker_2: 負荷テストの環境はステージングを使う認識で合っていますか。\nspeaker_1: はい、ステージング環境を使ってください。それから予算の件ですが、追加のサーバー費用として月額3万円までを正式に承認します。\nspeaker_3: ありがとうございます。マーケティングのジョン・キムです。プレスリリースの配信は、リリース当日の午前10時に設定でよろしいでしょうか。\nspeaker_1: はい、それで決定とします。ジョンさんはプレスリリース原稿を7月10日までに仕上げてください。\nspeaker_3: 承知しました。あわせて、次回の顧客デモは佐藤さんが担当することでお願いします。\nspeaker_1: では佐藤さん、デモ資料の準備をお願いします。本日の決定事項は以上です。会議を終了します。"
+        },
+        {
+          "generation": 1,
+          "chars": 540,
+          "cer_vs_seed": 0.6672794117647058,
+          "semantic_vs_seed": 0.8970654010772705,
+          "cer_vs_prev": 0.6672794117647058,
+          "semantic_vs_prev": 0.8970654010772705,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1：今日は恵比寿オフィスおよびリモートで第3四半期プロジェクト会議を行いましょう。新機能の公開日は正式に7月13日に決定しました。私、山田氏が7月5日までにリリースノートの草案を作成します。スピーカー1、どうぞ進んでください。次に、氏。 田中氏は7月8日までに負荷テストを完了する必要があります。目標は、1,200人のユーザーが同時に接続でき、応答時間が1.5秒以内になることです。スピーカー2：負荷テストにはステージング環境を使用していると確信していますか？スピーカー1：ハイステージング環境をご使用ください。 また、予算に関しては、追加のサーバー費用として月額最大3万円を正式に承認いたします。ありがとうございます、スピーカー。私の名前はジョン・キムで、マーケティング部門所属です。発売日の午前10時にプレスリリースの配信を予定してもよろしいでしょうか？ スピーカー1：はい、それでは確定しました。ジョンさん、7月10日までにプレスリリースの草案を完成させてください。スピーカー3：了解しました。佐藤氏は次の顧客向けデモも担当していただけますか？スピーカー1：佐藤氏、デモンストレーション資料をご用意ください。これで本日の議論は終了です。 会議はこれで終了しました。"
+        },
+        {
+          "generation": 2,
+          "chars": 548,
+          "cer_vs_seed": 0.6819852941176471,
+          "semantic_vs_seed": 0.8398177623748779,
+          "cer_vs_prev": 0.27944111776447106,
+          "semantic_vs_prev": 0.9093705415725708,
+          "survival_rate": 0.7857142857142857,
+          "survival_alive": 11,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1",
+            "P2"
+          ],
+          "text": "スピーカー1、本日はEBISオフィスおよびリモートで第3四半期プロジェクト会議を開催します。新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏が7月5日までにリリースノートを準備する予定です。スピーカー1、続行してください。次はシティからの田中氏で、7月8日までに負荷テストを完了させる必要があります。 目標は、1200人の同時ユーザーに対応し、応答時間を1.5秒未満に抑えることです。スピーカー2：負荷テストにはステージング環境を使用していることは確かですか？スピーカー1：ハイステージング環境をご利用ください。予算に関しては、追加のサーバー費用として月額最大3万円を正式に承認いたします。 議長、ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。プレスリリースの配信を発売日の午前10時に設定してもよろしいでしょうか？ 議長1：はい、確認しました。ジョンさん、7月10日までにプレスリリースの草案を完成させてください。 スピーカー3：了解しました。佐藤氏は次の顧客向けデモンストレーションも担当していただけますか？ スピーカー1：佐藤氏、デモンストレーション資料を準備してください。本日の議論はこれで終了します。会議はこれで終わりました。"
+        },
+        {
+          "generation": 3,
+          "chars": 549,
+          "cer_vs_seed": 0.6452205882352942,
+          "semantic_vs_seed": 0.8707286715507507,
+          "cer_vs_prev": 0.3,
+          "semantic_vs_prev": 0.8895794153213501,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：本日は、Q3プロジェクトの会議を恵比寿オフィスとリモートで同時開催いたします。新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏が7月5日までにリリースノートを作成する予定です。どうぞ続けてください、スピーカー1。次は…氏です。 シティの田中氏は、7月8日までに負荷テストを完了する必要があります。目標は、応答時間が1.5秒未満で1200人の同時ユーザーをサポートすることです。スピーカー2：負荷テストのためにステージング環境を使用していることは確かですか？スピーカー1：はい、ぜひステージング環境をご利用ください。 予算に関しては、サーバーの追加費用として月額最大3万円を正式に承認いたします。ありがとうございます、会長。私の名前はジョン・キムで、マーケティング部門に所属しています。プレスリリースの配信をローンチ日当日の午前10時に設定してよろしいでしょうか？ はい、議長1、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。議長3：了解しました。佐藤氏も次の顧客デモンストレーションを担当していただけますか？議長1：佐藤氏、デモンストレーション資料をご用意ください。 これで本日の議論は終了します。会議はこれで終わりました。"
+        },
+        {
+          "generation": 4,
+          "chars": 553,
+          "cer_vs_seed": 0.7150735294117647,
+          "semantic_vs_seed": 0.8972440361976624,
+          "cer_vs_prev": 0.18664047151277013,
+          "semantic_vs_prev": 0.9326014518737793,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：本日、当社の恵比寿オフィスとリモート会場で同時開催の第3四半期プロジェクトミーティングを行います。新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏が7月5日までにリリースノートを準備する予定です。どうぞ続けてください。次は…氏です。 CITYの田中氏は、7月8日までに負荷テストを完了する必要があります。目標は、応答時間が1.5秒未満で1200人の同時接続ユーザーをサポートすることです。チームが負荷テストのためにステージング環境を使用していることは確認済みですか？スピーカー1：はい、ぜひステージング環境をご利用ください。 予算に関しては、サーバーの追加費用として月額最大3万円を正式に承認いたします。ありがとうございます、会長。私の名前はジョン・キムで、マーケティング部門に所属しています。プレスリリースの配信を午前10時に設定していただけますか。 発売日当日ですか？はい、委員長1、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。委員長3、了解しました。佐藤さんは次の顧客デモンストレーションも担当していただけますか？佐藤さん、デモンストレーション資料をご用意ください。 これで本日の議論は終了します。会議はこれで終わりました。"
+        },
+        {
+          "generation": 5,
+          "chars": 550,
+          "cer_vs_seed": 0.7003676470588235,
+          "semantic_vs_seed": 0.9080806970596313,
+          "cer_vs_prev": 0.11328125,
+          "semantic_vs_prev": 0.9885974526405334,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：本日、当社の恵比寿オフィスとリモート拠点で同時に行われる第3四半期プロジェクト会議を開催いたします。新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏が7月5日までにリリースノートを準備しますので、どうぞ引き続きご視聴ください。 次はシティの田中氏です。7月8日までに負荷テストを完了する必要があります。目標は、応答時間が1.5秒未満で1,200人の同時接続ユーザーをサポートすることです。チームが負荷テストのためにステージング環境を使用していることを確認しましたか？ スピーカー1：はい、ステージング環境をご利用ください。予算に関しては、サーバーの追加費用として月額最大3万円まで正式に承認いたします。ありがとうございます、会長。私の名前はジョン・キムで、マーケティング部門に所属しています。プレスリリースの配信を午前10時に設定していただけますか？ ローンチ当日ですか？はい、委員長1、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。委員長3、了解しました。佐藤さん、次の顧客デモンストレーションも担当していただけますか？デモンストレーション用の資料をご準備ください。 これで本日の議論は終了します。会議はこれで終わりました。"
+        },
+        {
+          "generation": 6,
+          "chars": 553,
+          "cer_vs_seed": 0.6838235294117647,
+          "semantic_vs_seed": 0.8949280977249146,
+          "cer_vs_prev": 0.14705882352941177,
+          "semantic_vs_prev": 0.9742248058319092,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1：本日、第3四半期プロジェクト会議を当社の恵比寿オフィスとリモート拠点で同時開催いたします。新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏が7月5日までにリリースノートを作成する予定ですので、引き続きご期待ください。 次は市の田中氏です。7月8日までに負荷テストを完了する必要があります。目標は、応答時間が1.5秒未満で1,200人の同時ユーザーをサポートすることです。チームが負荷テストのためにステージング環境を使用していることを確認しましたか？ スピーカー1：当社の高度なステージング環境をご利用ください。ご予算に関しては、サーバーの追加費用として月額最大3万円まで正式に承認可能です。ありがとうございます、会長。私の名前はジョン・キムで、マーケティング部門に所属しています。プレスリリースの配信を午前10時に設定していただけますか。 ローンチデーについてはどうですか？はい、委員長1、確認済みです。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。委員長3、了解しました。佐藤さん、次の顧客向けデモンストレーションも担当していただけますか？デモンストレーション用の資料をご準備ください。 これで本日の議論は終了します。会議はこれで終わりました。"
+        },
+        {
+          "generation": 7,
+          "chars": 533,
+          "cer_vs_seed": 0.6727941176470589,
+          "semantic_vs_seed": 0.9077574014663696,
+          "cer_vs_prev": 0.06614785992217899,
+          "semantic_vs_prev": 0.9911079406738281,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1：本日、第3四半期プロジェクト会議を恵比寿オフィスとリモート拠点で同時開催いたします。新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏が7月5日までにリリースノートを作成する予定ですので、引き続きご期待ください。 次は市の田中氏です。7月8日までに負荷テストを完了する必要があります。目標は、応答時間が1.5秒未満で1,200人の同時ユーザーをサポートすることです。チームが負荷テストのためにステージング環境を使用していることを確認しましたか？ スピーカー1：当社の高度なステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。ありがとうございます、会長。私の名前はジョン・キムで、マーケティング部門に所属しています。プレスリリースの配信を午前10時に設定していただけますか？ ローンチデーについてはどうですか？はい、会長。了解しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。佐藤さん、次の顧客向けデモンストレーションも担当していただけますか？デモンストレーション用の資料をご準備ください。以上で本日の議論は終了です。 会議はこれで終了しました。"
+        },
+        {
+          "generation": 8,
+          "chars": 539,
+          "cer_vs_seed": 0.6801470588235294,
+          "semantic_vs_seed": 0.8830677270889282,
+          "cer_vs_prev": 0.046370967741935484,
+          "semantic_vs_prev": 0.986924409866333,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1：本日、第3四半期プロジェクト会議を恵比寿オフィスとリモート拠点で同時開催いたします。新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏が7月5日までにリリースノートを作成する予定ですので、引き続きご期待ください。 次はシティシステムズの田中氏です。7月8日までに負荷テストを完了する必要があります。目標は、応答時間が1.5秒未満で1200人の同時ユーザーをサポートすることです。チームが負荷テストのためにステージング環境を使用していることを確認しましたか？ スピーカー1：当社の高度なステージング環境をぜひご活用ください。予算面については、追加サーバー費用として月額最大3万円まで正式に承認可能です。ありがとうございます、会長。私の名前はジョン・キムで、マーケティング部門に所属しています。プレスリリースの配信を午前10時に設定していただけますか？ ローンチデーについてはどうですか？はい、会長。了解しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。佐藤さん、次の顧客向けデモンストレーションも担当していただけますか？デモンストレーション用の資料をご準備ください。本日の議論はこれで終了です。 会議は終了しました。"
+        }
+      ],
+      "intermediates": [
+        {},
+        {
+          "asr": "スピーカー1。それでは、第3四半期のプロジェクト、大福定例会議を始めます。 今日は恵比寿オフィスとリモートの合同開催です。 まず新機能のリリース日ですが、7月13日で正式に確定とします。 スピーカーに承知しました。リリースに向けて、私、山田が7月5日までにリリースノートのドラフトを作成します。 スピーカー1、お願いします。 次に、田中さんは負荷テストを7月8日までに完了してください。目標は同時接続1,200ユーザーで、応答時間を1.5秒以内に収めることです。 スピーカー2:負荷テストの環境はステージングを使う認識で合っていますか？ Speaker1: High Staging環境を使ってください。それから、予算の件ですが、追加のサーバー費用として月額3万円までを正式に承認します。 スピーカーさん、ありがとうございます。 マーケティングのジョン・キムです。 プレスリリースの配信は、リリース当日の午前10時に設定でよろしいでしょうか。 スピーカー1:はい、それで決定とします。 Johnさんは、プレスリリース原稿を7月10日までに仕上げてください。 スピーカー3、承知しました。あわせて、次回の顧客デモは佐藤さんが担当することでお願いします。 スピーカー1では、佐藤さん、デモ資料の準備をお願いします。 本日の決定事項は以上です。 会議を終了します。",
+          "en": "Speaker 1: Let’s start with our Q3 project meeting today at Ebisu Office and remotely. The release date for new features has been officially set to July 13th. I, Yamada, will prepare a draft of the release notes by July 5th. Speaker 1, please proceed. Next, Mr. Tanaka should complete load testing by July 8th. The goal is to achieve simultaneous connections of 1,200 users with response time within 1.5 seconds. Speaker 2: Are you sure that we’re using the staging environment for load testing? Speaker 1: Please use the High Staging environment. Also, regarding budget, we will officially approve up to ¥30,000 per month for additional server costs. Thank you very much, speaker. My name is John Kim from Marketing. Would it be okay if we schedule press release delivery at 10 a.m. on the day of the launch? Speaker 1: Yes, that's settled then. John, please finalize the draft of the press release by July 10th. Speaker 3: Understood. Could Mr. Sato handle the next customer demo as well? Speaker 1: Mr. Sato, please prepare the demonstration materials. That concludes our discussion for today. The meeting is now adjourned."
+        },
+        {
+          "asr": "スピーカー1、今日はEBIS Officeおよびリモートで第3四半期プロジェクト会議を行いましょう。新機能の公開日は正式に7月13日に決定しました。私、山田氏が7月5日までにリリースノートの草案を作成します。 Speaker1、どうぞ進んでください。次に、市。田中氏は7月8日までに負荷テストを完了する必要があります。目標は、1200人のユーザーが同時に接続でき、応答時間が1.5秒以内になることです。 スピーカー2:負荷テストには、ステージング環境を使用していると確信していますか？ スピーカー1:ハイステージング環境をご使用ください。また、予算に関しては追加のサーバー費用として月額最大3万円を正式に承認いたします。ありがとうございます、スピーカー。私の名前はジョン・キムで、マーケティング部門所属です。 発売日の午前10時にプレスリリースの配信を予定してもよろしいでしょうか？ スピーカー1、はい、それでは確定しました。ジョンさん、7月10日までにプレスリリースの草案を完成させてください。スピーカー3、了解しました。佐藤氏は次の顧客向けデモも担当していただけますか？スピーカー1、佐藤氏、デモンストレーション資料をご用意ください。これで本日の議論は終了です。 会議はこれで終了しました。",
+          "en": "Speaker 1, today we’ll hold our Q3 project meeting in EBIS Office and remotely. The official release date for new features has been set for July 13th. I, Mr. Yamada, will draft the release notes by July 5th. Speaker 1, please proceed. Next up is Mr. Tanaka from City, who needs to complete load testing by July 8th. The goal is to support 1200 concurrent users with a response time of less than 1.5 seconds. Speaker 2: Are you sure you’re using a staging environment for load testing? Speaker 1: Please use the high-staging environment. Regarding budget, we will officially approve up to 30,000 yen per month for additional server costs. Thank you, Speaker. My name is John Kim and I work in the marketing department. Would it be okay if we schedule delivery of the press release at 10:00 a.m. on launch day? Speaker 1: Yes, that's confirmed. Mr. John, please complete the draft of the press release by July 10th. Speaker 3: Got it. Could Mr. Sato also handle the next customer demonstration? Speaker 1: Mr. Sato, please prepare the demonstration materials. This concludes our discussion today. The meeting is now over."
+        },
+        {
+          "asr": "Speaker1:本日は恵比寿オフィスおよびリモートで第3四半期プロジェクト会議を開催します。 新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏が7月5日までにリリースノートを準備する予定です。 スピーカー1、続行してください。次はシティからの田中氏で、7月8日までに負荷テストを完了させる必要があります。目標は、1200人の同時ユーザーに対応し、応答時間を1.5秒未満に抑えることです。 スピーカー2:負荷テストには、ステージング環境を使用していることは確かですか？ Speaker1:ハイステージング環境をご利用ください。予算に関しては追加のサーバー費用として月額最大3万円を正式に承認いたします。 議長、ありがとうございます。 私の名前は、John Kimで、マーケティング部門に所属しています。 プレスリリースの配信を発売日の午前10時に設定してもよろしいでしょうか。議長一、はい、確認しました。ジョンさん、7月10日までにプレスリリースの草案を完成させてください。スピーカー3、了解しました。佐藤氏は次の顧客向けデモンストレーションも担当していただけますか？ Speaker1:佐藤氏、デモンストレーション資料を準備してください。本日の議論はこれで終了します。 会議はこれで終わりました。",
+          "en": "Speaker 1: Today we’re holding our Q3 project meeting in both the Ebisu office and remotely. The official release date for new features is set for July 13th. I, Mr. Yamada, will prepare the release notes by July 5th. Please continue, Speaker 1. Next up is Mr. Tanaka from City who needs to complete load testing by July 8th. The goal is to support 1200 concurrent users with a response time of less than 1.5 seconds. Speaker 2: Are you sure you are using a staging environment for load testing? Speaker 1: Yes, please use the staging environment. Regarding budget, we will officially approve up to 30,000 yen per month for additional server costs. Thank you, Chairman. My name is John Kim and I work in the marketing department. May I schedule the press release distribution for 10 a.m. on the launch date? Yes, Mr. Speaker 1, I have confirmed that. Mr. John, please complete the draft of the press release by July 10th. Speaker 3: Understood. Can Mr. Sato also be responsible for the next customer demonstration? Speaker 1: Mr. Sato, please prepare the demonstration materials. This concludes our discussion for today. The meeting is now over."
+        },
+        {
+          "asr": "Speaker1:本日はQ3プロジェクトの会議を恵比寿オフィスとリモートで同時開催いたします。 新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏が7月5日までにリリースノートを作成する予定です。 どうぞ続けてください。スピーカー1。次はです。 CITYの田中氏は、7月8日までに負荷テストを完了する必要があります。 目標は、応答時間が1.5秒未満で1200人の同時ユーザーをサポートすることです。 スピーカーに負荷テストのためにステージング環境を使用していることは確かですか？ Speaker1:はい、ぜひステージング環境をご利用ください。予算に関しては、サーバーの追加費用として月額最大3万円を正式に承認いたします。 ありがとうございます、会長。私の名前はJohn Kimで、マーケティング部門に所属しています。 プレスリリースの配信をローンチ日当日の午前10時に設定してよろしいでしょうか。 はい、議長1、確認しました。Johnさん、プレスリリースの草案を7月10日までに完成させてください。議長3、了解しました。 佐藤氏も次の顧客デモンストレーションを担当していただけますか？議長1佐藤氏、デモンストレーション資料をご用意ください。これで本日の議論は終了します。 会議はこれで終わりました。",
+          "en": "Speaker 1: Today, we’re holding a Q3 project meeting simultaneously at our Ebisu office and remotely. The official release date for the new features is set for July 13th. I, Mr. Yamada, will be preparing the release notes by July 5th. Please continue. Next up is Mr. Tanaka from CITY, who needs to complete load testing by July 8th. The goal is to support 1200 concurrent users with response times of less than 1.5 seconds. Are you sure that your team is using a staging environment for load testing? Speaker 1: Yes, please use the staging environment. Regarding budget, we will officially approve up to 30,000 yen per month as an additional cost for servers. Thank you, Chairman. My name is John Kim and I work in the marketing department. Would it be possible to schedule the press release delivery for 10:00 a.m. on launch day? Yes, Chairman 1, I confirm. Mr. John, please complete the draft of the press release by July 10th. Chairman 3, understood. Could Mr. Sato also take charge of the next customer demonstration? Mr. Sato, please prepare the demonstration materials. This concludes our discussion today. The meeting is now over."
+        },
+        {
+          "asr": "スピーカー1。本日、当社の恵比寿オフィスとリモート会場で同時開催の第3四半期プロジェクトミーティングを行います。 新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏が7月5日までにリリースノートを準備する予定です。 どうぞ続けてください。次はです。 シティの田中氏は、7月8日までに負荷テストを完了する必要があります。目標は、応答時間が1.5秒未満で1,200人の同時接続ユーザーをサポートすることです。 チームが負荷テストのためにステージング環境を使用していることは確認済みですか？ Speaker1:はい、ぜひステージング環境をご利用ください。予算に関しては、サーバーの追加費用として月額最大3万円を正式に承認いたします。 ありがとうございます、会長。私の名前はJohn Kimで、マーケティング部門に所属しています。 プレスリリースの配信を午前10時に設定していただけますか。発売日当日ですか？ はい、委員長1、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。委員長3、了解しました。佐藤さんは次の顧客デモンストレーションも担当していただけますか？佐藤さん、デモンストレーション資料をご用意ください。これで本日の議論は終了します。 会議はこれで終わりました。",
+          "en": "Speaker 1: Today we’re holding our third quarter project meeting simultaneously at our Ebisu office and a remote location. The official release date for new features is set for July 13th. I, Mr. Yamada, will prepare the release notes by July 5th. Please continue. Next up is Mr. Tanaka from City who needs to complete load testing by July 8th. The goal is to support 1,200 concurrent users with response times of less than 1.5 seconds. Have you confirmed that your team is using the staging environment for load testing? Speaker 1: Yes, please make use of the staging environment. Regarding budget, we will officially approve up to ¥30,000 per month as additional costs for servers. Thank you, Chairman. My name is John Kim and I work in the marketing department. Could you schedule delivery of the press release for 10:00 a.m.? On the day of launch? Yes, Chairman 1, confirmed. Mr. John, please complete the draft of the press release by July 10th. Chairman 3, understood. Will you also be responsible for the next customer demonstration, Mr. Sato? Please prepare the materials for the demonstration. This concludes our discussion today. The meeting is now over."
+        },
+        {
+          "asr": "スピーカー1。本日、当社の恵比寿オフィスとリモート拠点で同時に行われる第3四半期プロジェクト会議を開催いたします。 新機能の正式なリリース予定日は7月13日に設定されています。 私、山田氏が7月5日までにリリースノートを準備しますので、どうぞ引き続きご視聴ください。次は、シティの田中氏です。 7月8日までに負荷テストを完了する必要があります。 目標は、応答時間が1.5秒未満で1,200人の同時接続ユーザーをサポートすることです。 チームが負荷テストのためにステージング環境を使用していることを確認しましたか？ Speaker1: Highステージング環境をご利用ください。予算に関してはサーバーの追加費用として月額最大3万円まで正式に承認いたします。ありがとうございます、会長。私の名前はジョン・キムで、マーケティング部門に所属しています。 プレスリリースの配信を午前10時に設定していただけますか？ローンチ当日ですか？ はい、委員長1、確認しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。委員長3、了解しました。佐藤さん、次の顧客デモンストレーションも担当していただけますか？デモンストレーション用の資料をご準備ください。これで本日の議論は終了します。 会議はこれで終わりました。",
+          "en": "Speaker 1: Today we’re holding our Q3 project meeting simultaneously at our Ebisu office and remote locations. The official release date for the new features is set for July 13th. I, Mr. Yamada, will prepare the release notes by July 5th, so please stay tuned. Next up is Mr. Tanaka from City. We need to complete load testing by July 8th. Our goal is to support 1,200 concurrent users with a response time of less than 1.5 seconds. Have you confirmed that your team is using the staging environment for load testing? Speaker 1: Please use our high staging environment. Regarding your budget, we can officially approve up to 30,000 yen per month as an additional cost for servers. Thank you, Chairman. My name is John Kim and I work in the marketing department. Could you schedule the press release delivery for 10 a.m. on launch day? Yes, Chairman 1, I have confirmed. Mr. John, please complete the draft of the press release by July 10th. Chairman 3, understood. Mr. Sato, could you also be responsible for the next customer demonstration? Please prepare materials for the demonstration. This concludes our discussion for today. The meeting is now over."
+        },
+        {
+          "asr": "スピーカー1、本日第3四半期プロジェクト会議を当社の恵比寿オフィスとリモート拠点で同時開催いたします。 新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏が7月5日までにリリースノートを作成する予定ですので、引き続きご期待ください。次は、市の田中氏です。 7月8日までに負荷テストを完了する必要があります。 目標は、応答時間が1.5秒未満で1,200人の同時ユーザーをサポートすることです。 チームが負荷テストのためにステージング環境を使用していることを確認しましたか？ Speaker1:当社の高度なステージング環境をご利用ください。ご予算に関しては、サーバーの追加費用として月額最大3万円まで正式に承認可能です。ありがとうございます、会長。私の名前はジョン・キムで、マーケティング部門に所属しています。 プレスリリースの配信を午前10時に設定していただけますか。ローンチデーについてはどうですか？ はい、委員長。一確認済みです。 Johnさん、プレスリリースの草案を7月10日までに完成させてください。委員長さん、了解しました。佐藤さん、次の顧客向けデモンストレーションも担当していただけますか？デモンストレーション用の資料をご準備ください。これで本日の議論は終了します。 会議はこれで終わりました。",
+          "en": "Speaker 1: Today we’re holding our Q3 project meeting simultaneously at our Ebisu office and remote locations. The official release date for the new features is set for July 13th. I, Mr. Yamada, will be preparing the release notes by July 5th, so please stay tuned. Next up is Mr. Tanaka from City. We need to complete load testing by July 8th. Our goal is to support 1,200 concurrent users with a response time of less than 1.5 seconds. Have you confirmed that your team is using the staging environment for load testing? Speaker 1: Please use our advanced staging environment. Regarding your budget, we can officially approve up to ¥30,000 per month for additional server costs. Thank you, Chairman. My name is John Kim and I work in the marketing department. Could you schedule delivery of the press release at 10:00 a.m.? What about launch day? Yes, Chairman. All right. Mr. John, please complete the draft of the press release by July 10th. Mr. Sato, could you also be responsible for the next customer demonstration? Please prepare materials for the demonstration. This concludes our discussion today. The meeting is now over."
+        },
+        {
+          "asr": "Speaker1:本日第3四半期プロジェクト会議を恵比寿オフィスとリモート拠点で同時開催いたします。 新機能の正式なリリース予定日は7月13日に設定されています。 私、山田氏が7月5日までにリリースノートを作成する予定ですので、引き続きご期待ください。次は、市の田中氏です。 7月8日までに負荷テストを完了する必要があります。 目標は、応答時間が1.5秒未満で1200人の同時ユーザーをサポートすることです。 チームが負荷テストのためにステージング環境を使用していることを確認しましたか？ スピーカー1:当社の高度なステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。ありがとうございます、会長。私の名前はジョン・キムで、マーケティング部門に所属しています。 プレスリリースの配信を午前10時に設定していただけますか？ローンチデイについてはどうですか？ はい、会長。了解しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。佐藤さん、次の顧客向けデモンストレーションも担当していただけますか？デモンストレーション用の資料をご準備ください。以上で本日の議論は終了です。 会議はこれで終了しました。",
+          "en": "Speaker 1: Today, we’re holding our Q3 project meeting simultaneously at our Ebisu office and remote locations. The official release date for the new features is set for July 13th. I, Mr. Yamada, will be preparing the release notes by July 5th, so please stay tuned. Next up is Mr. Tanaka from City Systems. We need to complete load testing by July 8th. Our goal is to support 1200 concurrent users with a response time of less than 1.5 seconds. Have you confirmed that your team is using the staging environment for load testing? Speaker 1: Please take advantage of our advanced staging environment. Regarding budget, we can officially approve up to 30,000 yen per month for additional server costs. Thank you, Chairman. My name is John Kim and I work in the marketing department. Could you schedule delivery of the press release at 10:00 a.m.? What about launch day? Yes, Chairman. Understood. Mr. John, please complete the draft of the press release by July 10th. Mr. Sato, could you also be responsible for the next customer demonstration? Please prepare materials for the demonstration. This concludes our discussion today. The meeting has now ended."
+        }
+      ],
+      "usage": [
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:17:56.384835",
+          "duration_sec": 5.098,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 98.951,
+          "raw_usage": {
+            "input_units": 98.951,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:18:08.096694",
+          "duration_sec": 4.625,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 94.319,
+          "raw_usage": {
+            "input_units": 94.319,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:18:20.386040",
+          "duration_sec": 4.71,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 93.767,
+          "raw_usage": {
+            "input_units": 93.767,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:18:32.149439",
+          "duration_sec": 4.481,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 96.815,
+          "raw_usage": {
+            "input_units": 96.815,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:18:44.848804",
+          "duration_sec": 4.894,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 97.175,
+          "raw_usage": {
+            "input_units": 97.175,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:18:57.297943",
+          "duration_sec": 4.649,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 95.063,
+          "raw_usage": {
+            "input_units": 95.063,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:19:10.575335",
+          "duration_sec": 4.528,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 95.783,
+          "raw_usage": {
+            "input_units": 95.783,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:19:23.835562",
+          "duration_sec": 5.126,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 92.303,
+          "raw_usage": {
+            "input_units": 92.303,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:17:57.886680",
+          "duration_sec": 1.471,
+          "input_chars": 579,
+          "output_chars": 1126,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 579,
+            "output_units": 1126,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:17:59.016641",
+          "duration_sec": 1.13,
+          "input_chars": 1126,
+          "output_chars": 540,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1126,
+            "output_units": 540,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:18:09.767915",
+          "duration_sec": 1.63,
+          "input_chars": 547,
+          "output_chars": 1119,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 547,
+            "output_units": 1119,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:18:11.180240",
+          "duration_sec": 1.41,
+          "input_chars": 1119,
+          "output_chars": 548,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1119,
+            "output_units": 548,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:18:21.727597",
+          "duration_sec": 1.294,
+          "input_chars": 560,
+          "output_chars": 1144,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 560,
+            "output_units": 1144,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:18:22.988593",
+          "duration_sec": 1.261,
+          "input_chars": 1144,
+          "output_chars": 549,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1144,
+            "output_units": 549,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:18:33.925038",
+          "duration_sec": 1.725,
+          "input_chars": 559,
+          "output_chars": 1137,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 559,
+            "output_units": 1137,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:18:35.285156",
+          "duration_sec": 1.346,
+          "input_chars": 1137,
+          "output_chars": 553,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1137,
+            "output_units": 553,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:18:46.125377",
+          "duration_sec": 1.238,
+          "input_chars": 560,
+          "output_chars": 1163,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 560,
+            "output_units": 1163,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:18:47.219990",
+          "duration_sec": 1.094,
+          "input_chars": 1163,
+          "output_chars": 550,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1163,
+            "output_units": 550,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:18:58.780423",
+          "duration_sec": 1.43,
+          "input_chars": 559,
+          "output_chars": 1155,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 559,
+            "output_units": 1155,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:19:00.113518",
+          "duration_sec": 1.333,
+          "input_chars": 1155,
+          "output_chars": 553,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1155,
+            "output_units": 553,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:19:12.208265",
+          "duration_sec": 1.571,
+          "input_chars": 562,
+          "output_chars": 1132,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 562,
+            "output_units": 1132,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:19:13.498196",
+          "duration_sec": 1.29,
+          "input_chars": 1132,
+          "output_chars": 533,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1132,
+            "output_units": 533,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:19:25.200020",
+          "duration_sec": 1.315,
+          "input_chars": 539,
+          "output_chars": 1155,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 539,
+            "output_units": 1155,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:19:27.014617",
+          "duration_sec": 1.812,
+          "input_chars": 1155,
+          "output_chars": 539,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1155,
+            "output_units": 539,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trial": 2,
+      "generations": [
+        {
+          "generation": 0,
+          "chars": 597,
+          "cer_vs_seed": 0.0,
+          "semantic_vs_seed": 1.0,
+          "cer_vs_prev": null,
+          "semantic_vs_prev": null,
+          "survival_rate": 1.0,
+          "survival_alive": 14,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 3,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [],
+          "text": "speaker_1: それでは第3四半期のプロジェクト「大福」定例会議を始めます。今日は恵比寿オフィスとリモートの合同開催です。まず新機能のリリース日ですが、7月13日で正式に確定とします。\nspeaker_2: 承知しました。リリースに向けて、私、山田が7月5日までにリリースノートのドラフトを作成します。\nspeaker_1: お願いします。次に、田中さんは負荷テストを7月8日までに完了してください。目標は同時接続1,200ユーザーで応答時間を1.5秒以内に収めることです。\nspeaker_2: 負荷テストの環境はステージングを使う認識で合っていますか。\nspeaker_1: はい、ステージング環境を使ってください。それから予算の件ですが、追加のサーバー費用として月額3万円までを正式に承認します。\nspeaker_3: ありがとうございます。マーケティングのジョン・キムです。プレスリリースの配信は、リリース当日の午前10時に設定でよろしいでしょうか。\nspeaker_1: はい、それで決定とします。ジョンさんはプレスリリース原稿を7月10日までに仕上げてください。\nspeaker_3: 承知しました。あわせて、次回の顧客デモは佐藤さんが担当することでお願いします。\nspeaker_1: では佐藤さん、デモ資料の準備をお願いします。本日の決定事項は以上です。会議を終了します。"
+        },
+        {
+          "generation": 1,
+          "chars": 544,
+          "cer_vs_seed": 0.6599264705882353,
+          "semantic_vs_seed": 0.889769434928894,
+          "cer_vs_prev": 0.6599264705882353,
+          "semantic_vs_prev": 0.889769434928894,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1：今日は恵比寿オフィスおよびリモートで第3四半期プロジェクト会議を行いましょう。新機能の公開日は正式に7月13日に決定しました。私、山田氏が7月5日までにリリースノートの草案を作成します。スピーカー1、どうぞ進んでください。次に、氏。 田中氏は7月8日までに負荷テストを完了する必要があります。目標は、1,200人のユーザーが同時に接続でき、応答時間が1.5秒以内になることです。スピーカー2：負荷テストにステージング環境を使用していることは確かですか？スピーカー1：ハイステージング環境をご使用ください。 また、予算に関しては、サーバーの追加費用として月額最大3万円を正式に承認いたします。ありがとうございます、スピーカー。私はマーケティング部門のジョン・キムです。発表日の午前10時にプレスリリース配信を予定してもよろしいでしょうか？ スピーカー1：はい、その通りに決まりました。 ジョン、プレスリリースの草案を7月10日までに完成させてください。スピーカー3：了解しました。佐藤さんが次の顧客向けデモセッションを主導するように手配していただけますか？スピーカー1：佐藤さん、デモンストレーション資料をご用意ください。本日の議論はこれで終了です。 会議はこれで休会します。"
+        },
+        {
+          "generation": 2,
+          "chars": 552,
+          "cer_vs_seed": 0.7113970588235294,
+          "semantic_vs_seed": 0.8429476022720337,
+          "cer_vs_prev": 0.2851485148514851,
+          "semantic_vs_prev": 0.925792396068573,
+          "survival_rate": 0.7857142857142857,
+          "survival_alive": 11,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1",
+            "P2"
+          ],
+          "text": "スピーカー1、本日はEBISオフィスおよびリモートで第3四半期プロジェクト会議を開催します。新機能の正式なリリース日は7月13日に決定しました。私、山田氏が7月5日までにリリースノートを準備する予定です。では、スピーカー1から進めてください。次はシティからの田中氏で、7月8日までに負荷テストを完了させる必要があります。 目標は、1200人のユーザーが同時に接続し、応答時間が1.5秒未満になることです。スピーカー2、負荷テストのためにステージング環境を使用していることは確かですか？スピーカー1：ステージング環境をご利用ください。予算に関しては、追加のサーバー費用として月額最大3万円を正式に承認いたします。 スピーカー、ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発表当日の午前10時にプレスリリースを予定してもよろしいでしょうか？はい、結構です。プレスリリースの草案は7月10日までに完成させてください。スピーカー、ありがとうございました。 佐藤氏が次の顧客向けデモンストレーションセッションを担当するよう手配していただけますか？スピーカー1、佐藤氏のためにデモンストレーション資料をご用意ください。本日の議論はこれで終了します。会議はここで休会いたします。"
+        },
+        {
+          "generation": 3,
+          "chars": 543,
+          "cer_vs_seed": 0.6452205882352942,
+          "semantic_vs_seed": 0.8915647268295288,
+          "cer_vs_prev": 0.229126213592233,
+          "semantic_vs_prev": 0.9336773157119751,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：本日、第3四半期プロジェクト会議を恵比寿オフィスとリモートで同時開催いたします。新機能の正式なリリース予定日は7月13日に決定しました。私、山田氏が7月5日までにリリースノートを作成する予定です。では、スピーカー1から始めましょう。次は…氏です。 シティの田中氏は、7月8日までに負荷テストを完了する必要があります。目標は、1200人のユーザーが同時に接続し、応答時間が1.5秒未満になることです。スピーカーは負荷テストのためにステージング環境を使用していることを確認していますか？ スピーカー1：ステージング環境をご利用ください。 予算については、追加のサーバー費用として月額最大3万円を正式に承認いたします。発言者の皆様、ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発表当日午前10時にプレスリリースを行うことについて、よろしいでしょうか？ はい、結構です。プレスリリースの草案を7月10日までにご用意ください。改めて、議長、ありがとうございます。佐藤氏が次の顧客デモンストレーションセッションを主導するよう手配していただけますか？佐藤氏向けのデモ資料も準備してください。本日の議論はこれで終了します。 会議はこれで休会します。"
+        },
+        {
+          "generation": 4,
+          "chars": 542,
+          "cer_vs_seed": 0.6415441176470589,
+          "semantic_vs_seed": 0.8664929866790771,
+          "cer_vs_prev": 0.08366533864541832,
+          "semantic_vs_prev": 0.9746066927909851,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：本日、第3四半期プロジェクト会議を恵比寿オフィスとリモートで同時開催いたします。新機能の正式なリリース予定日は7月13日に決定しました。私、山田氏が7月5日までにリリースノートを作成する予定です。では、スピーカー1から始めましょう。 次はCITYの田中氏です。7月8日までに負荷テストを完了する必要があります。目標は、1,200人のユーザーが同時に接続し、応答時間が1.5秒未満になることです。スピーカーは、負荷テストのためにステージング環境を使用していることを確認していますか？ スピーカー1：ステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認いたします。スピーカーの皆様、ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発表当日午前10時にプレスリリースを出してもよろしいでしょうか？ はい、結構です。プレスリリースの草案を7月10日までにご用意ください。改めて、議長、ありがとうございます。佐藤氏が次の顧客デモンストレーションセッションを主導するよう手配していただけますか？また、佐藤氏向けのデモ資料もご準備ください。以上で本日の議論を終了いたします。 会議はこれで終了します。"
+        },
+        {
+          "generation": 5,
+          "chars": 563,
+          "cer_vs_seed": 0.7077205882352942,
+          "semantic_vs_seed": 0.8959395885467529,
+          "cer_vs_prev": 0.16135458167330677,
+          "semantic_vs_prev": 0.9723661541938782,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：本日、当社の恵比寿オフィスとリモート会場で第3四半期プロジェクトミーティングを同時開催いたします。新機能の正式なリリース予定日は7月13日に決定しました。私、山田氏が7月5日までにリリースノートを作成する予定です。では、スピーカー1から始めましょう。 次は市の田中氏です。7月8日までに負荷テストを完了する必要があります。目標は、同時に1200人のユーザーが接続し、応答時間が1.5秒未満になることです。スピーカー様、負荷テストのためにステージング環境を使用していることを確認していただけますか？ スピーカー1：ステージング環境をご利用ください。予算に関しては、追加のサーバー費用として月額最大3万円を正式に承認いたします。スピーカーの皆様、ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発表当日午前10時にプレスリリースを出してもよろしいでしょうか？ はい、お願いします。プレスリリースの草案を7月10日までにご用意ください。改めてありがとうございます、議長。佐藤氏が次の顧客デモンストレーションセッションを主導するよう手配していただけますか？また、佐藤氏向けのデモ資料もご準備いただけますでしょうか。本日の議論はこれで終了とさせていただきます。 会議はこれで休会します。"
+        },
+        {
+          "generation": 6,
+          "chars": 572,
+          "cer_vs_seed": 0.7481617647058824,
+          "semantic_vs_seed": 0.8904889225959778,
+          "cer_vs_prev": 0.13904761904761906,
+          "semantic_vs_prev": 0.980688214302063,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：本日、当社の恵比寿オフィスとリモート拠点で第3四半期プロジェクト会議を同時開催しています。新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏は、7月5日までにリリースノートを作成する予定です。 まず、スピーカー1から始めましょう。次は市の田中氏です。7月8日までに負荷テストを完了する必要があります。私たちの目標は、同時に1200人のユーザーが接続し、応答時間が1.5秒未満になることです。負荷テストのためにステージング環境を使用していることを確認していただけますか？ スピーカー1：当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認いたします。スピーカーの皆様、ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発表当日午前10時にプレスリリースを出してもよろしいでしょうか？ はい、お願いします。7月10日までにプレスリリースの草案を準備していただけますか？改めて、議長様、ありがとうございます。佐藤氏が次の顧客デモンストレーションセッションを主導するよう手配していただけますでしょうか？また、佐藤氏向けのデモ資料もご用意いただけますでしょうか？本日の議論はこれで終了とさせていただきます。 会議はこれで終了します。"
+        },
+        {
+          "generation": 7,
+          "chars": 570,
+          "cer_vs_seed": 0.7481617647058824,
+          "semantic_vs_seed": 0.912677526473999,
+          "cer_vs_prev": 0.08442776735459662,
+          "semantic_vs_prev": 0.9787420034408569,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：本日、当社の恵比寿オフィスおよびリモート拠点で第3四半期プロジェクト会議を同時開催いたします。新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏が7月5日までにリリースノートを作成する予定です。まずはスピーカー1から始めましょう。 次は市役所の田中氏です。7月8日までに負荷テストを完了する必要があります。目標は、同時に1,200人のユーザーが接続し、応答時間が1.5秒未満になることです。負荷テストのためにステージング環境を使用していることを確認していただけますか？ スピーカー1：当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。スピーカーの皆様、ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発表当日午前10時にプレスリリースを出してもよろしいでしょうか？ はい、お願いします。7月10日までにプレスリリースの草案を準備していただけますか？改めて、議長、ありがとうございます。佐藤氏が次の顧客デモンストレーションセッションを主導するよう手配していただけますか？また、佐藤氏向けのデモンストレーション資料もご提供いただけますか？以上で本日の議論を終了させていただきます。 会議はこれで終了しました。"
+        },
+        {
+          "generation": 8,
+          "chars": 562,
+          "cer_vs_seed": 0.7279411764705882,
+          "semantic_vs_seed": 0.8956516981124878,
+          "cer_vs_prev": 0.039473684210526314,
+          "semantic_vs_prev": 0.986345112323761,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：本日、当社の恵比寿オフィスおよびリモート拠点で第3四半期プロジェクト会議を同時開催しています。新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏が7月5日までにリリースノートを作成します。まずはスピーカー1から始めましょう。 次は市役所の田中氏です。7月8日までに負荷テストを完了する必要があります。目標は、同時に1200人のユーザーが接続し、応答時間が1.5秒未満になることです。負荷テストのためにステージング環境を使用していることを確認していただけますか？ スピーカー1：当社のステージング環境をご利用ください。予算面では、追加サーバー費用として月額最大3万円まで正式に承認可能です。スピーカーの皆様、ありがとうございます！私の名前はジョン・キムで、マーケティング部門に所属しています。発表当日の午前10時にプレスリリースを出してもよろしいでしょうか？ はい、お願いします。7月10日までにプレスリリースの草案を準備していただけますか？改めて、議長様、ありがとうございます。佐藤氏が次の顧客デモンストレーションセッションを主導するよう手配していただけますか？また、佐藤氏向けのデモンストレーション資料もご用意いただけますか？以上で本日の議論を終了いたします。 会議はこれで終了しました。"
+        }
+      ],
+      "intermediates": [
+        {},
+        {
+          "asr": "スピーカー1。それでは、第3四半期のプロジェクト、大福定例会議を始めます。 今日は恵比寿オフィスとリモートの合同開催です。 まず新機能のリリース日ですが、7月13日で正式に確定とします。 スピーカーに承知しました。リリースに向けて、私、山田が7月5日までにリリースノートのドラフトを作成します。 スピーカー1、お願いします。 次に、田中さんは負荷テストを7月8日までに完了してください。目標は同時接続1,200ユーザーで、応答時間を1.5秒以内に収めることです。 スピーカー2:負荷テストの環境はステージングを使う認識で合っていますか？ Speaker1: High Staging環境を使ってください。それから、予算の件ですが、追加のサーバー費用として月額3万円までを正式に承認します。 スピーカーさん、ありがとうございます。 マーケティングのジョン・キムです。 プレスリリースの配信は、リリース当日の午前10時に設定でよろしいでしょうか。 スピーカー1:はい、それで決定とします。 Johnさんは、プレスリリース原稿を7月10日までに仕上げてください。 スピーカー3、承知しました。あわせて、次回の顧客デモは佐藤さんが担当することでお願いします。 スピーカー1では、佐藤さん、デモ資料の準備をお願いします。 本日の決定事項は以上です。 会議を終了します。",
+          "en": "Speaker 1: Let’s start with our Q3 project meeting today at Ebisu Office and remotely. The release date for new features has been officially set to July 13th. I, Yamada, will prepare a draft of the release notes by July 5th. Speaker 1, please proceed. Next, Mr. Tanaka should complete the load test by July 8th. The goal is to achieve simultaneous connections of 1,200 users with response times within 1.5 seconds. Speaker 2: Are you sure that we’re using the staging environment for the load test? Speaker 1: Please use the High Staging environment. Also, regarding budget, we will officially approve up to ¥30,000 per month for additional server costs. Thank you, speaker. I'm John Kim from Marketing. Would it be okay if we schedule press release delivery at 10 a.m. on the day of the launch? Speaker 1: Yes, that's settled then. John, please finalize the draft of the press release by July 10th. Speaker 3: Got it. Could you also arrange for Sato-san to lead our next customer demo session? Speaker 1: Mr. Sato, please prepare the demonstration materials. That concludes our discussion for today. The meeting is now adjourned."
+        },
+        {
+          "asr": "スピーカー1、今日はEBIS Officeおよびリモートで第3四半期プロジェクト会議を行いましょう。新機能の公開日は正式に7月13日に決定しました。私、山田氏が7月5日までにリリースノートの草案を作成します。 Speaker1、どうぞ進んでください。次に、市。田中氏は7月8日までに負荷テストを完了する必要があります。目標は、1200人のユーザーが同時に接続でき、応答時間が1.5秒以内になることです。 スピーカー2、負荷テスト2、ステージング環境を使用していることは確かですか？ Speaker1:ハイステージング環境をご使用ください。また、予算に関してはサーバーの追加費用として月額最大3万円を正式に承認いたします。 ありがとうございます、スピーカー。 私は、マーケティング部門のJohn Kimです。 発表日の午前10時にプレスリリース配信を予定してもよろしいでしょうか？ はい、その通りに決まりました。ジョン・プレスリリースの草案を7月10日までに完成させてください。 スピーカーさん、了解しました。佐藤さんが次の顧客向けデモセッションを主導するように手配していただけますか？ スピーカー1、佐藤さん、デモンストレーション資料をご用意ください。本日の議論はこれで終了です。 会議はこれで休会します。",
+          "en": "Speaker 1, today we’ll hold our Q3 project meeting in EBIS Office and remotely. The official release date for new features has been set for July 13th. I, Mr. Yamada, will draft the release notes by July 5th. Please proceed, Speaker 1. Next up is Mr. Tanaka from City, who needs to complete load testing by July 8th. The goal is to have 1200 users connected simultaneously with a response time of less than 1.5 seconds. Speaker 2, are you sure you’re using the staging environment for load testing? Speaker 1: Please use the staging environment. Regarding budget, we will officially approve up to ¥30,000 per month for additional server costs. Thank you, speaker. My name is John Kim from the marketing department. Would it be okay if I schedule a press release at 10:00 AM on the day of the announcement? Yes, that's fine. Please complete the draft of the press release by July 10th. Speaker, thank you. Could you arrange for Mr. Sato to lead the next customer demonstration session? Speaker 1, please have the demonstration materials ready for Mr. Sato. This concludes our discussion for today. The meeting is now adjourned."
+        },
+        {
+          "asr": "Speaker1:本日は恵比寿オフィスおよびリモートで第3四半期プロジェクト会議を開催します。 新機能の正式なリリース日は7月13日に決定しました。私、山田氏が7月5日までにリリースノートを準備する予定です。 では、スピーカー1から進めてください。次はシティからの田中氏で、7月8日までに負荷テストを完了させる必要があります。目標は、1200人のユーザーが同時に接続し、応答時間が1.5秒未満になることです。 スピーカーに負荷テストのためにステージング環境を使用していることは確かですか？ Speaker1:ステージング環境をご利用ください。予算に関しては、追加のサーバー費用として月額最大3万円を正式に承認いたします。 スピーカー、ありがとうございます。私の名前はJohn Kimで、マーケティング部門に所属しています。 発表当日の午前10時にプレスリリースを予定してもよろしいでしょうか？ はい、結構です。 プレスリリースの草案は7月10日までに完成させてください。スピーカー、ありがとうございました。佐藤氏が次の顧客向けデモンストレーションセッションを担当するよう手配していただけますか？ スピーカー1佐藤氏のためにデモンストレーション資料をご用意ください。本日の議論はこれで終了します。 会議はここで休会いたします。",
+          "en": "Speaker 1: Today we’re holding our Q3 project meeting in both the Ebisu office and remotely. The official release date for new features has been set for July 13th. I, Mr. Yamada, will prepare the release notes by July 5th. Let’s start with Speaker 1. Next up is Mr. Tanaka from City, who needs to complete load testing by July 8th. The goal is to have 1200 users connected simultaneously with a response time of less than 1.5 seconds. Are you sure that your speakers are using a staging environment for load testing? Speaker 1: Please use the staging environment. Regarding budget, we will officially approve up to ¥30,000 per month for additional server costs. Thank you, speaker. My name is John Kim and I work in the marketing department. Would it be okay if we schedule a press release at 10:00 AM on the day of the announcement? Yes, that would be fine. Please have the draft press release ready by July 10th. Thank you again, speaker. Could you arrange for Mr. Sato to lead our next customer demonstration session? Please prepare the demo materials for Mr. Sato. This concludes our discussion for today. The meeting is now adjourned."
+        },
+        {
+          "asr": "Speaker1:本日、第3四半期プロジェクト会議を恵比寿オフィスとリモートで同時開催いたします。 新機能の正式なリリース予定日は7月13日に決定しました。私、山田氏が7月5日までにリリースノートを作成する予定です。 では、スピーカー1から始めましょう。次はです。 CITYの田中氏は、7月8日までに負荷テストを完了する必要があります。目標は、1,200人のユーザーが同時に接続し、応答時間が1.5秒未満になることです。 スピーカーは負荷テストのために、ステージング環境を使用していることを確認していますか？ Speaker1:ステージング環境をご利用ください。予算については、追加のサーバー費用として月額最大3万円を正式に承認いたします。 発言者の皆様、ありがとうございます。 私の名前は、John Kimで、マーケティング部門に所属しています。 発表当日午前10時にプレスリリースを行うことについて、よろしいでしょうか？ はい、結構です。 プレスリリースの草案を7月10日までにご用意ください。改めて議長、ありがとうございます。 佐藤氏が次の顧客デモンストレーションセッションを主導するよう手配していただけますか？ 佐藤氏向けのデモ資料も準備してください。本日の議論はこれで終了します。 会議はこれで休会します。",
+          "en": "Speaker 1: Today we’re holding our Q3 project meeting simultaneously at both the Ebisu office and remotely. The official release date for the new features has been set for July 13th. I, Mr. Yamada, will be preparing the release notes by July 5th. Let’s start with Speaker 1. Next up is Mr. Tanaka from CITY, who needs to complete load testing by July 8th. The goal is to have 1,200 users connected simultaneously with a response time of less than 1.5 seconds. Does the speaker confirm that you are using the staging environment for load testing? Speaker 1: Please use the staging environment. Regarding budget, we will officially approve up to 30,000 yen per month for additional server costs. Thank you, speakers. My name is John Kim and I work in the marketing department. Would it be okay if we issue a press release at 10:00 AM on the day of the announcement? Yes, that would be fine. Please have the draft press release ready by July 10th. Thank you again, Chairman. Could you arrange for Mr. Sato to lead the next customer demonstration session? Also please prepare the demo materials for Mr. Sato. This concludes our discussion today. The meeting is now adjourned."
+        },
+        {
+          "asr": "Speaker1:本日、第3四半期プロジェクト会議を恵比寿オフィスとリモートで同時開催いたします。 新機能の正式なリリース予定日は7月13日に決定しました。私、山田氏が7月5日までにリリースノートを作成する予定です。 では、スピーカー1から始めましょう。次は、シティの田中氏です。 7月8日までに負荷テストを完了する必要があります。目標は、1200人のユーザーが同時に接続し、応答時間が1.5秒未満になることです。 スピーカーは、負荷テストのためにステージング環境を使用していることを確認していますか？ Speaker1:ステージング環境をご利用ください。予算に関しては追加サーバー費用として月額最大3万円まで正式に承認いたします。 スピーカーの皆様、ありがとうございます。 私の名前は、John Kimで、マーケティング部門に所属しています。 発表当日午前10時にプレスリリースを出してもよろしいでしょうか。 はい、結構です。 プレスリリースの草案を7月10日までにご用意ください。改めて議長、ありがとうございます。 佐藤氏が次の顧客デモンストレーションセッションを主導するよう手配していただけますか？また、佐藤氏向けのデモ資料もご準備ください。以上で本日の議論を終了いたします。 会議はこれで終了します。",
+          "en": "Speaker 1: Today, we’re holding our third quarter project meeting simultaneously in our Ebisu office and remotely. The official release date for the new features has been set for July 13th. I, Mr. Yamada, will be preparing the release notes by July 5th. Let’s start with Speaker 1. Next up is Mr. Tanaka from City. We need to complete load testing by July 8th. Our goal is to have 1200 users connected at the same time, with a response time of less than 1.5 seconds. Does the speaker confirm that you are using the staging environment for load testing? Speaker 1: Please use the staging environment. Regarding budget, we will officially approve additional server costs of up to 30,000 yen per month. Thank you, speakers. My name is John Kim and I work in the marketing department. May I issue a press release at 10:00 AM on the day of the announcement? Yes, please. Please have a draft of the press release ready by July 10th. Thank you again, Mr. Chairman. Could you arrange for Mr. Sato to lead the next customer demonstration session? Also, please prepare the demo materials for Mr. Sato. This concludes our discussion today. The meeting is now adjourned."
+        },
+        {
+          "asr": "Speaker1:本日、当社の恵比寿オフィスとリモート会場で第3四半期プロジェクトミーティングを同時開催いたします。 新機能の正式なリリース予定日は7月13日に決定しました。私、山田氏が7月5日までにリリースノートを作成する予定です。 では、スピーカー1から始めましょう。次は、市の田中氏です。 7月8日までに負荷テストを完了する必要があります。 目標は同時に1200人のユーザーが接続し、応答時間が1.5秒未満になることです。 スピーカー様、負荷テストのためにステージング環境を使用していることを確認していただけますか？ Speaker1:ステージング環境をご利用ください。予算に関しては、追加のサーバー費用として月額最大3万円を正式に承認いたします。 スピーカーの皆様、ありがとうございます。 私の名前はJohn Kimで、マーケティング部門に所属しています。 発表当日午前10時にプレスリリースを出してもよろしいでしょうか。 はい、お願いします。 プレスリリースの草案を7月10日までにご用意ください。改めてありがとうございます。議長。 佐藤氏が次の顧客デモンストレーションセッションを主導するよう手配していただけますか？また、佐藤氏向けのデモ資料もご準備いただけますでしょうか。本日の議論はこれで終了とさせていただきます。 会議はこれで休会します。",
+          "en": "Speaker 1: Today, we’re holding a concurrent third quarter project meeting at our Ebisu office and in a remote location. The official release date for new features has been set for July 13th. I, Mr. Yamada, will be preparing the release notes by July 5th. Let’s start with Speaker 1. Next up is Mr. Tanaka from City. We need to complete load testing by July 8th. Our goal is to have 1200 users connected simultaneously with response times of less than 1.5 seconds. Can you confirm that you are using a staging environment for load testing? Speaker 1: Please use our staging environment. Regarding budget, we will officially approve up to ¥30,000 per month for additional server costs. Thank you, speakers. My name is John Kim and I work in the marketing department. May I issue a press release at 10 am on the day of the announcement? Yes, please. Could you prepare a draft of the press release by July 10th? Thank you again, Mr. Chairman. Would you please arrange for Mr. Sato to lead the next customer demonstration session? Also, could you prepare some demo materials for Mr. Sato? This concludes our discussion for today. The meeting is now adjourned."
+        },
+        {
+          "asr": "スピーカー1。本日、当社の恵比寿オフィスとリモート拠点で第三四半期プロジェクト会議を同時開催しています。 新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏は7月5日までにリリースノートを作成する予定です。まず、Speaker1から始めましょう。次は、市の田中氏です。 7月8日までに負荷テストを完了する必要があります。 私たちの目標は、同時に1,200人のユーザーが接続し、応答時間が1.5秒未満になることです。 負荷テストのために、ステージング環境を使用していることを確認していただけますか？ Speaker1:当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認いたします。 スピーカーの皆様、ありがとうございます。 私の名前は、John Kimで、マーケティング部門に所属しています。 発表当日午前10時にプレスリリースを出してもよろしいでしょうか。 はい、お願いします。 7月10日までにプレスリリースの草案を準備していただけますか？ 改めて、議長様ありがとうございます。 佐藤氏が次の顧客デモンストレーションセッションを主導するよう手配していただけますでしょうか。また、佐藤氏向けのデモ資料もご用意いただけますでしょうか。本日の議論はこれで終了とさせていただきます。 会議はこれで終了します。",
+          "en": "Speaker 1: Today we’re holding a concurrent third-quarter project meeting at our Ebisu office and remote sites. The official release date for new features is set for July 13th. I, Mr. Yamada, will be preparing the release notes by July 5th. Let’s start with Speaker 1 first. Next up is Mr. Tanaka from City Office. We need to complete load testing by July 8th. Our goal is to have 1,200 users connected simultaneously with response times under 1.5 seconds. Can you confirm that you are using a staging environment for load testing? Speaker 1: Please use our staging environment. Regarding budget, we can officially approve up to 30,000 yen per month as additional server costs. Thank you very much, speakers. My name is John Kim and I work in the marketing department. May I issue a press release at 10 am on the day of the announcement? Yes, please. Could you prepare a draft of the press release by July 10th? Thank you again, Mr. Chairman. Could you arrange for Mr. Sato to lead the next customer demonstration session? Could you also provide a demonstration document for Mr. Sato? I will now conclude today's discussion here. The meeting is now over."
+        },
+        {
+          "asr": "スピーカー1。本日、当社の恵比寿オフィス及びリモート拠点で第3四半期プロジェクト会議を同時開催いたします。 新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏が7月5日までにリリースノートを作成する予定です。 まずは、スピーカー1から始めましょう。次は、市役所の田中氏です。 7月8日までに負荷テストを完了する必要があります。 目標は、同時に1200人のユーザーが接続し、応答時間が1.5秒未満になることです。 負荷テストのために、ステージング環境を使用していることを確認していただけますか？ Speaker1:当社のステージング環境をご利用ください。予算に関しては、追加サーバー費用として月額最大3万円まで正式に承認可能です。 スピーカーの皆様、ありがとうございます。 私の名前は、John Kimで、マーケティング部門に所属しています。 発表当日午前10時にプレスリリースを出してもよろしいでしょうか？ はい、お願いします。 7月10日までにプレスリリースの草案を準備していただけますか？改めて議長、ありがとうございます。 佐藤氏が次の顧客デモンストレーションセッションを主導するよう手配していただけますか？ また、佐藤氏向けのデモンストレーション資料もご提供いただけますか。以上で本日の議論を終了させていただきます。 会議はこれで終了しました。",
+          "en": "Speaker 1: Today, we’re holding a concurrent third-quarter project meeting at our Ebisu office and remote locations. The official release date for new features is set for July 13th. I, Mr. Yamada, will prepare the release notes by July 5th. Let’s start with Speaker 1 first. Next up is Mr. Tanaka from City Hall. We need to complete load testing by July 8th. Our goal is to have 1200 users connected simultaneously with response times of less than 1.5 seconds. Can you confirm that you are using a staging environment for load testing? Speaker 1: Please use our staging environment. Budget-wise, we can officially approve up to 30,000 yen per month for additional server costs. Thank you very much, speakers! My name is John Kim and I work in the marketing department. May I issue a press release at 10 am on the day of the announcement? Yes, please. Could you prepare a draft of the press release by July 10th? Thank you again, Mr. Chairman. Could you arrange for Mr. Sato to lead the next customer demonstration session? Could you also provide some demonstration materials for Mr. Sato? That concludes our discussion today. The meeting has now come to an end."
+        }
+      ],
+      "usage": [
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:19:39.565227",
+          "duration_sec": 4.901,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 98.951,
+          "raw_usage": {
+            "input_units": 98.951,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:19:51.310963",
+          "duration_sec": 4.917,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 94.151,
+          "raw_usage": {
+            "input_units": 94.151,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:20:04.871199",
+          "duration_sec": 5.175,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 93.839,
+          "raw_usage": {
+            "input_units": 93.839,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:20:17.762616",
+          "duration_sec": 4.735,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 94.775,
+          "raw_usage": {
+            "input_units": 94.775,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:20:31.129988",
+          "duration_sec": 4.686,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 94.943,
+          "raw_usage": {
+            "input_units": 94.943,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:20:44.659833",
+          "duration_sec": 5.017,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 95.951,
+          "raw_usage": {
+            "input_units": 95.951,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:20:58.392689",
+          "duration_sec": 4.767,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 97.247,
+          "raw_usage": {
+            "input_units": 97.247,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:21:09.917288",
+          "duration_sec": 4.483,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 98.063,
+          "raw_usage": {
+            "input_units": 98.063,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:19:40.872890",
+          "duration_sec": 1.256,
+          "input_chars": 579,
+          "output_chars": 1130,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 579,
+            "output_units": 1130,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:19:41.959751",
+          "duration_sec": 1.087,
+          "input_chars": 1130,
+          "output_chars": 544,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1130,
+            "output_units": 544,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:19:52.812938",
+          "duration_sec": 1.456,
+          "input_chars": 553,
+          "output_chars": 1125,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 553,
+            "output_units": 1125,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:19:53.989379",
+          "duration_sec": 1.168,
+          "input_chars": 1125,
+          "output_chars": 552,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1125,
+            "output_units": 552,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:20:06.486628",
+          "duration_sec": 1.567,
+          "input_chars": 562,
+          "output_chars": 1139,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 562,
+            "output_units": 1139,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:20:08.033910",
+          "duration_sec": 1.545,
+          "input_chars": 1139,
+          "output_chars": 543,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1139,
+            "output_units": 543,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:20:19.073407",
+          "duration_sec": 1.261,
+          "input_chars": 558,
+          "output_chars": 1171,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 558,
+            "output_units": 1171,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:20:20.332938",
+          "duration_sec": 1.258,
+          "input_chars": 1171,
+          "output_chars": 542,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1171,
+            "output_units": 542,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:20:32.775280",
+          "duration_sec": 1.596,
+          "input_chars": 554,
+          "output_chars": 1158,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 554,
+            "output_units": 1158,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:20:34.139690",
+          "duration_sec": 1.362,
+          "input_chars": 1158,
+          "output_chars": 563,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1158,
+            "output_units": 563,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:20:46.273245",
+          "duration_sec": 1.563,
+          "input_chars": 578,
+          "output_chars": 1155,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 578,
+            "output_units": 1155,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:20:47.683631",
+          "duration_sec": 1.41,
+          "input_chars": 1155,
+          "output_chars": 572,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1155,
+            "output_units": 572,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:20:59.550918",
+          "duration_sec": 1.112,
+          "input_chars": 589,
+          "output_chars": 1154,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 589,
+            "output_units": 1154,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:21:00.785293",
+          "duration_sec": 1.233,
+          "input_chars": 1154,
+          "output_chars": 570,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1154,
+            "output_units": 570,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:21:11.237331",
+          "duration_sec": 1.275,
+          "input_chars": 585,
+          "output_chars": 1161,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 585,
+            "output_units": 1161,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:21:12.503708",
+          "duration_sec": 1.264,
+          "input_chars": 1161,
+          "output_chars": 562,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1161,
+            "output_units": 562,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trial": 3,
+      "generations": [
+        {
+          "generation": 0,
+          "chars": 597,
+          "cer_vs_seed": 0.0,
+          "semantic_vs_seed": 1.0,
+          "cer_vs_prev": null,
+          "semantic_vs_prev": null,
+          "survival_rate": 1.0,
+          "survival_alive": 14,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 3,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [],
+          "text": "speaker_1: それでは第3四半期のプロジェクト「大福」定例会議を始めます。今日は恵比寿オフィスとリモートの合同開催です。まず新機能のリリース日ですが、7月13日で正式に確定とします。\nspeaker_2: 承知しました。リリースに向けて、私、山田が7月5日までにリリースノートのドラフトを作成します。\nspeaker_1: お願いします。次に、田中さんは負荷テストを7月8日までに完了してください。目標は同時接続1,200ユーザーで応答時間を1.5秒以内に収めることです。\nspeaker_2: 負荷テストの環境はステージングを使う認識で合っていますか。\nspeaker_1: はい、ステージング環境を使ってください。それから予算の件ですが、追加のサーバー費用として月額3万円までを正式に承認します。\nspeaker_3: ありがとうございます。マーケティングのジョン・キムです。プレスリリースの配信は、リリース当日の午前10時に設定でよろしいでしょうか。\nspeaker_1: はい、それで決定とします。ジョンさんはプレスリリース原稿を7月10日までに仕上げてください。\nspeaker_3: 承知しました。あわせて、次回の顧客デモは佐藤さんが担当することでお願いします。\nspeaker_1: では佐藤さん、デモ資料の準備をお願いします。本日の決定事項は以上です。会議を終了します。"
+        },
+        {
+          "generation": 1,
+          "chars": 533,
+          "cer_vs_seed": 0.6452205882352942,
+          "semantic_vs_seed": 0.9025580883026123,
+          "cer_vs_prev": 0.6452205882352942,
+          "semantic_vs_prev": 0.9025580883026123,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 3,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "A4",
+            "P1"
+          ],
+          "text": "スピーカー1：今日は恵比寿オフィスおよびリモートでの第3四半期プロジェクト会議から始めましょう。新機能のリリース日は正式に7月13日に決定しました。私、山田氏が7月5日までにリリースノートを準備します。スピーカー1、続行してください。次に、田中氏は7月8日までに負荷テストを完了する必要があります。 目標は、1,200人の同時接続ユーザーに対して応答時間を1.5秒未満にすることです。スピーカー2：負荷テスト用の環境としてステージングを使用していますか？スピーカー1：ハイステージング環境をご使用ください。また、予算に関しては、追加サーバー費用につき月額最大3万円を正式に承認いたします。 スピーカー、ありがとうございます。私はマーケティング部門のジョン・キムです。発売日の午前10時にプレスリリースを配信する予定でよろしいでしょうか？ スピーカー1：はい、それでは確定しました。ジョン、7月10日までにプレスリリースの草案を完成させてください。 スピーカー3：了解しました。 佐藤氏が次の顧客向けデモセッションを担当していただけますか？スピーカー1：佐藤さん、ぜひデモンストレーション資料をご用意ください。以上で本日の議論は終了いたします。会議はこれで終了します。"
+        },
+        {
+          "generation": 2,
+          "chars": 530,
+          "cer_vs_seed": 0.6856617647058824,
+          "semantic_vs_seed": 0.8642830848693848,
+          "cer_vs_prev": 0.2620967741935484,
+          "semantic_vs_prev": 0.9489078521728516,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1",
+            "P2"
+          ],
+          "text": "スピーカー1：今日は、EVISオフィスを通じてリモートで第3四半期プロジェクト会議を行いましょう。新機能の正式なリリース日は7月13日に設定されています。私、山田氏は7月5日までにリリースノートを準備します。どうぞ続けてください、スピーカー1。次に、田中氏は7月8日までに負荷テストを完了する必要があります。 目標は、1200人の同時ユーザーに対して応答時間を1.5秒未満にすることです。負荷テスト用の環境としてステージング環境を使用していますか？スピーカー1：はい、ステージング環境をご利用ください。予算に関しては、追加サーバー費用について月額最大3万円まで正式に承認いたします。 スピーカー、ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを送信してもよろしいでしょうか？ スピーカー1、はい、了解しました。ジョン、7月10日までにプレスリリースの草案を完成させてください。 スピーカー3、了解しました。 佐藤氏、次の顧客向けデモンストレーションセッションの担当をお願いできますか？スピーカー1、佐藤氏、デモ資料をご用意ください。本日の議論はこれで終了します。会議はこれで終了しました。"
+        },
+        {
+          "generation": 3,
+          "chars": 538,
+          "cer_vs_seed": 0.6636029411764706,
+          "semantic_vs_seed": 0.8688275814056396,
+          "cer_vs_prev": 0.1721311475409836,
+          "semantic_vs_prev": 0.9728487730026245,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1",
+            "P2"
+          ],
+          "text": "スピーカー1：本日、第3四半期プロジェクト会議をEVISオフィスを通じてリモートで開催します。新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏が7月5日までにリリースノートを作成する予定です。どうぞ続けてください、スピーカー1。次に、田中氏は7月8日までに負荷テストを完了させる必要があります。 目標は、1200人の同時接続ユーザーに対して応答時間を1.5秒未満にすることです。ステージング環境をテスト環境として使用していますか？スピーカー1：ハイステージング環境をご利用ください。予算に関しては、追加のサーバー費用については月額最大3万円まで正式に承認いたします。 スピーカー、ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを送信してもよろしいでしょうか？ スピーカー1：はい、了解しました。ジョンさん、7月10日までにプレスリリースの草案を完成させてください。 スピーカー3：了解しました。 佐藤さん、次の顧客向けデモンストレーションセッションの担当をお願いできますか？スピーカー1：佐藤さん、デモ資料を準備してください。本日の議論はこれで終了します。会議はこれで終わりました。"
+        },
+        {
+          "generation": 4,
+          "chars": 533,
+          "cer_vs_seed": 0.6636029411764706,
+          "semantic_vs_seed": 0.8581322431564331,
+          "cer_vs_prev": 0.108,
+          "semantic_vs_prev": 0.9881258010864258,
+          "survival_rate": 0.8571428571428571,
+          "survival_alive": 12,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1",
+            "P2"
+          ],
+          "text": "スピーカー1：本日は、EVIS Officeを通じて第3四半期プロジェクト会議をリモートで開催いたします。新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏は7月5日までにリリースノートを作成する予定です。どうぞ続けてください、スピーカー1。次に、田中氏が7月8日までに負荷テストを完了する必要があります。 目標は、1200人の同時接続ユーザーに対して応答時間を1.5秒未満にすることです。ステージング環境をテスト環境として使用していますか？スピーカー1：はい、ステージング環境を使用してください。予算に関しては、追加のサーバー費用については月額最大3万円まで正式に承認いたします。 スピーカー、ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを送信してもよろしいでしょうか？ スピーカー1：はい、了解しました。ジョンさん、7月10日までにプレスリリースの草案を完成させてください。 スピーカー3：了解しました。 佐藤さん、次の顧客向けデモセッションの担当をお願いします。スピーカー1：佐藤さん、デモ資料を準備してください。本日の議論はこれで終了です。会議はこれで終わります。"
+        },
+        {
+          "generation": 5,
+          "chars": 543,
+          "cer_vs_seed": 0.6948529411764706,
+          "semantic_vs_seed": 0.841084897518158,
+          "cer_vs_prev": 0.0872210953346856,
+          "semantic_vs_prev": 0.9229748249053955,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：本日、EBISUオフィスを通じて第3四半期プロジェクト会議をリモートで開催します。新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏は、7月5日までにリリースノートを完成させる予定です。どうぞ続けてください、スピーカー1。次に、氏。 田中氏は7月8日までに負荷テストを完了する必要があります。私たちの目標は、1200人の同時接続ユーザーに対して応答時間を1.5秒未満に抑えることです。ステージング環境をテスト環境として使用していますか？スピーカー1：ハイステージング環境を使用してください。予算に関しては、追加サーバー費用については月額最大3万円まで正式に承認いたします。 スピーカー、ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを送信してもよろしいでしょうか？ スピーカー1、はい、了解しました。ジョンさん、7月10日までにプレスリリースの草案を完成させてください。 スピーカー3、了解しました。 佐藤氏、次の顧客向けデモンストレーションセッションの担当をお願いします。スピーカー1、佐藤氏、デモ資料を準備してください。本日の議論はこれで終了しました。会議はこれで終わります。"
+        },
+        {
+          "generation": 6,
+          "chars": 547,
+          "cer_vs_seed": 0.6764705882352942,
+          "semantic_vs_seed": 0.923001766204834,
+          "cer_vs_prev": 0.164,
+          "semantic_vs_prev": 0.9333066344261169,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：本日は、恵比寿オフィスを拠点に第3四半期プロジェクト会議をオンラインで開催いたします。新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏は、7月5日までにリリースノートを完成させる予定です。どうぞ続けてください、スピーカー1。次はミスター・。 田中氏、7月8日までに負荷テストを完了する必要があります。私たちの目標は、1200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。ステージング環境をテスト環境として使用していますか？スピーカー1：代わりにハイステージング環境を使用してください。 予算に関しては、サーバーの追加費用を月額最大3万円まで正式に承認いたします。スピーカー様、ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを送信してもよろしいでしょうか？ スピーカー1：はい、了解しました。 ジョンさん、プレスリリースの草案を7月10日までに完成させてください。スピーカー3：了解しました。佐藤さん、次の顧客向けデモンストレーションセッションを担当してください。スピーカー1：佐藤さん、デモ資料をご用意ください。本日の議論はこれで終了です。 会議はここで終了します。"
+        },
+        {
+          "generation": 7,
+          "chars": 551,
+          "cer_vs_seed": 0.6875,
+          "semantic_vs_seed": 0.9062288999557495,
+          "cer_vs_prev": 0.07312252964426877,
+          "semantic_vs_prev": 0.9829685688018799,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：本日は、恵比寿オフィスからオンラインで第3四半期プロジェクト会議を開催いたします。新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏は、7月5日までにリリースノートを完成させる予定です。どうぞ続けてください、スピーカー1。次はミスター・。 田中さん。7月8日までに負荷テストを完了する必要があります。私たちの目標は、1200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。ステージング環境をテスト環境として使用していますか？スピーカー1：代わりに、ハイステージング環境を使用してください。 予算に関しては、サーバーの追加費用として月額最大3万円を正式に承認いたします。スピーカー様、ありがとうございます。私の名前はジョン・キムで、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを送信してもよろしいでしょうか？ スピーカー1、はい、了解しました。 ジョンさん、プレスリリースの草案を7月10日までに完成させてください。スピーカー3、了解しました。佐藤さん、次の顧客デモンストレーションセッションを担当してください。スピーカー1、佐藤さんのためのデモ資料を準備してください。本日の議論はここで終了します。 会議はここで終了します。"
+        },
+        {
+          "generation": 8,
+          "chars": 543,
+          "cer_vs_seed": 0.6911764705882353,
+          "semantic_vs_seed": 0.9112236499786377,
+          "cer_vs_prev": 0.045364891518737675,
+          "semantic_vs_prev": 0.9987964630126953,
+          "survival_rate": 0.9285714285714286,
+          "survival_alive": 13,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 2,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1"
+          ],
+          "text": "スピーカー1：本日は、恵比寿オフィスからオンラインで第3四半期プロジェクト会議を開催いたします。新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏は、7月5日までにリリースノートを完成させる予定です。どうぞ続けてください、スピーカー1。次は…氏です。 田中さん。7月8日までに負荷テストを完了する必要があります。私たちの目標は、1200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。ステージング環境をテスト環境として使用していますか？スピーカー1様、代わりにハイステージング環境を使用してください。 予算に関しては、サーバーの追加費用として月額最大3万円を正式に承認いたします。ありがとうございます、スピーカー。私の名前は……で、マーケティング部門に所属しています。発売日の午前10時にプレスリリースを送信してもよろしいでしょうか？スピーカー1、はい、了解しました。 ジョンさん、プレスリリースの草案を7月10日までに完成させてください。スピーカー3、了解しました。佐藤さん、次の顧客デモンストレーションセッションを担当してください。スピーカー1、佐藤さんのためのデモ資料を準備してください。本日の議論はこれで終了します。会議もここで終了します。"
+        }
+      ],
+      "intermediates": [
+        {},
+        {
+          "asr": "スピーカー1。それでは、第3四半期のプロジェクト、大福定例会議を始めます。 今日は恵比寿オフィスとリモートの合同開催です。 まず新機能のリリース日ですが、7月13日で正式に確定とします。 スピーカーに承知しました。リリースに向けて、私、山田が7月5日までにリリースノートのドラフトを作成します。 スピーカー1、お願いします。 次に、田中さんは負荷テストを7月8日までに完了してください。目標は同時接続1,200ユーザーで、応答時間を1.5秒以内に収めることです。 スピーカー2:負荷テストの環境はステージングを使う認識で合っていますか？ Speaker1: High Staging環境を使ってください。それから、予算の件ですが、追加のサーバー費用として月額3万円までを正式に承認します。 スピーカーさん、ありがとうございます。 マーケティングのジョン・キムです。 プレスリリースの配信は、リリース当日の午前10時に設定でよろしいでしょうか。 スピーカー1:はい、それで決定とします。 Johnさんは、プレスリリース原稿を7月10日までに仕上げてください。 スピーカー3、承知しました。あわせて、次回の顧客デモは佐藤さんが担当することでお願いします。 スピーカー1では、佐藤さん、デモ資料の準備をお願いします。 本日の決定事項は以上です。 会議を終了します。",
+          "en": "Speaker 1: Let’s begin with our Q3 project meeting today at Ebisu Office and remotely. The release date for new features has been officially set to July 13th. I, Yamada, will draft the release notes by July 5th. Speaker 1, please proceed. Next, Mr. Tanaka should complete load testing by July 8th. The goal is to achieve a response time of less than 1.5 seconds with 1,200 concurrent users. Speaker 2: Are we using staging as the environment for load testing? Speaker 1: Please use the High Staging environment. Also, regarding budget, we will officially approve up to ¥30,000 per month for additional server costs. Thank you, speaker. I'm John Kim from Marketing. Would it be okay if we schedule press release delivery at 10 a.m. on the day of the launch? Speaker 1: Yes, that's settled then. John, please finalize the draft of the press release by July 10th. Speaker 3: Got it. Could you also arrange for Sato-san to lead our next customer demo session? Speaker 1: Mr. Sato, please prepare the demonstration materials. That concludes our discussion for today. The meeting is now adjourned."
+        },
+        {
+          "asr": "Speaker1:今日は、EVIS Officeおよびリモートでの第3四半期プロジェクト会議から始めましょう。 新機能のリリース日は、正式に7月13日に決定しました。私、山田氏が7月5日までにリリースノートを準備します。 スピーカー1、続行してください。次に、田中氏は7月8日までに負荷テストを完了する必要があります。目標は、1200人の同時接続ユーザーに対して応答時間を1.5秒未満にすることです。 スピーカーに負荷テスト用の環境として、ステージングを使用していますか？ Speaker1:ハイステージング環境をご使用ください。また、予算に関しては追加サーバー費用につき月額最大3万円を正式に承認いたします。 スピーカーありがとうございます。 私は、マーケティング部門のJohn Kimです。 発売日の午前10時にプレスリリースを配信する予定でよろしいでしょうか？ スピーカー1、はい、それでは確定しました。ジョン、7月10日までにプレスリリースの草案を完成させてください。スピーカー3、了解しました。佐藤氏が次の顧客向けデモセッションを担当していただけますか？ スピーカー1、佐藤さん、ぜひデモンストレーション資料をご用意ください。以上で本日の議論は終了いたします。 会議はこれで終了します。",
+          "en": "Speaker 1: Let’s start today with a Q3 project meeting via EVIS Office and remotely. The official release date for new features has been set for July 13th. I, Mr. Yamada, will prepare the release notes by July 5th. Please continue, Speaker 1. Next, Mr. Tanaka needs to complete load testing by July 8th. The goal is to achieve response times of less than 1.5 seconds for 1200 concurrent users. Are you using staging as your environment for load testing? Speaker 1: Yes, please use the staging environment. Regarding budget, we will officially approve up to 30,000 yen per month for additional server costs. Thank you, speaker. My name is John Kim from the marketing department. Would it be okay if I send out a press release at 10:00 AM on launch day? Speaker 1, yes, that's confirmed. John, please complete the draft of the press release by July 10th. Speaker 3, understood. Could Mr. Sato take charge of the next customer demonstration session? Speaker 1, Mr. Sato, please have your demo materials ready. This concludes our discussion today. The meeting is now concluded."
+        },
+        {
+          "asr": "Speaker1:今日は、EVIS Officeを通じて、リモートで第3四半期プロジェクト会議を行いましょう。 新機能の正式なリリース日は7月13日に設定されています。 私、山田氏は7月5日までにリリースノートを準備します。 どうぞ続けてください、Speaker1。次に、田中氏は7月8日までに負荷テストを完了する必要があります。 目標は、1200人の同時ユーザーに対して応答時間を1.5秒未満にすることです。 負荷テスト用の環境として、ステージング環境を使用していますか？ Speaker1: High Staging環境をご利用ください。予算に関しては、追加サーバー費用について月額最大3万円まで正式に承認いたします。 スピーカーありがとうございます。 私の名前は、John Kimで、マーケティング部門に所属しています。 発売日の午前10時にプレスリリースを送信してもよろしいでしょうか。 スピーカー1、はい、了解しました。ジョン、7月10日までにプレスリリースの草案を完成させてください。スピーカー3、了解しました。佐藤氏、次の顧客向けデモンストレーションセッションの担当をお願いできますか？ スピーカー1:佐藤氏。デモ資料をご用意ください。本日の議論はこれで終了します。 会議はこれで終了しました。",
+          "en": "Speaker 1: Today, we’ll hold our Q3 project meeting remotely via EVIS Office. The official release date for new features is set for July 13th. I, Mr. Yamada, will prepare the release notes by July 5th. Please continue, Speaker 1. Next, Mr. Tanaka needs to complete load testing by July 8th. The goal is to achieve a response time of less than 1.5 seconds for 1200 concurrent users. Are you using the staging environment as your test environment? Speaker 1: Please use the High Staging environment. Regarding budget, we will officially approve additional server costs up to 30,000 yen per month. Thank you, speaker. My name is John Kim and I work in the marketing department. May I send out a press release at 10 am on launch day? Speaker 1: Yes, I understand. John, please complete the draft of the press release by July 10th. Speaker 3: Understood. Mr. Sato, could you please take charge of the next customer demonstration session? Speaker 1: Mr. Sato, please prepare the demo materials. Today's discussion ends here. The meeting is now over."
+        },
+        {
+          "asr": "Speaker1:本日、第3四半期プロジェクト会議を、EVIS Officeを通じてリモートで開催します。 新機能の正式なリリース予定日は7月13日に設定されています。 私、山田氏が7月5日までにリリースノートを作成する予定です。 どうぞ続けてください。スピーカー1。次に、田中氏は7月8日までに負荷テストを完了させる必要があります。目標は、1200人の同時接続ユーザーに対して応答時間を1.5秒未満にすることです。 ステージング環境をテスト環境として使用していますか？ Speaker1:ハイステージング環境をご利用ください。予算に関しては、追加のサーバー費用については月額最大3万円まで正式に承認いたします。 スピーカーありがとうございます。 私の名前は、John Kimで、マーケティング部門に所属しています。 発売日の午前10時にプレスリリースを送信してもよろしいでしょうか？ スピーカー1、はい、了解しました。ジョンさん、7月10日までにプレスリリースの草案を完成させてください。スピーカー3、了解しました。佐藤さん、次の顧客向けデモンストレーションセッションの担当をお願いできますか？ スピーカー1、佐藤さん、デモ資料を準備してください。本日の議論はこれで終了します。 会議はこれで終わりました。",
+          "en": "Speaker 1: Today, we’re hosting our Q3 project meeting remotely via EVIS Office. The official release date for new features is set for July 13th. I, Mr. Yamada, will be preparing the release notes by July 5th. Please continue, Speaker 1. Next, Mr. Tanaka needs to complete load testing by July 8th. The goal is to achieve a response time of less than 1.5 seconds for 1200 concurrent users. Are you using the staging environment as your test environment? Speaker 1: Yes, please use the staging environment. Regarding budget, we will officially approve additional server costs up to 30,000 yen per month. Thank you, speaker. My name is John Kim and I work in the marketing department. May I send out a press release at 10:00 AM on launch day? Speaker 1: Yes, I understand. Mr. John, please complete the draft of the press release by July 10th. Speaker 3: Understood. Mr. Sato, could you be responsible for the next customer demonstration session? Speaker 1: Mr. Sato, please prepare the demo materials. This concludes our discussion for today. The meeting is now over."
+        },
+        {
+          "asr": "Speaker1:本日はEBISU Officeを通じて第3四半期プロジェクト会議をリモートで開催いたします。 新機能の正式なリリース予定日は7月13日に設定されています。 私、山田氏は7月5日までにリリースノートを作成する予定です。 どうぞ続けてください、Speaker1。次に、田中氏が7月8日までに負荷テストを完了する必要があります。 目標は、1200人の同時接続ユーザーに対して応答時間を1.5秒未満にすることです。 ステージング環境をテスト環境として使用していますか？ Speaker1: High Staging環境を使用してください。予算に関しては、追加のサーバー費用については月額最大3万円まで正式に承認いたします。 スピーカーありがとうございます。 私の名前は、John Kimで、マーケティング部門に所属しています。 発売日の午前10時にプレスリリースを送信してもよろしいでしょうか？ スピーカー1、はい、了解しました。ジョンさん、7月10日までにプレスリリースの草案を完成させてください。スピーカー3、了解しました。佐藤さん、次の顧客向けデモセッションの担当をお願いします。 スピーカー1、佐藤さん、デモ資料を準備してください。本日の議論はこれで終了です。 会議はこれで終わります。",
+          "en": "Speaker 1: Today, we will hold our third quarter project meeting remotely via EBISU Office. The official release date for new features is set for July 13th. I, Mr. Yamada, plan to complete the release notes by July 5th. Please continue, Speaker 1. Next, Mr. Tanaka needs to complete load testing by July 8th. Our goal is to achieve a response time of less than 1.5 seconds for 1200 concurrent users. Are you using the staging environment as your test environment? Speaker 1: Use the High Staging environment. Regarding budget, we will officially approve additional server costs up to 30,000 yen per month. Thank you, speaker. My name is John Kim and I work in the marketing department. May I send out a press release at 10:00 AM on launch day? Speaker 1, yes, I understand. Mr. John, please complete the draft of the press release by July 10th. Speaker 3, understood. Mr. Sato, please take charge of the next customer demonstration session. Speaker 1, Mr. Sato, please prepare the demo materials. Today's discussion has concluded here. The meeting is now over."
+        },
+        {
+          "asr": "Speaker1:本日、恵比寿オフィスを通じて第三四半期プロジェクト会議をリモートで開催します。 新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏は7月5日までにリリースノートを完成させる予定です。 どうぞ続けてください、スピーカー1。次に、4。田中氏は7月8日までに負荷テストを完了する必要があります。私たちの目標は、1200人の同時接続ユーザーに対して応答時間を1.5秒未満に抑えることです。 ステージング環境をテスト環境として使用していますか？ Speaker1:ハイステージング環境を使用してください。予算に関しては、追加サーバー費用については月額最大3万円まで正式に承認いたします。 スピーカーありがとうございます。 私の名前はJohn Kimで、マーケティング部門に所属しています。 発売日の午前10時にプレスリリースを送信してもよろしいでしょうか？ スピーカー1、はい、了解しました。ジョンさん、7月10日までにプレスリリースの草案を完成させてください。 スピーカー3、了解しました。佐藤氏、次の顧客向けデモンストレーションセッションの担当をお願いします。 スピーカー1:佐藤氏。デモ資料を準備してください。本日の議論はこれで終了しました。会議はこれで終わります。",
+          "en": "Speaker 1: Today, we’re hosting a remote third quarter project meeting via our Ebisu office. The official release date for new features is set for July 13th. I, Mr. Yamada, plan to finalize the release notes by July 5th. Please continue, Speaker 1. Next up is Mr. Tanaka, who needs to complete load testing by July 8th. Our goal is to maintain response times of less than 1.5 seconds for 1200 concurrent users. Are you using the staging environment as your test environment? Speaker 1: Use the high staging environment instead. Regarding budget, we will officially approve additional server costs up to 30,000 yen per month. Thank you, speaker. My name is John Kim and I work in the marketing department. May I send out a press release at 10 am on launch day? Speaker 1: Yes, I understand. Mr. John, please complete the draft of the press release by July 10th. Speaker 3: Understood. Mr. Sato, please take charge of the next customer demonstration session. Speaker 1: Mr. Sato, please prepare the demo materials. Our discussion for today is now concluded. The meeting will end here."
+        },
+        {
+          "asr": "Speaker1:本日は恵比寿オフィスを拠点に第三四半期プロジェクト会議をオンラインで開催いたします。 新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏は、7月5日までにリリースノートを完成させる予定です。 どうぞ続けてください、Speaker1。次はMr. Tanaka氏。7月8日までに負荷テストを完了する必要があります。私たちの目標は、1200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。 ステージング環境をテスト環境として使用していますか？ Speaker1:代わりにハイステージング環境を使用してください。予算に関してはサーバーの追加費用を月額最大3万円まで正式に承認いたします。 スピーカー様、ありがとうございます。私の名前はJohn Kimで、マーケティング部門に所属しています。 発売日の午前10時にプレスリリースを送信してもよろしいでしょうか？ スピーカー1、はい、了解しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。スピーカー3、了解しました。佐藤さん、次の顧客向けデモンストレーションセッションを担当してください。スピーカー1、佐藤さん、デモ資料をご用意ください。本日の議論はこれで終了です。 会議はここで終了します。",
+          "en": "Speaker 1: Today, we’re hosting our third quarter project meeting online from our Ebisu office. The official release date for new features is set for July 13th. I, Mr. Yamada, plan to finalize the release notes by July 5th. Please continue, Speaker 1. Next up is Mr. Tanaka. We need to complete load testing by July 8th. Our goal is to maintain a response time of less than 1.5 seconds for 1200 concurrent users. Are you using the staging environment as your test environment? Speaker 1: Instead, please use the high-staging environment. Regarding budget, we will officially approve additional server costs of up to 30,000 yen per month. Thank you, speaker. My name is John Kim and I work in the marketing department. May I send out a press release at 10:00 AM on launch day? Speaker 1, yes, I understand. Mr. John, please complete the draft of the press release by July 10th. Speaker 3, understood. Mr. Sato, please take charge of the next customer demonstration session. Speaker 1, please prepare the demo materials for Mr. Sato. Today's discussion has concluded here. The meeting ends here."
+        },
+        {
+          "asr": "スピーカー1、本日は恵比寿オフィスからオンラインで第3四半期プロジェクト会議を開催いたします。 新機能の正式なリリース予定日は7月13日に設定されています。私、山田氏は7月5日までにリリースノートを完成させる予定です。 どうぞ続けてください。スピーカー1。次はMr. 田中さん。 7月8日までに負荷テストを完了する必要があります。 私たちの目標は、1200人の同時ユーザーに対して応答時間を1.5秒未満に維持することです。 ステージング環境をテスト環境として使用していますか？スピーカー1、代わりにハイステージング環境を使用してください。予算に関しては、サーバーの追加費用として月額最大3万円を正式に承認いたします。 スピーカー様、ありがとうございます。私の名前はで、マーケティング部門に所属しています。 発売日の午前10時にプレスリリースを送信してもよろしいでしょうか？ スピーカー1、はい、了解しました。ジョンさん、プレスリリースの草案を7月10日までに完成させてください。スピーカー3、了解しました。佐藤さん、次の顧客デモンストレーションセッションを担当してください。スピーカー1、佐藤さんのためのデモ資料を準備してください。本日の議論はここで終了します。 会議はここで終了します。",
+          "en": "Speaker 1: Today, we’re hosting our Q3 project meeting online from our Ebisu office. The official release date for new features is set for July 13th. I, Mr. Yamada, plan to finalize the release notes by July 5th. Please continue, Speaker 1. Next up is Mr. Tanaka. We need to complete load testing by July 8th. Our goal is to maintain a response time of less than 1.5 seconds for 1200 concurrent users. Are you using the staging environment as your test environment? Speaker 1, please use the high-staging environment instead. Regarding budget, we will officially approve up to 30,000 yen per month as an additional cost for servers. Thank you, speaker. My name is and I work in the marketing department. May I send out a press release at 10:00 AM on launch day? Speaker 1, yes, I understand. Mr. John, please finalize the draft of the press release by July 10th. Speaker 3, I understand. Ms. Sato, please take charge of the next customer demonstration session. Speaker 1, prepare the demo materials for Ms. Sato. Today's discussion ends here. The meeting ends here."
+        }
+      ],
+      "usage": [
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:21:25.933750",
+          "duration_sec": 4.985,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 98.951,
+          "raw_usage": {
+            "input_units": 98.951,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:21:38.697403",
+          "duration_sec": 5.164,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 91.895,
+          "raw_usage": {
+            "input_units": 91.895,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:21:52.417122",
+          "duration_sec": 4.994,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 91.775,
+          "raw_usage": {
+            "input_units": 91.775,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:22:05.336742",
+          "duration_sec": 5.067,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 92.951,
+          "raw_usage": {
+            "input_units": 92.951,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:22:18.845245",
+          "duration_sec": 5.418,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 92.687,
+          "raw_usage": {
+            "input_units": 92.687,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:22:30.168355",
+          "duration_sec": 4.598,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 95.303,
+          "raw_usage": {
+            "input_units": 95.303,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:22:43.397973",
+          "duration_sec": 4.887,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 94.727,
+          "raw_usage": {
+            "input_units": 94.727,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "scribe",
+          "endpoint": "/aiservices/scribe/transcribe",
+          "timestamp": "2026-07-04T01:22:55.676226",
+          "duration_sec": 4.465,
+          "input_chars": 0,
+          "output_chars": 0,
+          "audio_seconds": 95.015,
+          "raw_usage": {
+            "input_units": 95.015,
+            "output_units": 0,
+            "unit_type": "seconds",
+            "details": {
+              "scribe": {
+                "language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:21:27.218721",
+          "duration_sec": 1.234,
+          "input_chars": 579,
+          "output_chars": 1091,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 579,
+            "output_units": 1091,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:21:28.476031",
+          "duration_sec": 1.256,
+          "input_chars": 1091,
+          "output_chars": 533,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1091,
+            "output_units": 533,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:21:40.173262",
+          "duration_sec": 1.43,
+          "input_chars": 548,
+          "output_chars": 1073,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 548,
+            "output_units": 1073,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:21:41.845732",
+          "duration_sec": 1.672,
+          "input_chars": 1073,
+          "output_chars": 530,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1073,
+            "output_units": 530,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:21:53.982670",
+          "duration_sec": 1.521,
+          "input_chars": 554,
+          "output_chars": 1043,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 554,
+            "output_units": 1043,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:21:55.029715",
+          "duration_sec": 1.047,
+          "input_chars": 1043,
+          "output_chars": 538,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1043,
+            "output_units": 538,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:22:06.825328",
+          "duration_sec": 1.44,
+          "input_chars": 554,
+          "output_chars": 1066,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 554,
+            "output_units": 1066,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:22:07.899688",
+          "duration_sec": 1.069,
+          "input_chars": 1066,
+          "output_chars": 533,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1066,
+            "output_units": 533,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:22:20.297916",
+          "duration_sec": 1.403,
+          "input_chars": 552,
+          "output_chars": 1060,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 552,
+            "output_units": 1060,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:22:21.282530",
+          "duration_sec": 0.985,
+          "input_chars": 1060,
+          "output_chars": 543,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1060,
+            "output_units": 543,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:22:31.625634",
+          "duration_sec": 1.416,
+          "input_chars": 550,
+          "output_chars": 1082,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 550,
+            "output_units": 1082,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:22:32.861086",
+          "duration_sec": 1.234,
+          "input_chars": 1082,
+          "output_chars": 547,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1082,
+            "output_units": 547,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:22:44.704297",
+          "duration_sec": 1.253,
+          "input_chars": 558,
+          "output_chars": 1093,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 558,
+            "output_units": 1093,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:22:46.016500",
+          "duration_sec": 1.304,
+          "input_chars": 1093,
+          "output_chars": 551,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1093,
+            "output_units": 551,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:22:57.131476",
+          "duration_sec": 1.42,
+          "input_chars": 544,
+          "output_chars": 1065,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 544,
+            "output_units": 1065,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "ja-JP",
+                "target_language": "en-US"
+              }
+            }
+          }
+        },
+        {
+          "api": "translator",
+          "endpoint": "/aiservices/translator/translate",
+          "timestamp": "2026-07-04T01:22:58.385291",
+          "duration_sec": 1.249,
+          "input_chars": 1065,
+          "output_chars": 543,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 1065,
+            "output_units": 543,
+            "unit_type": "characters",
+            "details": {
+              "translator": {
+                "source_language": "en-US",
+                "target_language": "ja-JP"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "aggregate": [
+    {
+      "generation": 0,
+      "n": 3,
+      "cer_vs_seed_mean": 0.0,
+      "cer_vs_seed_min": 0.0,
+      "cer_vs_seed_max": 0.0,
+      "semantic_vs_seed_mean": 1.0,
+      "semantic_vs_seed_min": 1.0,
+      "semantic_vs_seed_max": 1.0,
+      "cer_vs_prev_mean": null,
+      "cer_vs_prev_min": null,
+      "cer_vs_prev_max": null,
+      "survival_rate_mean": 1.0,
+      "survival_rate_min": 1.0,
+      "survival_rate_max": 1.0,
+      "chars_mean": 597,
+      "chars_min": 597,
+      "chars_max": 597
+    },
+    {
+      "generation": 1,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6574754901960784,
+      "cer_vs_seed_min": 0.6452205882352942,
+      "cer_vs_seed_max": 0.6672794117647058,
+      "semantic_vs_seed_mean": 0.8964643081029257,
+      "semantic_vs_seed_min": 0.889769434928894,
+      "semantic_vs_seed_max": 0.9025580883026123,
+      "cer_vs_prev_mean": 0.6574754901960784,
+      "cer_vs_prev_min": 0.6452205882352942,
+      "cer_vs_prev_max": 0.6672794117647058,
+      "survival_rate_mean": 0.8571428571428571,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.8571428571428571,
+      "chars_mean": 539,
+      "chars_min": 533,
+      "chars_max": 544
+    },
+    {
+      "generation": 2,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6930147058823529,
+      "cer_vs_seed_min": 0.6819852941176471,
+      "cer_vs_seed_max": 0.7113970588235294,
+      "semantic_vs_seed_mean": 0.8490161498387655,
+      "semantic_vs_seed_min": 0.8398177623748779,
+      "semantic_vs_seed_max": 0.8642830848693848,
+      "cer_vs_prev_mean": 0.27556213560316817,
+      "cer_vs_prev_min": 0.2620967741935484,
+      "cer_vs_prev_max": 0.2851485148514851,
+      "survival_rate_mean": 0.8095238095238095,
+      "survival_rate_min": 0.7857142857142857,
+      "survival_rate_max": 0.8571428571428571,
+      "chars_mean": 543.3333333333334,
+      "chars_min": 530,
+      "chars_max": 552
+    },
+    {
+      "generation": 3,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6513480392156863,
+      "cer_vs_seed_min": 0.6452205882352942,
+      "cer_vs_seed_max": 0.6636029411764706,
+      "semantic_vs_seed_mean": 0.8770403265953064,
+      "semantic_vs_seed_min": 0.8688275814056396,
+      "semantic_vs_seed_max": 0.8915647268295288,
+      "cer_vs_prev_mean": 0.2337524537110722,
+      "cer_vs_prev_min": 0.1721311475409836,
+      "cer_vs_prev_max": 0.3,
+      "survival_rate_mean": 0.9047619047619048,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.9285714285714286,
+      "chars_mean": 543.3333333333334,
+      "chars_min": 538,
+      "chars_max": 549
+    },
+    {
+      "generation": 4,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6734068627450981,
+      "cer_vs_seed_min": 0.6415441176470589,
+      "cer_vs_seed_max": 0.7150735294117647,
+      "semantic_vs_seed_mean": 0.8739564220110575,
+      "semantic_vs_seed_min": 0.8581322431564331,
+      "semantic_vs_seed_max": 0.8972440361976624,
+      "cer_vs_prev_mean": 0.12610193671939615,
+      "cer_vs_prev_min": 0.08366533864541832,
+      "cer_vs_prev_max": 0.18664047151277013,
+      "survival_rate_mean": 0.9047619047619048,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.9285714285714286,
+      "chars_mean": 542.6666666666666,
+      "chars_min": 533,
+      "chars_max": 553
+    },
+    {
+      "generation": 5,
+      "n": 3,
+      "cer_vs_seed_mean": 0.7009803921568627,
+      "cer_vs_seed_min": 0.6948529411764706,
+      "cer_vs_seed_max": 0.7077205882352942,
+      "semantic_vs_seed_mean": 0.8817017277081808,
+      "semantic_vs_seed_min": 0.841084897518158,
+      "semantic_vs_seed_max": 0.9080806970596313,
+      "cer_vs_prev_mean": 0.12061897566933079,
+      "cer_vs_prev_min": 0.0872210953346856,
+      "cer_vs_prev_max": 0.16135458167330677,
+      "survival_rate_mean": 0.9285714285714286,
+      "survival_rate_min": 0.9285714285714286,
+      "survival_rate_max": 0.9285714285714286,
+      "chars_mean": 552,
+      "chars_min": 543,
+      "chars_max": 563
+    },
+    {
+      "generation": 6,
+      "n": 3,
+      "cer_vs_seed_mean": 0.7028186274509804,
+      "cer_vs_seed_min": 0.6764705882352942,
+      "cer_vs_seed_max": 0.7481617647058824,
+      "semantic_vs_seed_mean": 0.9028062621752421,
+      "semantic_vs_seed_min": 0.8904889225959778,
+      "semantic_vs_seed_max": 0.923001766204834,
+      "cer_vs_prev_mean": 0.15003548085901028,
+      "cer_vs_prev_min": 0.13904761904761906,
+      "cer_vs_prev_max": 0.164,
+      "survival_rate_mean": 0.9047619047619048,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.9285714285714286,
+      "chars_mean": 557.3333333333334,
+      "chars_min": 547,
+      "chars_max": 572
+    },
+    {
+      "generation": 7,
+      "n": 3,
+      "cer_vs_seed_mean": 0.7028186274509804,
+      "cer_vs_seed_min": 0.6727941176470589,
+      "cer_vs_seed_max": 0.7481617647058824,
+      "semantic_vs_seed_mean": 0.9088879426320394,
+      "semantic_vs_seed_min": 0.9062288999557495,
+      "semantic_vs_seed_max": 0.912677526473999,
+      "cer_vs_prev_mean": 0.0745660523070148,
+      "cer_vs_prev_min": 0.06614785992217899,
+      "cer_vs_prev_max": 0.08442776735459662,
+      "survival_rate_mean": 0.9047619047619048,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.9285714285714286,
+      "chars_mean": 551.3333333333334,
+      "chars_min": 533,
+      "chars_max": 570
+    },
+    {
+      "generation": 8,
+      "n": 3,
+      "cer_vs_seed_mean": 0.6997549019607843,
+      "cer_vs_seed_min": 0.6801470588235294,
+      "cer_vs_seed_max": 0.7279411764705882,
+      "semantic_vs_seed_mean": 0.8966476917266846,
+      "semantic_vs_seed_min": 0.8830677270889282,
+      "semantic_vs_seed_max": 0.9112236499786377,
+      "cer_vs_prev_mean": 0.04373651449039982,
+      "cer_vs_prev_min": 0.039473684210526314,
+      "cer_vs_prev_max": 0.046370967741935484,
+      "survival_rate_mean": 0.9047619047619048,
+      "survival_rate_min": 0.8571428571428571,
+      "survival_rate_max": 0.9285714285714286,
+      "chars_mean": 548,
+      "chars_min": 539,
+      "chars_max": 562
+    }
+  ]
+}

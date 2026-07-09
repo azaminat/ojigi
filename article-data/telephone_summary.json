@@ -1,0 +1,2119 @@
+{
+  "mode": "summary",
+  "generations": 10,
+  "trials": [
+    {
+      "trial": 1,
+      "generations": [
+        {
+          "generation": 0,
+          "chars": 597,
+          "cer_vs_seed": 0.0,
+          "semantic_vs_seed": 1.0,
+          "cer_vs_prev": null,
+          "semantic_vs_prev": null,
+          "survival_rate": 1.0,
+          "survival_alive": 14,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 3,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [],
+          "text": "speaker_1: それでは第3四半期のプロジェクト「大福」定例会議を始めます。今日は恵比寿オフィスとリモートの合同開催です。まず新機能のリリース日ですが、7月13日で正式に確定とします。\nspeaker_2: 承知しました。リリースに向けて、私、山田が7月5日までにリリースノートのドラフトを作成します。\nspeaker_1: お願いします。次に、田中さんは負荷テストを7月8日までに完了してください。目標は同時接続1,200ユーザーで応答時間を1.5秒以内に収めることです。\nspeaker_2: 負荷テストの環境はステージングを使う認識で合っていますか。\nspeaker_1: はい、ステージング環境を使ってください。それから予算の件ですが、追加のサーバー費用として月額3万円までを正式に承認します。\nspeaker_3: ありがとうございます。マーケティングのジョン・キムです。プレスリリースの配信は、リリース当日の午前10時に設定でよろしいでしょうか。\nspeaker_1: はい、それで決定とします。ジョンさんはプレスリリース原稿を7月10日までに仕上げてください。\nspeaker_3: 承知しました。あわせて、次回の顧客デモは佐藤さんが担当することでお願いします。\nspeaker_1: では佐藤さん、デモ資料の準備をお願いします。本日の決定事項は以上です。会議を終了します。"
+        },
+        {
+          "generation": 1,
+          "chars": 249,
+          "cer_vs_seed": 0.7316176470588235,
+          "semantic_vs_seed": 0.8348307609558105,
+          "cer_vs_prev": 0.7316176470588235,
+          "semantic_vs_prev": 0.8348307609558105,
+          "survival_rate": 0.7857142857142857,
+          "survival_alive": 11,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 3,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1",
+            "P2",
+            "N1"
+          ],
+          "text": "## 新機能リリース準備会議\n会議では、新機能のリリース日が7月13日に正式決定され、山田が7月5日までにリリースノートのドラフトを作成することになります。田中はステージング環境で7月8日までに負荷テストを完了し、同時接続1,200ユーザーで1.5秒以内の応答時間を目指します。追加サーバー費用として月額3万円の予算が承認され、ジョン・キムは7月10日までにプレスリリース原稿を完成させ、リリース当日午前10時に配信することが決定されました。次回の顧客デモは佐藤が担当し、デモ資料の準備を行います。"
+        },
+        {
+          "generation": 2,
+          "chars": 192,
+          "cer_vs_seed": 0.8125,
+          "semantic_vs_seed": 0.8060863018035889,
+          "cer_vs_prev": 0.39316239316239315,
+          "semantic_vs_prev": 0.9802974462509155,
+          "survival_rate": 0.5714285714285714,
+          "survival_alive": 8,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 1,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D3",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3"
+          ],
+          "text": "## 新機能リリース準備会議\n会議では、新機能のリリース日が7月13日に正式決定され、山田が7月5日までにリリースノートのドラフトを作成することになります。田中はステージング環境で7月8日までに負荷テストを完了し、ジョン・キムは7月10日までにプレスリリース原稿を完成させ、リリース当日に配信します。追加サーバー費用として月額3万円の予算が承認され、次回の顧客デモは佐藤が担当します。"
+        },
+        {
+          "generation": 3,
+          "chars": 193,
+          "cer_vs_seed": 0.7996323529411765,
+          "semantic_vs_seed": 0.8074452877044678,
+          "cer_vs_prev": 0.07734806629834254,
+          "semantic_vs_prev": 0.9978137016296387,
+          "survival_rate": 0.5714285714285714,
+          "survival_alive": 8,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 1,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D3",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3"
+          ],
+          "text": "## 新機能リリース準備会議\n会議では、新機能のリリース日が7月13日に正式決定され、山田が7月5日までにリリースノートのドラフトを作成することになります。田中はステージング環境での負荷テストを7月8日までに完了し、ジョン・キムは7月10日までにプレスリリース原稿を完成させてリリース当日に配信します。追加サーバー費用として月額3万円の予算が承認され、次回の顧客デモは佐藤が担当します。"
+        },
+        {
+          "generation": 4,
+          "chars": 193,
+          "cer_vs_seed": 0.7996323529411765,
+          "semantic_vs_seed": 0.8074452877044678,
+          "cer_vs_prev": 0.0,
+          "semantic_vs_prev": 1.0,
+          "survival_rate": 0.5714285714285714,
+          "survival_alive": 8,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 1,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D3",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3"
+          ],
+          "text": "## 新機能リリース準備会議\n会議では、新機能のリリース日が7月13日に正式決定され、山田が7月5日までにリリースノートのドラフトを作成することになります。田中はステージング環境での負荷テストを7月8日までに完了し、ジョン・キムは7月10日までにプレスリリース原稿を完成させてリリース当日に配信します。追加サーバー費用として月額3万円の予算が承認され、次回の顧客デモは佐藤が担当します。"
+        },
+        {
+          "generation": 5,
+          "chars": 189,
+          "cer_vs_seed": 0.8033088235294118,
+          "semantic_vs_seed": 0.8127731084823608,
+          "cer_vs_prev": 0.1366120218579235,
+          "semantic_vs_prev": 0.9976871609687805,
+          "survival_rate": 0.5714285714285714,
+          "survival_alive": 8,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 1,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D3",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3"
+          ],
+          "text": "## 新機能リリース準備会議\n会議では、新機能のリリース日が7月13日に正式決定されます。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了します。ジョン・キムは7月10日までにプレスリリース原稿を完成させ、リリース当日に配信します。追加サーバー費用として月額3万円の予算が承認され、次回の顧客デモは佐藤が担当します。"
+        },
+        {
+          "generation": 6,
+          "chars": 190,
+          "cer_vs_seed": 0.8125,
+          "semantic_vs_seed": 0.8028851747512817,
+          "cer_vs_prev": 0.08426966292134831,
+          "semantic_vs_prev": 0.9958910346031189,
+          "survival_rate": 0.5714285714285714,
+          "survival_alive": 8,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 1,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D3",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3"
+          ],
+          "text": "## 新機能リリース準備会議\n会議では、新機能のリリース日が7月13日に正式決定される。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了する予定である。ジョン・キムは7月10日までにプレスリリース原稿を完成させ、リリース当日に配信する。追加サーバー費用として月額3万円の予算が承認され、次回の顧客デモは佐藤が担当する。"
+        },
+        {
+          "generation": 7,
+          "chars": 195,
+          "cer_vs_seed": 0.8125,
+          "semantic_vs_seed": 0.8052142262458801,
+          "cer_vs_prev": 0.027932960893854747,
+          "semantic_vs_prev": 0.9883243441581726,
+          "survival_rate": 0.5714285714285714,
+          "survival_alive": 8,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 1,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D3",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3"
+          ],
+          "text": "## 新機能リリース日程と準備確認会議\n会議では、新機能のリリース日が7月13日に正式決定される。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了する予定である。ジョン・キムは7月10日までにプレスリリース原稿を完成させ、リリース当日に配信する。追加サーバー費用として月額3万円の予算が承認され、次回の顧客デモは佐藤が担当する。"
+        },
+        {
+          "generation": 8,
+          "chars": 193,
+          "cer_vs_seed": 0.8125,
+          "semantic_vs_seed": 0.8147473931312561,
+          "cer_vs_prev": 0.010869565217391304,
+          "semantic_vs_prev": 0.9894165992736816,
+          "survival_rate": 0.5714285714285714,
+          "survival_alive": 8,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 1,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D3",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3"
+          ],
+          "text": "## 新機能リリース日程と準備確認\n会議では、新機能のリリース日が7月13日に正式決定される。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了する予定である。ジョン・キムは7月10日までにプレスリリース原稿を完成させ、リリース当日に配信する。追加サーバー費用として月額3万円の予算が承認され、次回の顧客デモは佐藤が担当する。"
+        },
+        {
+          "generation": 9,
+          "chars": 193,
+          "cer_vs_seed": 0.8125,
+          "semantic_vs_seed": 0.8147473931312561,
+          "cer_vs_prev": 0.0,
+          "semantic_vs_prev": 1.0,
+          "survival_rate": 0.5714285714285714,
+          "survival_alive": 8,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 1,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D3",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3"
+          ],
+          "text": "## 新機能リリース日程と準備確認\n会議では、新機能のリリース日が7月13日に正式決定される。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了する予定である。ジョン・キムは7月10日までにプレスリリース原稿を完成させ、リリース当日に配信する。追加サーバー費用として月額3万円の予算が承認され、次回の顧客デモは佐藤が担当する。"
+        },
+        {
+          "generation": 10,
+          "chars": 190,
+          "cer_vs_seed": 0.8125,
+          "semantic_vs_seed": 0.8028851747512817,
+          "cer_vs_prev": 0.027472527472527472,
+          "semantic_vs_prev": 0.9942601919174194,
+          "survival_rate": 0.5714285714285714,
+          "survival_alive": 8,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 1,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D3",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3"
+          ],
+          "text": "## 新機能リリース準備会議\n会議では、新機能のリリース日が7月13日に正式決定される。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了する予定である。ジョン・キムは7月10日までにプレスリリース原稿を完成させ、リリース当日に配信する。追加サーバー費用として月額3万円の予算が承認され、次回の顧客デモは佐藤が担当する。"
+        }
+      ],
+      "intermediates": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "usage": [
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:14:37.044711",
+          "duration_sec": 8.14,
+          "input_chars": 597,
+          "output_chars": 249,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 597,
+            "output_units": 249,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:14:43.923599",
+          "duration_sec": 6.879,
+          "input_chars": 249,
+          "output_chars": 192,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 249,
+            "output_units": 192,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:14:49.882387",
+          "duration_sec": 5.957,
+          "input_chars": 192,
+          "output_chars": 193,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 192,
+            "output_units": 193,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:14:55.163971",
+          "duration_sec": 5.282,
+          "input_chars": 193,
+          "output_chars": 193,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 193,
+            "output_units": 193,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:15:00.556979",
+          "duration_sec": 5.393,
+          "input_chars": 193,
+          "output_chars": 189,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 193,
+            "output_units": 189,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:15:07.490875",
+          "duration_sec": 6.934,
+          "input_chars": 189,
+          "output_chars": 190,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 189,
+            "output_units": 190,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:15:13.351984",
+          "duration_sec": 5.861,
+          "input_chars": 190,
+          "output_chars": 195,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 190,
+            "output_units": 195,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:15:20.847359",
+          "duration_sec": 7.495,
+          "input_chars": 195,
+          "output_chars": 193,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 195,
+            "output_units": 193,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:15:27.715299",
+          "duration_sec": 6.868,
+          "input_chars": 193,
+          "output_chars": 193,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 193,
+            "output_units": 193,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:15:36.993411",
+          "duration_sec": 9.266,
+          "input_chars": 193,
+          "output_chars": 190,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 193,
+            "output_units": 190,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trial": 2,
+      "generations": [
+        {
+          "generation": 0,
+          "chars": 597,
+          "cer_vs_seed": 0.0,
+          "semantic_vs_seed": 1.0,
+          "cer_vs_prev": null,
+          "semantic_vs_prev": null,
+          "survival_rate": 1.0,
+          "survival_alive": 14,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 3,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [],
+          "text": "speaker_1: それでは第3四半期のプロジェクト「大福」定例会議を始めます。今日は恵比寿オフィスとリモートの合同開催です。まず新機能のリリース日ですが、7月13日で正式に確定とします。\nspeaker_2: 承知しました。リリースに向けて、私、山田が7月5日までにリリースノートのドラフトを作成します。\nspeaker_1: お願いします。次に、田中さんは負荷テストを7月8日までに完了してください。目標は同時接続1,200ユーザーで応答時間を1.5秒以内に収めることです。\nspeaker_2: 負荷テストの環境はステージングを使う認識で合っていますか。\nspeaker_1: はい、ステージング環境を使ってください。それから予算の件ですが、追加のサーバー費用として月額3万円までを正式に承認します。\nspeaker_3: ありがとうございます。マーケティングのジョン・キムです。プレスリリースの配信は、リリース当日の午前10時に設定でよろしいでしょうか。\nspeaker_1: はい、それで決定とします。ジョンさんはプレスリリース原稿を7月10日までに仕上げてください。\nspeaker_3: 承知しました。あわせて、次回の顧客デモは佐藤さんが担当することでお願いします。\nspeaker_1: では佐藤さん、デモ資料の準備をお願いします。本日の決定事項は以上です。会議を終了します。"
+        },
+        {
+          "generation": 1,
+          "chars": 239,
+          "cer_vs_seed": 0.7389705882352942,
+          "semantic_vs_seed": 0.8324018716812134,
+          "cer_vs_prev": 0.7389705882352942,
+          "semantic_vs_prev": 0.8324018716812134,
+          "survival_rate": 0.7857142857142857,
+          "survival_alive": 11,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 3,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1",
+            "P2",
+            "N1"
+          ],
+          "text": "## 新機能リリース日程と準備確認会議\n会議では、新機能のリリース日を7月13日に正式決定し、山田が7月5日までにリリースノートのドラフトを作成することを確認する。田中はステージング環境で7月8日までに負荷テストを完了し、同時接続1,200ユーザーで応答時間1.5秒以内を目標とする。追加サーバー費用として月額3万円の予算が承認され、ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日午前10時に配信する。次回の顧客デモは佐藤が担当し、デモ資料の準備を行う。"
+        },
+        {
+          "generation": 2,
+          "chars": 171,
+          "cer_vs_seed": 0.8051470588235294,
+          "semantic_vs_seed": 0.808576226234436,
+          "cer_vs_prev": 0.42857142857142855,
+          "semantic_vs_prev": 0.9579078555107117,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と担当決定\n会議では、新機能のリリース日を7月13日に正式決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境で負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日午前10時に配信する予定であり、次回の顧客デモは佐藤が担当する。"
+        },
+        {
+          "generation": 3,
+          "chars": 171,
+          "cer_vs_seed": 0.8069852941176471,
+          "semantic_vs_seed": 0.8098251819610596,
+          "cer_vs_prev": 0.024844720496894408,
+          "semantic_vs_prev": 0.9981096386909485,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と担当決定\n会議では、新機能のリリース日を7月13日に決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日に午前10時に配信する予定であり、次回の顧客デモは佐藤が担当する。"
+        },
+        {
+          "generation": 4,
+          "chars": 171,
+          "cer_vs_seed": 0.8069852941176471,
+          "semantic_vs_seed": 0.8098251819610596,
+          "cer_vs_prev": 0.0,
+          "semantic_vs_prev": 1.0,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と担当決定\n会議では、新機能のリリース日を7月13日に決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日に午前10時に配信する予定であり、次回の顧客デモは佐藤が担当する。"
+        },
+        {
+          "generation": 5,
+          "chars": 171,
+          "cer_vs_seed": 0.8051470588235294,
+          "semantic_vs_seed": 0.8104708194732666,
+          "cer_vs_prev": 0.006211180124223602,
+          "semantic_vs_prev": 0.9999659657478333,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と担当決定\n会議では、新機能のリリース日を7月13日に決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日の午前10時に配信する予定であり、次回の顧客デモは佐藤が担当する。"
+        },
+        {
+          "generation": 6,
+          "chars": 173,
+          "cer_vs_seed": 0.8069852941176471,
+          "semantic_vs_seed": 0.8133772611618042,
+          "cer_vs_prev": 0.024844720496894408,
+          "semantic_vs_prev": 0.9967435598373413,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と担当割り当て\n会議では、新機能のリリース日を7月13日に決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日の午前10時に配信する予定であり、次回の顧客デモは佐藤が担当する。"
+        },
+        {
+          "generation": 7,
+          "chars": 173,
+          "cer_vs_seed": 0.8069852941176471,
+          "semantic_vs_seed": 0.8133772611618042,
+          "cer_vs_prev": 0.0,
+          "semantic_vs_prev": 1.0,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と担当割り当て\n会議では、新機能のリリース日を7月13日に決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日の午前10時に配信する予定であり、次回の顧客デモは佐藤が担当する。"
+        },
+        {
+          "generation": 8,
+          "chars": 171,
+          "cer_vs_seed": 0.8069852941176471,
+          "semantic_vs_seed": 0.8068360686302185,
+          "cer_vs_prev": 0.024539877300613498,
+          "semantic_vs_prev": 0.9969375133514404,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と担当調整\n会議では、新機能のリリース日を7月13日に決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日の午前10時に配信する予定であり、次回の顧客デモは佐藤が担当する。"
+        },
+        {
+          "generation": 9,
+          "chars": 171,
+          "cer_vs_seed": 0.8051470588235294,
+          "semantic_vs_seed": 0.8104708194732666,
+          "cer_vs_prev": 0.012422360248447204,
+          "semantic_vs_prev": 0.9984457492828369,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と担当決定\n会議では、新機能のリリース日を7月13日に決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日の午前10時に配信する予定であり、次回の顧客デモは佐藤が担当する。"
+        },
+        {
+          "generation": 10,
+          "chars": 171,
+          "cer_vs_seed": 0.8051470588235294,
+          "semantic_vs_seed": 0.8104708194732666,
+          "cer_vs_prev": 0.0,
+          "semantic_vs_prev": 0.9999998807907104,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と担当決定\n会議では、新機能のリリース日を7月13日に決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日の午前10時に配信する予定であり、次回の顧客デモは佐藤が担当する。"
+        }
+      ],
+      "intermediates": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "usage": [
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:15:47.976510",
+          "duration_sec": 9.433,
+          "input_chars": 597,
+          "output_chars": 239,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 597,
+            "output_units": 239,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:15:54.724660",
+          "duration_sec": 6.747,
+          "input_chars": 239,
+          "output_chars": 171,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 239,
+            "output_units": 171,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:16:00.555830",
+          "duration_sec": 5.829,
+          "input_chars": 171,
+          "output_chars": 171,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 171,
+            "output_units": 171,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:16:05.483727",
+          "duration_sec": 4.928,
+          "input_chars": 171,
+          "output_chars": 171,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 171,
+            "output_units": 171,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:16:11.718417",
+          "duration_sec": 6.234,
+          "input_chars": 171,
+          "output_chars": 171,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 171,
+            "output_units": 171,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:16:16.308423",
+          "duration_sec": 4.59,
+          "input_chars": 171,
+          "output_chars": 173,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 171,
+            "output_units": 173,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:16:21.203188",
+          "duration_sec": 4.895,
+          "input_chars": 173,
+          "output_chars": 173,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 173,
+            "output_units": 173,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:16:26.408353",
+          "duration_sec": 5.205,
+          "input_chars": 173,
+          "output_chars": 171,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 173,
+            "output_units": 171,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:16:31.928105",
+          "duration_sec": 5.52,
+          "input_chars": 171,
+          "output_chars": 171,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 171,
+            "output_units": 171,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:16:37.649738",
+          "duration_sec": 5.722,
+          "input_chars": 171,
+          "output_chars": 171,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 171,
+            "output_units": 171,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trial": 3,
+      "generations": [
+        {
+          "generation": 0,
+          "chars": 597,
+          "cer_vs_seed": 0.0,
+          "semantic_vs_seed": 1.0,
+          "cer_vs_prev": null,
+          "semantic_vs_prev": null,
+          "survival_rate": 1.0,
+          "survival_alive": 14,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 3,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 4,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [],
+          "text": "speaker_1: それでは第3四半期のプロジェクト「大福」定例会議を始めます。今日は恵比寿オフィスとリモートの合同開催です。まず新機能のリリース日ですが、7月13日で正式に確定とします。\nspeaker_2: 承知しました。リリースに向けて、私、山田が7月5日までにリリースノートのドラフトを作成します。\nspeaker_1: お願いします。次に、田中さんは負荷テストを7月8日までに完了してください。目標は同時接続1,200ユーザーで応答時間を1.5秒以内に収めることです。\nspeaker_2: 負荷テストの環境はステージングを使う認識で合っていますか。\nspeaker_1: はい、ステージング環境を使ってください。それから予算の件ですが、追加のサーバー費用として月額3万円までを正式に承認します。\nspeaker_3: ありがとうございます。マーケティングのジョン・キムです。プレスリリースの配信は、リリース当日の午前10時に設定でよろしいでしょうか。\nspeaker_1: はい、それで決定とします。ジョンさんはプレスリリース原稿を7月10日までに仕上げてください。\nspeaker_3: 承知しました。あわせて、次回の顧客デモは佐藤さんが担当することでお願いします。\nspeaker_1: では佐藤さん、デモ資料の準備をお願いします。本日の決定事項は以上です。会議を終了します。"
+        },
+        {
+          "generation": 1,
+          "chars": 235,
+          "cer_vs_seed": 0.7444852941176471,
+          "semantic_vs_seed": 0.8416669368743896,
+          "cer_vs_prev": 0.7444852941176471,
+          "semantic_vs_prev": 0.8416669368743896,
+          "survival_rate": 0.7857142857142857,
+          "survival_alive": 11,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 3,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 3,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "P1",
+            "P2",
+            "N1"
+          ],
+          "text": "## 新機能リリース準備会議\n会議では、新機能のリリース日を7月13日に正式決定し、山田が7月5日までにリリースノートのドラフトを作成することを確認する。田中はステージング環境で7月8日までに負荷テストを完了し、同時接続1,200ユーザーで1.5秒以内の応答時間を目標とする。追加サーバー費用として月額3万円の予算が承認され、ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日午前10時に配信する。次回の顧客デモは佐藤が担当し、デモ資料の準備を行う。"
+        },
+        {
+          "generation": 2,
+          "chars": 177,
+          "cer_vs_seed": 0.7959558823529411,
+          "semantic_vs_seed": 0.814349889755249,
+          "cer_vs_prev": 0.37727272727272726,
+          "semantic_vs_prev": 0.9627800583839417,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と担当決定\n会議では、新機能のリリース日を7月13日に正式決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境で負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日に午前10時に配信する。次回の顧客デモは佐藤が担当し、デモ資料の準備を行う。"
+        },
+        {
+          "generation": 3,
+          "chars": 179,
+          "cer_vs_seed": 0.7941176470588235,
+          "semantic_vs_seed": 0.8061083555221558,
+          "cer_vs_prev": 0.04216867469879518,
+          "semantic_vs_prev": 0.9935861825942993,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と準備タスク\n会議では、新機能のリリース日を7月13日に正式決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日の午前10時に配信する。次回の顧客デモは佐藤が担当し、デモ資料の準備を行う。"
+        },
+        {
+          "generation": 4,
+          "chars": 178,
+          "cer_vs_seed": 0.7941176470588235,
+          "semantic_vs_seed": 0.8151564002037048,
+          "cer_vs_prev": 0.02976190476190476,
+          "semantic_vs_prev": 0.994004487991333,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と担当決定\n会議では、新機能のリリース日を7月13日に正式決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日の午前10時に配信する。次回の顧客デモは佐藤が担当し、デモ資料の準備を行う。"
+        },
+        {
+          "generation": 5,
+          "chars": 180,
+          "cer_vs_seed": 0.7959558823529411,
+          "semantic_vs_seed": 0.8160741925239563,
+          "cer_vs_prev": 0.04790419161676647,
+          "semantic_vs_prev": 0.9945158362388611,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリーススケジュールと担当決定\n会議では、新機能のリリース日を7月13日に決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日の午前10時に配信する。次回の顧客デモは佐藤が担当し、デモ資料の準備を行う。"
+        },
+        {
+          "generation": 6,
+          "chars": 177,
+          "cer_vs_seed": 0.7959558823529411,
+          "semantic_vs_seed": 0.8132076859474182,
+          "cer_vs_prev": 0.0650887573964497,
+          "semantic_vs_prev": 0.9925052523612976,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と準備タスク\n会議では、新機能のリリース日を7月13日に決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日の午前10時に配信する。次回の顧客デモは佐藤が担当し、デモ資料の準備を行う。"
+        },
+        {
+          "generation": 7,
+          "chars": 176,
+          "cer_vs_seed": 0.7959558823529411,
+          "semantic_vs_seed": 0.8199832439422607,
+          "cer_vs_prev": 0.030120481927710843,
+          "semantic_vs_prev": 0.9937567710876465,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と担当決定\n会議では、新機能のリリース日を7月13日に決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日の午前10時に配信する。次回の顧客デモは佐藤が担当し、デモ資料の準備を行う。"
+        },
+        {
+          "generation": 8,
+          "chars": 176,
+          "cer_vs_seed": 0.7959558823529411,
+          "semantic_vs_seed": 0.8199832439422607,
+          "cer_vs_prev": 0.0,
+          "semantic_vs_prev": 1.0,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と担当決定\n会議では、新機能のリリース日を7月13日に決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日の午前10時に配信する。次回の顧客デモは佐藤が担当し、デモ資料の準備を行う。"
+        },
+        {
+          "generation": 9,
+          "chars": 177,
+          "cer_vs_seed": 0.7959558823529411,
+          "semantic_vs_seed": 0.8132076859474182,
+          "cer_vs_prev": 0.030303030303030304,
+          "semantic_vs_prev": 0.9937567710876465,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と準備タスク\n会議では、新機能のリリース日を7月13日に決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日の午前10時に配信する。次回の顧客デモは佐藤が担当し、デモ資料の準備を行う。"
+        },
+        {
+          "generation": 10,
+          "chars": 177,
+          "cer_vs_seed": 0.7959558823529411,
+          "semantic_vs_seed": 0.8132076859474182,
+          "cer_vs_prev": 0.0,
+          "semantic_vs_prev": 1.0000001192092896,
+          "survival_rate": 0.5,
+          "survival_alive": 7,
+          "survival_total": 14,
+          "survival_by_category": {
+            "decisions": {
+              "alive": 2,
+              "total": 3
+            },
+            "action_items": {
+              "alive": 4,
+              "total": 4
+            },
+            "proper_nouns": {
+              "alive": 1,
+              "total": 3
+            },
+            "numbers": {
+              "alive": 0,
+              "total": 4
+            }
+          },
+          "dead_fact_ids": [
+            "D2",
+            "P1",
+            "P2",
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+          ],
+          "text": "## 新機能リリース日程と準備タスク\n会議では、新機能のリリース日を7月13日に決定する。山田は7月5日までにリリースノートのドラフトを作成し、田中は7月8日までにステージング環境での負荷テストを完了させる。ジョン・キムは7月10日までにプレスリリース原稿を仕上げ、リリース当日の午前10時に配信する。次回の顧客デモは佐藤が担当し、デモ資料の準備を行う。"
+        }
+      ],
+      "intermediates": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "usage": [
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:16:52.077191",
+          "duration_sec": 12.954,
+          "input_chars": 597,
+          "output_chars": 235,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 597,
+            "output_units": 235,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:16:57.979185",
+          "duration_sec": 5.902,
+          "input_chars": 235,
+          "output_chars": 177,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 235,
+            "output_units": 177,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:17:02.872247",
+          "duration_sec": 4.893,
+          "input_chars": 177,
+          "output_chars": 179,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 177,
+            "output_units": 179,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:17:08.022009",
+          "duration_sec": 5.15,
+          "input_chars": 179,
+          "output_chars": 178,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 179,
+            "output_units": 178,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:17:13.012563",
+          "duration_sec": 4.99,
+          "input_chars": 178,
+          "output_chars": 180,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 178,
+            "output_units": 180,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:17:21.122086",
+          "duration_sec": 8.11,
+          "input_chars": 180,
+          "output_chars": 177,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 180,
+            "output_units": 177,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:17:28.749248",
+          "duration_sec": 7.627,
+          "input_chars": 177,
+          "output_chars": 176,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 177,
+            "output_units": 176,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:17:33.428932",
+          "duration_sec": 4.664,
+          "input_chars": 176,
+          "output_chars": 176,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 176,
+            "output_units": 176,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:17:38.604551",
+          "duration_sec": 5.173,
+          "input_chars": 176,
+          "output_chars": 177,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 176,
+            "output_units": 177,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        },
+        {
+          "api": "summarizer",
+          "endpoint": "/aiservices/summarizer/summarize",
+          "timestamp": "2026-07-04T01:17:44.317830",
+          "duration_sec": 5.713,
+          "input_chars": 177,
+          "output_chars": 177,
+          "audio_seconds": 0.0,
+          "raw_usage": {
+            "input_units": 177,
+            "output_units": 177,
+            "unit_type": "characters",
+            "details": {
+              "summarizer": {
+                "task": "summary",
+                "summary_type": "conversation"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "aggregate": [
+    {
+      "generation": 0,
+      "n": 3,
+      "cer_vs_seed_mean": 0.0,
+      "cer_vs_seed_min": 0.0,
+      "cer_vs_seed_max": 0.0,
+      "semantic_vs_seed_mean": 1.0,
+      "semantic_vs_seed_min": 1.0,
+      "semantic_vs_seed_max": 1.0,
+      "cer_vs_prev_mean": null,
+      "cer_vs_prev_min": null,
+      "cer_vs_prev_max": null,
+      "survival_rate_mean": 1.0,
+      "survival_rate_min": 1.0,
+      "survival_rate_max": 1.0,
+      "chars_mean": 597,
+      "chars_min": 597,
+      "chars_max": 597
+    },
+    {
+      "generation": 1,
+      "n": 3,
+      "cer_vs_seed_mean": 0.7383578431372549,
+      "cer_vs_seed_min": 0.7316176470588235,
+      "cer_vs_seed_max": 0.7444852941176471,
+      "semantic_vs_seed_mean": 0.8362998565038046,
+      "semantic_vs_seed_min": 0.8324018716812134,
+      "semantic_vs_seed_max": 0.8416669368743896,
+      "cer_vs_prev_mean": 0.7383578431372549,
+      "cer_vs_prev_min": 0.7316176470588235,
+      "cer_vs_prev_max": 0.7444852941176471,
+      "survival_rate_mean": 0.7857142857142857,
+      "survival_rate_min": 0.7857142857142857,
+      "survival_rate_max": 0.7857142857142857,
+      "chars_mean": 241,
+      "chars_min": 235,
+      "chars_max": 249
+    },
+    {
+      "generation": 2,
+      "n": 3,
+      "cer_vs_seed_mean": 0.8045343137254902,
+      "cer_vs_seed_min": 0.7959558823529411,
+      "cer_vs_seed_max": 0.8125,
+      "semantic_vs_seed_mean": 0.8096708059310913,
+      "semantic_vs_seed_min": 0.8060863018035889,
+      "semantic_vs_seed_max": 0.814349889755249,
+      "cer_vs_prev_mean": 0.39966884966884964,
+      "cer_vs_prev_min": 0.37727272727272726,
+      "cer_vs_prev_max": 0.42857142857142855,
+      "survival_rate_mean": 0.5238095238095238,
+      "survival_rate_min": 0.5,
+      "survival_rate_max": 0.5714285714285714,
+      "chars_mean": 180,
+      "chars_min": 171,
+      "chars_max": 192
+    },
+    {
+      "generation": 3,
+      "n": 3,
+      "cer_vs_seed_mean": 0.8002450980392157,
+      "cer_vs_seed_min": 0.7941176470588235,
+      "cer_vs_seed_max": 0.8069852941176471,
+      "semantic_vs_seed_mean": 0.8077929417292277,
+      "semantic_vs_seed_min": 0.8061083555221558,
+      "semantic_vs_seed_max": 0.8098251819610596,
+      "cer_vs_prev_mean": 0.04812048716467737,
+      "cer_vs_prev_min": 0.024844720496894408,
+      "cer_vs_prev_max": 0.07734806629834254,
+      "survival_rate_mean": 0.5238095238095238,
+      "survival_rate_min": 0.5,
+      "survival_rate_max": 0.5714285714285714,
+      "chars_mean": 181,
+      "chars_min": 171,
+      "chars_max": 193
+    },
+    {
+      "generation": 4,
+      "n": 3,
+      "cer_vs_seed_mean": 0.8002450980392157,
+      "cer_vs_seed_min": 0.7941176470588235,
+      "cer_vs_seed_max": 0.8069852941176471,
+      "semantic_vs_seed_mean": 0.8108089566230774,
+      "semantic_vs_seed_min": 0.8074452877044678,
+      "semantic_vs_seed_max": 0.8151564002037048,
+      "cer_vs_prev_mean": 0.00992063492063492,
+      "cer_vs_prev_min": 0.0,
+      "cer_vs_prev_max": 0.02976190476190476,
+      "survival_rate_mean": 0.5238095238095238,
+      "survival_rate_min": 0.5,
+      "survival_rate_max": 0.5714285714285714,
+      "chars_mean": 180.66666666666666,
+      "chars_min": 171,
+      "chars_max": 193
+    },
+    {
+      "generation": 5,
+      "n": 3,
+      "cer_vs_seed_mean": 0.8014705882352942,
+      "cer_vs_seed_min": 0.7959558823529411,
+      "cer_vs_seed_max": 0.8051470588235294,
+      "semantic_vs_seed_mean": 0.8131060401598612,
+      "semantic_vs_seed_min": 0.8104708194732666,
+      "semantic_vs_seed_max": 0.8160741925239563,
+      "cer_vs_prev_mean": 0.06357579786630453,
+      "cer_vs_prev_min": 0.006211180124223602,
+      "cer_vs_prev_max": 0.1366120218579235,
+      "survival_rate_mean": 0.5238095238095238,
+      "survival_rate_min": 0.5,
+      "survival_rate_max": 0.5714285714285714,
+      "chars_mean": 180,
+      "chars_min": 171,
+      "chars_max": 189
+    },
+    {
+      "generation": 6,
+      "n": 3,
+      "cer_vs_seed_mean": 0.8051470588235294,
+      "cer_vs_seed_min": 0.7959558823529411,
+      "cer_vs_seed_max": 0.8125,
+      "semantic_vs_seed_mean": 0.8098233739535013,
+      "semantic_vs_seed_min": 0.8028851747512817,
+      "semantic_vs_seed_max": 0.8133772611618042,
+      "cer_vs_prev_mean": 0.05806771360489747,
+      "cer_vs_prev_min": 0.024844720496894408,
+      "cer_vs_prev_max": 0.08426966292134831,
+      "survival_rate_mean": 0.5238095238095238,
+      "survival_rate_min": 0.5,
+      "survival_rate_max": 0.5714285714285714,
+      "chars_mean": 180,
+      "chars_min": 173,
+      "chars_max": 190
+    },
+    {
+      "generation": 7,
+      "n": 3,
+      "cer_vs_seed_mean": 0.8051470588235294,
+      "cer_vs_seed_min": 0.7959558823529411,
+      "cer_vs_seed_max": 0.8125,
+      "semantic_vs_seed_mean": 0.8128582437833151,
+      "semantic_vs_seed_min": 0.8052142262458801,
+      "semantic_vs_seed_max": 0.8199832439422607,
+      "cer_vs_prev_mean": 0.01935114760718853,
+      "cer_vs_prev_min": 0.0,
+      "cer_vs_prev_max": 0.030120481927710843,
+      "survival_rate_mean": 0.5238095238095238,
+      "survival_rate_min": 0.5,
+      "survival_rate_max": 0.5714285714285714,
+      "chars_mean": 181.33333333333334,
+      "chars_min": 173,
+      "chars_max": 195
+    },
+    {
+      "generation": 8,
+      "n": 3,
+      "cer_vs_seed_mean": 0.8051470588235294,
+      "cer_vs_seed_min": 0.7959558823529411,
+      "cer_vs_seed_max": 0.8125,
+      "semantic_vs_seed_mean": 0.8138555685679117,
+      "semantic_vs_seed_min": 0.8068360686302185,
+      "semantic_vs_seed_max": 0.8199832439422607,
+      "cer_vs_prev_mean": 0.0118031475060016,
+      "cer_vs_prev_min": 0.0,
+      "cer_vs_prev_max": 0.024539877300613498,
+      "survival_rate_mean": 0.5238095238095238,
+      "survival_rate_min": 0.5,
+      "survival_rate_max": 0.5714285714285714,
+      "chars_mean": 180,
+      "chars_min": 171,
+      "chars_max": 193
+    },
+    {
+      "generation": 9,
+      "n": 3,
+      "cer_vs_seed_mean": 0.8045343137254902,
+      "cer_vs_seed_min": 0.7959558823529411,
+      "cer_vs_seed_max": 0.8125,
+      "semantic_vs_seed_mean": 0.812808632850647,
+      "semantic_vs_seed_min": 0.8104708194732666,
+      "semantic_vs_seed_max": 0.8147473931312561,
+      "cer_vs_prev_mean": 0.014241796850492502,
+      "cer_vs_prev_min": 0.0,
+      "cer_vs_prev_max": 0.030303030303030304,
+      "survival_rate_mean": 0.5238095238095238,
+      "survival_rate_min": 0.5,
+      "survival_rate_max": 0.5714285714285714,
+      "chars_mean": 180.33333333333334,
+      "chars_min": 171,
+      "chars_max": 193
+    },
+    {
+      "generation": 10,
+      "n": 3,
+      "cer_vs_seed_mean": 0.8045343137254902,
+      "cer_vs_seed_min": 0.7959558823529411,
+      "cer_vs_seed_max": 0.8125,
+      "semantic_vs_seed_mean": 0.8088545600573221,
+      "semantic_vs_seed_min": 0.8028851747512817,
+      "semantic_vs_seed_max": 0.8132076859474182,
+      "cer_vs_prev_mean": 0.009157509157509158,
+      "cer_vs_prev_min": 0.0,
+      "cer_vs_prev_max": 0.027472527472527472,
+      "survival_rate_mean": 0.5238095238095238,
+      "survival_rate_min": 0.5,
+      "survival_rate_max": 0.5714285714285714,
+      "chars_mean": 179.33333333333334,
+      "chars_min": 171,
+      "chars_max": 190
+    }
+  ]
+}
